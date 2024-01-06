@@ -22,11 +22,11 @@ http://www.beckhoff.com/FB1311
 </tr>
 <tr >
 <td>Revision No</td>
-<td>0x0258008d</td>
+<td><div class="foo">0x0258008d</div></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r584</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r585</a></td>
+<td><div class="foo"><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r584</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r585</a></div></td>
 </tr>
 <tr class="txpdo pdosection">
 <td rowspan=1 valign=top>TX PDOs</td>

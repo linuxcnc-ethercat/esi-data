@@ -22,11 +22,11 @@ Beckhoff Automation GmbH & Co. KG
 </tr>
 <tr >
 <td>Revision No</td>
-<td>0x00030578</td>
+<td><div class="foo">0x00030578</div></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td><a href="EL9800">EL9800 r-14</a></td>
+<td><div class="foo"><a href="EL9800">EL9800 r-14</a></div></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td rowspan=4 valign=top>RX PDOs</td>

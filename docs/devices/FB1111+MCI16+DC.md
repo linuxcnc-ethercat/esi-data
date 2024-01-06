@@ -23,12 +23,12 @@ http://www.beckhoff.com/FB1111
 </tr>
 <tr >
 <td>Revision No</td>
-<td>0x03e8008c</td>
-<td>0x03e9008c</td>
+<td><div class="foo">0x03e8008c</div></td>
+<td><div class="foo">0x03e9008c</div></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td colspan=2 align="center"><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r784</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r785</a><br/><a href="FB1311+MCI16+DC">FB1311 MCI16 DC r984</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r784</a></td>
+<td colspan=2 align="center"><div class="foo"><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r784</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r785</a><br/><a href="FB1311+MCI16+DC">FB1311 MCI16 DC r984</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r784</a></div></td>
 </tr>
 <tr class="txpdo pdosection">
 <td rowspan=3 valign=top>TX PDOs</td>
