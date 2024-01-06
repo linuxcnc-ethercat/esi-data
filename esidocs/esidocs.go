@@ -121,8 +121,11 @@ func checkColspan(row []string, column int) int {
 	return span
 }
 
-func printTableRow(f io.Writer, row []string, align string) {
-	fmt.Fprintf(f, "<tr>\n")
+func printTableRow(f io.Writer, row []string, class string, align string) {
+	if class != "" {
+		class = fmt.Sprintf("class=%q", class)
+	}
+	fmt.Fprintf(f, "<tr %s>\n", class)
 	for i := 0; i < len(row); i++ {
 		column := row[i]
 		colspan := checkColspan(row, i)
@@ -136,8 +139,11 @@ func printTableRow(f io.Writer, row []string, align string) {
 	fmt.Fprintf(f, "</tr>\n")
 }
 
-func printTableRowSpan(f io.Writer, row []string, rowspan int) {
-	fmt.Fprintf(f, "<tr>\n")
+func printTableRowSpan(f io.Writer, row []string, class string, rowspan int) {
+	if class != "" {
+		class = fmt.Sprintf("class=%q", class)
+	}
+	fmt.Fprintf(f, "<tr %s>\n", class)
 	fmt.Fprintf(f, "<td rowspan=%d valign=top>%s</td>\n", rowspan, row[0])
 
 	for i := 1; i < len(row); i++ {
@@ -247,7 +253,7 @@ func mergePDOLines(pdolines [][]pdoline) [][]string {
 
 		// Emit into `output` if the current line equals `lowestkey`, and move `currentline` forward.
 		for i := range currentline {
-			output[i]="-"
+			//output[i]="-"
 			if currentline[i] < lastline[i] && pdolines[i][currentline[i]].key == lowestKey {
 				output[i] = pdolines[i][currentline[i]].output
 				currentline[i]++
@@ -270,7 +276,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		}
 
 	}
-
+ 
 	name := revIDs[sortedRevs[0]].Name
 	vendor := revIDs[sortedRevs[0]].Vendor
 	url := revIDs[sortedRevs[0]].URL
@@ -292,35 +298,35 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	for c, r := range sortedRevs {
 		row[c+1] = formatRevname(r)
 	}
-	printTableRow(f, row, "center")
+	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Name"
 	for c, r := range sortedRevs {
 		row[c+1] = revIDs[r].Name
 	}
-	printTableRow(f, row, "center")
+	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "PID"
 	for c, r := range sortedRevs {
 		row[c+1] = revIDs[r].ProductCode
 	}
-	printTableRow(f, row, "center")
+	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Revision No"
 	for c, r := range sortedRevs {
 		row[c+1] = revIDs[r].RevisionNo
 	}
-	printTableRow(f, row, "center")
+	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Same PDOs as"
 	for c, r := range sortedRevs {
 		row[c+1] = formatEquivDevices(revs[r], devname)
 	}
-	printTableRow(f, row, "center")
+	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "TxPDOs"
@@ -341,7 +347,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		for c := 0; c < columns-1; c++ {
 			row[c+1] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
 		}
-		printTableRowSpan(f, row, len(txlines))
+		printTableRowSpan(f, row, "txpdo", len(txlines))
 		txline++
 
 		for {
@@ -353,7 +359,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 			for c := 0; c < columns-1; c++ {
 				row[c] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
 			}
-			printTableRow(f, row, "left")
+			printTableRow(f, row, "txpdo", "left")
 			txline++
 		}
 	}
@@ -363,7 +369,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	for c, r := range sortedRevs {
 		row[c+1] = formatRxPDOs(revs[r])
 	}
-	printTableRow(f, row, "left")
+	printTableRow(f, row, "", "left")
 
 	fmt.Fprintf(f, "</table>\n")
 
