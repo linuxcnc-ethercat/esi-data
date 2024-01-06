@@ -28,7 +28,7 @@ http://www.beckhoff.com/FB1311
 <td>Same PDOs as</td>
 <td><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r584</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r585</a></td>
 </tr>
-<tr class="txpdo">
+<tr class="txpdo pdosection">
 <td rowspan=1 valign=top>TX PDOs</td>
 <td><pre>0x1600: Inputs</pre></td>
 <td></td>

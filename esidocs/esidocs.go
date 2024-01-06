@@ -129,7 +129,7 @@ func printTableRow(f io.Writer, row []string, class string, align string) {
 	for i := 0; i < len(row); i++ {
 		column := row[i]
 		colspan := checkColspan(row, i)
-		
+
 		if colspan > 1 {
 			fmt.Fprintf(f, "<td colspan=%d align=%q>%s</td>\n", colspan, align, column)
 		} else {
@@ -277,7 +277,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		}
 
 	}
- 
+
 	name := revIDs[sortedRevs[0]].Name
 	vendor := revIDs[sortedRevs[0]].Vendor
 	url := revIDs[sortedRevs[0]].URL
@@ -310,10 +310,10 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 
 	row = make([]string, columns)
 	row[0] = "PID"
-	for c, r := range sortedRevs { 
+	for c, r := range sortedRevs {
 		row[c+1] = revIDs[r].ProductCode
 	}
-	printTableRow(f, row, "", "center") 
+	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Revision No"
@@ -340,6 +340,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	txlines := mergePDOLines(txpdodata)
 
 	if len(txlines) > 0 {
+		class := "txpdo"
 		txline := 0
 		fmt.Printf("** Merged, has %d lines (columns=%d)\n", len(txlines), columns)
 
@@ -348,14 +349,18 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		for c := 0; c < columns-1; c++ {
 			if txlines[txline][c] != "" {
 				row[c+1] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+				if string(txlines[txline][c][0]) != " " {
+					class = "txpdo pdosection"
+				}
 			} else {
 				row[c+1] = ""
 			}
 		}
-		printTableRowSpan(f, row, "txpdo", len(txlines))
+		printTableRowSpan(f, row, class, len(txlines))
 		txline++
 
 		for {
+			class := "txpdo"
 			if txline >= len(txlines) {
 				break
 			}
@@ -364,11 +369,14 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 			for c := 0; c < columns-1; c++ {
 				if txlines[txline][c] != "" {
 					row[c] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+					if string(txlines[txline][c][0]) != " " {
+						class = "txpdo pdosection"
+					}
 				} else {
 					row[c] = ""
 				}
 			}
-			printTableRow(f, row, "txpdo", "left")
+			printTableRow(f, row, class, "left")
 			txline++
 		}
 	}
