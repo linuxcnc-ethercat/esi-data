@@ -323,21 +323,21 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	row[0] = "Revision"
 	// Revision name header line
 	for c, r := range sortedRevs {
-		row[c+1] = formatRevname(r)
+		row[c+1] = "<div class=\"foo\">"+formatRevname(r)+"</div>"
 	}
 	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Name"
 	for c, r := range sortedRevs {
-		row[c+1] = revIDs[r].Name
+		row[c+1] = "<div class=\"foo\">"+revIDs[r].Name+"</div>"
 	}
 	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "PID"
 	for c, r := range sortedRevs {
-		row[c+1] = revIDs[r].ProductCode
+		row[c+1] = "<div class=\"foo\">"+revIDs[r].ProductCode+"</div>"
 	}
 	printTableRow(f, row, "", "center")
 

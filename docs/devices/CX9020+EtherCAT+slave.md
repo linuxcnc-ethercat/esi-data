@@ -10,16 +10,16 @@ http://www.beckhoff.com/CX9020
 <table>
 <tr >
 <td>Revision</td>
-<td>r0</td>
-<td>r1</td>
+<td><div class="foo">r0</div></td>
+<td><div class="foo">r1</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td colspan=2 align="center">CX9020 EtherCAT slave</td>
+<td colspan=2 align="center"><div class="foo">CX9020 EtherCAT slave</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td colspan=2 align="center">0x233c6034</td>
+<td colspan=2 align="center"><div class="foo">0x233c6034</div></td>
 </tr>
 <tr >
 <td>Revision No</td>

@@ -10,16 +10,16 @@ http://www.beckhoff.com/FB1111
 <table>
 <tr >
 <td>Revision</td>
-<td>r984</td>
-<td>r985</td>
+<td><div class="foo">r984</div></td>
+<td><div class="foo">r985</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td colspan=2 align="center">FB1111 MCI16 DC 2xMII</td>
+<td colspan=2 align="center"><div class="foo">FB1111 MCI16 DC 2xMII</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td colspan=2 align="center">0x04570862</td>
+<td colspan=2 align="center"><div class="foo">0x04570862</div></td>
 </tr>
 <tr >
 <td>Revision No</td>

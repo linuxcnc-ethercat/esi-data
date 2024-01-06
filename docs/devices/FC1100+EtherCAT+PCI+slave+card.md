@@ -10,16 +10,16 @@ http://www.beckhoff.com/FC1100
 <table>
 <tr >
 <td>Revision</td>
-<td>r0</td>
-<td>r1</td>
+<td><div class="foo">r0</div></td>
+<td><div class="foo">r1</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td colspan=2 align="center">FC1100 EtherCAT PCI slave card</td>
+<td colspan=2 align="center"><div class="foo">FC1100 EtherCAT PCI slave card</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td colspan=2 align="center">0x044c0c62</td>
+<td colspan=2 align="center"><div class="foo">0x044c0c62</div></td>
 </tr>
 <tr >
 <td>Revision No</td>
