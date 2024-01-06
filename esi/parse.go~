@@ -1,0 +1,513 @@
+package esi
+
+import (
+	"cmp"
+	"crypto/sha256"
+	"encoding/xml"
+	"flag"
+	"fmt"
+	"golang.org/x/net/html/charset"
+	"gopkg.in/yaml.v3"
+	"os"
+	"path/filepath"
+	"slices"
+	"strconv"
+	"strings"
+)
+
+type ESIName struct {
+	Name       string `xml:",chardata"`
+	LanguageID string `xml:"LcId,attr"`
+}
+
+type ESIDeviceURL struct {
+	URL        string `xml:",chardata"`
+	LanguageID string `xml:"LcId,attr"`
+}
+
+type ESIDeviceInfo struct {
+	Current         string              `xml:"Electrical>EBusCurrent" yaml:",omitempty"`
+	RequestTimeout  int                 `xml:"Mailbox>Timeout>RequestTimeout" yaml:",omitempty"`
+	ResponseTimeout int                 `xml:"Mailbox>Timeout>ResponseTimeout" yaml:",omitempty"`
+	Ports           []ESIDeviceInfoPort `xml:"Port" yaml:",omitempty"`
+}
+
+type ESIDeviceInfoPort struct {
+	Type  string
+	Label string
+}
+
+type ESIProfile struct {
+	ProfileNo   int            `xml:"ProfileNo" yaml:",omitempty"`
+	Channels    int            `xml:"ChannelCount" yaml:",omitempty"`
+	AddInfo     int            `xml:"AddInfo" yaml:",omitempty"` // what is "AddInfo?"
+	DataTypes   []*ESIDataType `xml:"Dictionary>DataTypes>DataType"`
+	DataTypeMap map[string]*ESIDataType
+	Objects     []*ESIObject `xml:"Dictionary>Objects>Object" yaml:"Objects,omitempty"`
+}
+
+type ESIDataType struct {
+	Name     string                `xml:"Name"`
+	BitSize  int                   `xml:"BitSize"`
+	SubItems []*ESIDataTypeSubItem `xml:"SubItem"`
+}
+
+type ESIDataTypeSubItem struct {
+	SubIndex  int    `xml:"SubIdx"`
+	Name      string `xml:"Name"`
+	Type      string `xml:"Type"`
+	BitSize   int    `xml:"BitSize"`
+	BitOffset int    `xml:"BitOffs"`
+	Access    string `xml:"Flags>Access"`
+	Category  string `xml:"Flags>Category"`
+}
+
+type ESIObject struct {
+	Index    string              `xml:"Index" yaml:",omitempty"`
+	Name     string              `xml:"Name" yaml:",omitempty"`
+	TypeName string              `xml:"Type" yaml:",omitempty"`
+	BitSize  int                 `xml:"BitSize" yaml:",omitempty"`
+	SubItems []*ESIObjectSubItem `xml:"Info>SubItem" yaml:",omitempty"`
+	// Info > (DefaultData | SubItem | ...
+	// Flags > (Access | Category | ...
+}
+
+type ESIObjectSubItem struct {
+	Name        string `xml:"Name"\ yaml:",omitempty"`
+	DefaultData string `xml:"Info>DefaultData" yaml:",omitempty"`
+	Type        string `yaml:"Type,omitempty"`
+	BitSize     int    `yaml:"BitSize,omitempty"`
+	BitOffset   int    `yaml:"BitOffs,omitempty"`
+	Access      string `yaml:"Access,omitempty"`
+	Category    string `yaml:"Category,omitempty"`
+}
+
+type ESIDeviceID struct {
+	Type        string `yaml:"Type,omitempty"`
+	ProductCode string `yaml:"ProductCode,omitempty"`
+	RevisionNo  string `yaml:"RevisionNo,omitempty"`
+	URL         string `yaml:"URL,omitempty"`
+	Name        string `yaml:"Name,omitempty"`
+	Vendor      string `yaml:"Vendor,omitempty"`
+	VendorID    string `yaml:"VendorID,omitempty"`
+}
+
+type ESIDevice struct {
+	//Physics string `xml:"Physics,attr" yaml:",omitempty"`
+
+	Type struct {
+		Type            string `xml:",chardata"`
+		ProductCode     string `xml:"ProductCode,attr"`
+		RevisionNo      string `xml:"RevisionNo,attr"`
+		CheckRevisionNo string `xml:"CheckRevisionNo,attr"`
+	} `xml:"Type" yaml:"-"`
+
+	Names     []ESIName      `xml:"Name" yaml:",omitempty"`
+	URLs      []ESIDeviceURL `xml:"URL" yaml:",omitempty"`
+	Info      ESIDeviceInfo  `xml:"Info" yaml:"Info,omitempty"`
+	GroupType string         `xml:"GroupType" yaml:",omitempty"` // maps to ESIGroup.Type
+	//Fmmu      []string       `xml:"Fmmu" yaml:",omitempty,flow"` // "Inputs"/"Outputs"
+
+	ShortType   string         `yaml:"Type,omitempty"`
+	ProductCode string         `yaml:"ProductCode,omitempty"`
+	RevisionNo  string         `yaml:"RevisionNo,omitempty"`
+	EnglishURL  string         `yaml:"URL,omitempty"`
+	EnglishName string         `yaml:"Name,omitempty"`
+	GroupName   string         `yaml:"DeviceGroup,omitempty"`
+	Vendor      string         `yaml:"Vendor,omitempty"`
+	VendorID    string         `yaml:"VendorID,omitempty"`
+	Profile     ESIProfile     `yaml:"Profile,omitempty"`
+	TxPDOs      []*ESIRxPDO    `xml:"TxPdo" yaml:"TxPDOs,omitempty"`
+	RxPDOs      []*ESITxPDO    `xml:"RxPdo" yaml:"RxPDOs,omitempty"`
+	IDs         []*ESIDeviceID `yaml:"IDs"`
+}
+
+type ESIRxPDO struct {
+	Index   string         `xml:"Index" yaml:"Index,omitempty"`
+	Name    string         `xml:"Name" yaml:"Name,omitempty"`
+	Ref     string         `xml:"Ref,attr" yaml:"Ref,omitempty"`
+	Chn     string         `xml:"Chn,attr" yaml:"Chn,omitempty"`
+	Fixed   string         `xml:"Fixed,attr" yaml:"Fixed,omitempty"`
+	Sm      string         `xml:"Sm,attr" yaml:"Sm,omitempty"`
+	Entries []*ESIPDOEntry `xml:"Entry" yaml:"Entry,omitempty"`
+}
+
+type ESITxPDO struct {
+	Index   string         `xml:"Index" yaml:"Index,omitempty"`
+	Name    string         `xml:"Name" yaml:"Name,omitempty"`
+	Ref     string         `xml:"Ref,attr" yaml:"Ref,omitempty"`
+	Chn     string         `xml:"Chn,attr" yaml:"Chn,omitempty"`
+	Fixed   string         `xml:"Fixed,attr" yaml:"Fixed,omitempty"`
+	Sm      string         `xml:"Sm,attr" yaml:"Sm,omitempty"`
+	Entries []*ESIPDOEntry `xml:"Entry" yaml:"Entry,omitempty"`
+}
+
+type ESIPDOEntry struct {
+	Name     string `xml:"Name" yaml:"Name,omitempty"`
+	Index    string `xml:"Index" yaml:"Index,omitempty"`
+	SubIndex string `xml:"SubIndex" yaml:"SubIndex,omitempty"`
+	BitLen   int    `xml:"BitLen" yaml:"BitLen,omitempty"`
+	DataType string `xml:"DataType" yaml:"DataType,omitempty"`
+}
+
+type ESIGroup struct {
+	Type        string    `xml:"Type"`
+	Names       []ESIName `xml:"Name"`
+	EnglishName string
+}
+
+type ESIData struct {
+	EtherCATInfo xml.Name     `xml:"EtherCATInfo"`
+	VendorID     string       `xml:"Vendor>Id"`
+	VendorName   string       `xml:"Vendor>Name"`
+	Groups       []*ESIGroup  `xml:"Descriptions>Groups>Group"`
+	Devices      []*ESIDevice `xml:"Descriptions>Devices>Device"`
+}
+
+func parseESIFile(filename string) ([]*ESIDevice, error) {
+	f, err := os.Open(filename)
+	if err != nil {
+		return nil, fmt.Errorf("unable to open file: %v", err)
+	}
+
+	esiData := &ESIData{}
+	devices := []*ESIDevice{}
+
+	decoder := xml.NewDecoder(f)
+	decoder.CharsetReader = charset.NewReaderLabel
+	err = decoder.Decode(esiData)
+	if err != nil {
+		return nil, fmt.Errorf("unable to parse xml file %q: %v", filename, err)
+	}
+
+	groupMap := make(map[string]string)
+
+	// Beckhoff's ESI groups have names in DE and EN; we want the English names.
+	for _, g := range esiData.Groups {
+		for _, n := range g.Names {
+			if n.LanguageID == "1033" { // English
+				g.EnglishName = n.Name
+				groupMap[g.Type] = g.EnglishName
+			}
+		}
+	}
+
+	// We have a fair amount of post-processing to do per Device.
+	//
+	// - We want to get the English name and URLs
+	// - We want to include the vendor and vendor ID (correctly formatted)
+	// - We want to match the group name to the group type provided
+	// - We want to reformat the product code and revision to be 0xXXX-format hex numbers instead of #xXXX
+	// - We want to strip extra data (non-English names and URLs, group data, etc
+	for _, d := range esiData.Devices {
+		d.Vendor = esiData.VendorName
+		d.VendorID = fixHexFormat(esiData.VendorID, 8)
+
+		for _, n := range d.Names {
+			if n.LanguageID == "1033" { // English
+				d.EnglishName = n.Name
+			}
+		}
+		for _, u := range d.URLs {
+			if u.LanguageID == "1033" { // English
+				d.EnglishURL = u.URL
+			}
+		}
+
+		d.Profile.DataTypeMap = make(map[string]*ESIDataType)
+		// Build type map
+		for _, t := range d.Profile.DataTypes {
+			d.Profile.DataTypeMap[t.Name] = t
+		}
+		d.Profile.DataTypes = nil
+
+		// Blank out PDO data if it's disabled via the command
+		// line.
+		if !*pdosFlag {
+			d.TxPDOs = nil
+			d.RxPDOs = nil
+		}
+
+		for _, txpdo := range d.TxPDOs {
+			txpdo.Index = fixHexFormat(txpdo.Index, 4)
+			for _, entry := range txpdo.Entries {
+				entry.Index = fixHexFormat(entry.Index, 4)
+				entry.SubIndex = fixHexFormat(entry.SubIndex, 2)
+			}
+		}
+		for _, rxpdo := range d.RxPDOs {
+			rxpdo.Index = fixHexFormat(rxpdo.Index, 4)
+			for _, entry := range rxpdo.Entries {
+				entry.Index = fixHexFormat(entry.Index, 4)
+				entry.SubIndex = fixHexFormat(entry.SubIndex, 2)
+			}
+		}
+
+		// Blank out object data if it's disabled via the command line.
+		if !*objectsFlag {
+			d.Profile.Objects = nil
+		}
+
+		// For now, we only want to keep 0x6xxx, 0x7xxx, and 0x8xxx objects.
+		// Otherwise the generated ESI file is *huge*.
+		newObjects := []*ESIObject{}
+		for _, o := range d.Profile.Objects {
+			typeObject := d.Profile.DataTypeMap[o.TypeName]
+			o.Index = fixHexFormat(o.Index, 4)
+
+			if typeObject != nil {
+				submap := make(map[string]*ESIDataTypeSubItem)
+				for _, ts := range typeObject.SubItems {
+					submap[ts.Name] = ts
+				}
+				for _, s := range o.SubItems {
+					subtype := submap[s.Name]
+					if subtype != nil {
+						s.Type = subtype.Type
+						s.BitSize = subtype.BitSize
+						s.BitOffset = subtype.BitOffset
+						s.Access = subtype.Access
+						s.Category = subtype.Category
+					}
+				}
+			}
+
+			switch o.Index[0:3] {
+			case "0x6": // input, keep
+				newObjects = append(newObjects, o)
+			case "0x7": // output, keep
+				newObjects = append(newObjects, o)
+			default: // other, delete for now
+
+			}
+		}
+		d.Profile.Objects = newObjects
+		d.Profile.DataTypeMap = nil // Don't want to marshal it.
+
+		d.Type.ProductCode = fixHexFormat(d.Type.ProductCode, 8)
+		d.Type.RevisionNo = fixHexFormat(d.Type.RevisionNo, 8)
+		d.GroupName = groupMap[d.GroupType]
+		d.ShortType = d.Type.Type
+		d.ProductCode = d.Type.ProductCode
+		d.RevisionNo = d.Type.RevisionNo
+		d.GroupType = ""
+		d.Names = nil
+		d.URLs = nil
+		d.IDs = []*ESIDeviceID{}
+
+		devices = append(devices, d)
+	}
+	return devices, nil
+}
+
+// Merge devices together if they have identical RxPDO/TxPDO/Object
+// configurations.  This should be a fairly conservative way to catch
+// mostly-identical devices that can share the same driver.
+//
+// This also *dramatically* reduces the side of the output, from 73M
+// to 24M.
+//
+// For example, this decides that the following are mostly identical:
+//
+// - EJ2008
+// - EJ2128
+// - EL2008
+// - EL2008-0015
+// - EL2088
+// - EL2788
+// - EL2798
+// - EL2808
+// - EL2828
+// - ELX2008
+// - EP2008-0001
+// - EP2008-0002
+// - EP2008-0022
+// - EP2028-0001
+// - EP2028-0002
+// - EP2028-0032
+// - EPP2008-0001
+// - EPP2008-0002
+// - EPP2008-0022
+// - EPP2028-0001
+// - EPP2028-0002
+// - EQ2008-0002
+//
+// Unfortunately, this is still a bit odd about different revisions of
+// devices.  For example, according to the current ESI files from
+// Beckhoff, the EL7031 comes in multiple revisions:
+//
+// - 0x00100000 "rev0"
+// - 0x0010001e "rev0e" -- actually differnet HW?
+// - 0x00110000 "rev1" -- identical to rev0
+// - 0x00120000 "rev2" -- adds a bunch of 0x6020 and 0x7020 PDOs which aren't in rev0
+// - 0x00130000 "rev3" -- similar to rev2, but names reformatted
+// - 0x00140000 "rev4" -- identical to rev3
+// - 0x00150000 "rev5" -- identical to rev3
+// - 0x00160000 "rev6" -- identical to rev3
+// - 0x00170000 "rev7" -- similar to rev2, but deletes a bunch of PDOs from 'objects'
+// - 0x00180000 "rev8" -- similar to rev7, but adds 0x7021 PDOs
+// - 0x00190000 "rev9" -- identical to rev8
+// - 0x001a0000 "rev10" -- similar to rev8, but adds 0x6020:0x23
+//
+// These are currently broken into 7 different blocks by this code,
+// because (to some extent) these actually *are* several different
+// devices.  Attempting to access 0x6020 PDOs with a rev0 or rev1
+// device will fail, probably keeping LCEC from starting up at all.
+//
+// Looking at our code, the el70x1 driver supports the EL7031 and the
+// EL7041-0052.  Amazingly, this code actually groups the "rev10"
+// EL7031 together with all of the revs of the EL7041-0052.
+func mergeDevices(devices []*ESIDevice) ([]*ESIDevice, error) {
+	pdomap := make(map[string]*ESIDevice)
+
+	for _, d := range devices {
+		profile, err := yaml.Marshal(d.Profile)
+		if err != nil {
+			return nil, fmt.Errorf("can't marshal profile: %v", err)
+		}
+
+		txpdos, err := yaml.Marshal(d.TxPDOs)
+		if err != nil {
+			return nil, fmt.Errorf("can't marshal txpdos: %v", err)
+		}
+
+		rxpdos, err := yaml.Marshal(d.RxPDOs)
+		if err != nil {
+			return nil, fmt.Errorf("can't marshal rxpdos: %v", err)
+		}
+
+		profile = append(profile, txpdos...)
+		profile = append(profile, rxpdos...)
+
+		sig := fmt.Sprintf("%x", sha256.Sum256(profile))
+		dd := pdomap[sig]
+
+		id := &ESIDeviceID{
+			Type:        d.ShortType,
+			ProductCode: d.ProductCode,
+			RevisionNo:  d.RevisionNo,
+			URL:         d.EnglishURL,
+			Name:        d.EnglishName,
+			Vendor:      d.Vendor,
+			VendorID:    d.VendorID,
+		}
+
+		if dd == nil {
+			// This didn't exist in the map before, so add
+			// it and zero out the fields that we don't
+			// want anymore.
+			dd = d
+			pdomap[sig] = d
+			d.Names = nil
+			d.URLs = nil
+			d.ShortType = ""
+			d.ProductCode = ""
+			d.RevisionNo = ""
+			d.EnglishURL = ""
+			d.EnglishName = ""
+			d.Vendor = ""
+			d.VendorID = ""
+		}
+
+		dd.IDs = append(dd.IDs, id)
+	}
+
+	fmt.Fprintf(os.Stderr, "Started with %d devices, reduced to %d\n", len(devices), len(pdomap))
+
+	devs := []*ESIDevice{}
+	for _, v := range pdomap {
+		if v != nil {
+			// Sort IDs by type + revision no
+			slices.SortStableFunc(v.IDs, func(i, j *ESIDeviceID) int {
+				if n := cmp.Compare(i.Type, j.Type); n != 0 {
+					return n
+				}
+				return cmp.Compare(i.RevisionNo, j.RevisionNo)
+			})
+
+			devs = append(devs, v)
+		}
+	}
+
+	// sort devices by the first ID's type + revision no.  It's
+	// important that this order stays relatively stable to keep
+	// diff sizes reasonable.
+	slices.SortStableFunc(devs, func(i, j *ESIDevice) int {
+		if n := cmp.Compare(i.IDs[0].Type, j.IDs[0].Type); n != 0 {
+			return n
+		}
+		return cmp.Compare(i.IDs[0].RevisionNo, j.IDs[0].RevisionNo)
+	})
+
+	return devs, nil
+}
+
+func fixHexFormat(in string, length int) string {
+	// No need to "fix" empty strings
+	if len(in) == 0 {
+		return in
+	}
+
+	// XML likes #xXXXX, change to 0xXXX
+	if in[0] == '#' {
+		out := []rune(in)
+		out[0] = '0'
+		v, err := strconv.ParseInt(string(out), 0, 64)
+		if err != nil {
+			panic(err)
+		}
+		return fmt.Sprintf("0x%0*x", length, v)
+	}
+
+	// Okay, it's probably just an integer.  Beckhoff likes that.  Convert to hex.
+	i, err := strconv.Atoi(in)
+	if err != nil {
+		panic(err)
+	}
+
+	return fmt.Sprintf("0x%0*x", length, i)
+}
+
+func main() {
+	flag.Parse()
+
+	devices := []*ESIDevice{}
+
+	files, err := os.ReadDir(*esiDirFlag)
+	if err != nil {
+		panic(err)
+	}
+
+	for _, file := range files {
+		if strings.HasSuffix(file.Name(), ".xml") {
+			fmt.Fprintf(os.Stderr, "Parsing %s... ", file.Name())
+
+			d, err := parseESIFile(filepath.Join(*esiDirFlag, file.Name()))
+			if err != nil {
+				panic(err)
+			}
+
+			fmt.Fprintf(os.Stderr, "%d devices\n", len(d))
+
+			devices = append(devices, d...)
+		}
+	}
+
+	devices2, err := mergeDevices(devices)
+
+	y, err := yaml.Marshal(devices2)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Fprintf(os.Stderr, "Writing %d bytes to output file\n", len(y))
+
+	if *output != "" {
+		err = os.WriteFile(*output, y, 0644)
+		if err != nil {
+			panic(err)
+		}
+	} else {
+		fmt.Println(string(y))
+	}
+}
