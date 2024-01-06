@@ -22,11 +22,11 @@ http://www.beckhoff.com/FB1311
 </tr>
 <tr >
 <td>Revision No</td>
-<td>0x01f4008e</td>
+<td><div class="foo">0x01f4008e</div></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td><a href="FB1111+Dig.+Out">FB1111 Dig. Out r484</a><br/><a href="FB1111+Dig.+Out">FB1111 Dig. Out r485</a></td>
+<td><div class="foo"><a href="FB1111+Dig.+Out">FB1111 Dig. Out r484</a><br/><a href="FB1111+Dig.+Out">FB1111 Dig. Out r485</a></div></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td rowspan=4 valign=top>RX PDOs</td>
