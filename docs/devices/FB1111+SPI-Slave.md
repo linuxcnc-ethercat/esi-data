@@ -10,25 +10,25 @@ http://www.beckhoff.com/FB1111
 <table>
 <tr >
 <td>Revision</td>
-<td><div class="foo">r584</div></td>
-<td><div class="foo">r585</div></td>
+<td><pre>r584</pre></td>
+<td><pre>r585</pre></td>
 </tr>
 <tr >
 <td>Name</td>
-<td colspan=2 align="center"><div class="foo">FB1111 SPI-Slave 2xMII</div></td>
+<td colspan=2 align="center"><pre>FB1111 SPI-Slave 2xMII</pre></td>
 </tr>
 <tr >
 <td>PID</td>
-<td colspan=2 align="center"><div class="foo">0x04570862</div></td>
+<td colspan=2 align="center"><pre>0x04570862</pre></td>
 </tr>
 <tr >
 <td>Revision No</td>
-<td><div class="foo">0x0258008d</div></td>
-<td><div class="foo">0x0259008d</div></td>
+<td><pre>0x0258008d</pre></td>
+<td><pre>0x0259008d</pre></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td colspan=2 align="center"><div class="foo"><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="FB1311+SPI-Slave">FB1311 SPI-Slave r584</a></div></td>
+<td colspan=2 align="center"><pre><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="FB1311+SPI-Slave">FB1311 SPI-Slave r584</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td rowspan=1 valign=top>TX PDOs</td>

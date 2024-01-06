@@ -10,23 +10,23 @@ Beckhoff Automation GmbH & Co. KG
 <table>
 <tr >
 <td>Revision</td>
-<td><div class="foo">r-13</div></td>
+<td><pre>r-13</pre></td>
 </tr>
 <tr >
 <td>Name</td>
-<td><div class="foo">EL9800 32 Ch. Dig. Output (4Port, DC)</div></td>
+<td><pre>EL9800 32 Ch. Dig. Output (4Port, DC)</pre></td>
 </tr>
 <tr >
 <td>PID</td>
-<td><div class="foo">0x26483052</div></td>
+<td><pre>0x26483052</pre></td>
 </tr>
 <tr >
 <td>Revision No</td>
-<td><div class="foo">0x00030578</div></td>
+<td><pre>0x00030578</pre></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td><div class="foo"><a href="EL9800">EL9800 r-14</a></div></td>
+<td><pre><a href="EL9800">EL9800 r-14</a></pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td rowspan=4 valign=top>RX PDOs</td>

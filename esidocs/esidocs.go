@@ -319,8 +319,8 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 
 	fmt.Fprintf(f, "<table>\n")
 
-	div := "<div class=\"foo\">"
-	enddiv := "</div>"
+	div := "<pre>"
+	enddiv := "</pre>"
 
 	row := make([]string, columns)
 	row[0] = "Revision"
