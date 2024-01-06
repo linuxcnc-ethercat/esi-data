@@ -35,8 +35,9 @@ http://www.beckhoff.com/FB1111
 <td colspan=2 align="left"><pre>0x1600: Inputs</pre></td>
 <td></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
-<td colspan=2 align="left"></td>
+<tr class="rxpdo pdosection">
+<td rowspan=1 valign=top>RX PDOs</td>
+<td colspan=2 align="left"><pre>0x1a00: Outputs</pre></td>
+<td></td>
 </tr>
 </table>

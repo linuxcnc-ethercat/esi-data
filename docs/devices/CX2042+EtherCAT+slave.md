@@ -36,8 +36,9 @@ http://www.beckhoff.com/CX2042
 <tr class="txpdo pdosection">
 <td><pre>0x1a80: Device Status Mapping</pre></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
+<tr class="rxpdo pdosection">
+<td rowspan=1 valign=top>RX PDOs</td>
+<td><pre>0x1600: IO Outputs</pre></td>
 <td></td>
 </tr>
 </table>

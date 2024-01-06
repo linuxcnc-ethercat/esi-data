@@ -44,8 +44,4 @@ http://www.beckhoff.com/FB1111
 <tr class="txpdo pdosection">
 <td colspan=2 align="left"><pre>0x1603: Byte 3</pre></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
-<td colspan=2 align="left"></td>
-</tr>
 </table>

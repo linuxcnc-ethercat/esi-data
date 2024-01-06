@@ -42,8 +42,4 @@ http://www.beckhoff.com/FB1311
 <tr class="txpdo pdosection">
 <td><pre>0x1603: Byte 3</pre></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
-<td></td>
-</tr>
 </table>

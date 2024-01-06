@@ -38,8 +38,9 @@ http://www.beckhoff.com/CX5000
 <tr class="txpdo pdosection">
 <td colspan=2 align="left"><pre>0x1a80: Device Status Mapping</pre></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
-<td colspan=2 align="left"></td>
+<tr class="rxpdo pdosection">
+<td rowspan=1 valign=top>RX PDOs</td>
+<td colspan=2 align="left"><pre>0x1600: IO Outputs</pre></td>
+<td></td>
 </tr>
 </table>

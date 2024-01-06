@@ -28,8 +28,18 @@ Beckhoff Automation GmbH & Co. KG
 <td>Same PDOs as</td>
 <td><a href="EL9800">EL9800 r-14</a></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
+<tr class="rxpdo pdosection">
+<td rowspan=4 valign=top>RX PDOs</td>
+<td><pre>0x1a00: Byte 0</pre></td>
 <td></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td><pre>0x1a01: Byte 1</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td><pre>0x1a02: Byte 2</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td><pre>0x1a03: Byte 3</pre></td>
 </tr>
 </table>

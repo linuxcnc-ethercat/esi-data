@@ -30,8 +30,18 @@ http://www.beckhoff.com/FB1111
 <td>Same PDOs as</td>
 <td colspan=2 align="center"><a href="FB1311+Dig.+Out">FB1311 Dig. Out r484</a></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
-<td colspan=2 align="left"></td>
+<tr class="rxpdo pdosection">
+<td rowspan=4 valign=top>RX PDOs</td>
+<td colspan=2 align="left"><pre>0x1a00: Byte 0</pre></td>
+<td></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td colspan=2 align="left"><pre>0x1a01: Byte 1</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td colspan=2 align="left"><pre>0x1a02: Byte 2</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td colspan=2 align="left"><pre>0x1a03: Byte 3</pre></td>
 </tr>
 </table>

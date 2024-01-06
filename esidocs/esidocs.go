@@ -207,8 +207,34 @@ func formatTxPDOs(device *esi.ESIDevice) []pdoline {
 	return lines
 }
 
-func formatRxPDOs(device *esi.ESIDevice) string {
-	return ""
+// Format Rx PDOs.  We want to be able to merge across revisions and
+// *only* show changes, so we need to break each line up on its own,
+// and then we'll reformat them later once we've matched them across
+// all revs.  So, the format is basically <key>:<value>, where <key>
+// is more or less sorted in order.  Then we'll iterate through N
+// parallel arrays (below) and pull the lowest remaining key.
+func formatRxPDOs(device *esi.ESIDevice) []pdoline {
+	lines := []pdoline{}
+
+	for _, pdo := range device.RxPDOs {
+		lines = append(lines, pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
+
+		for _, entry := range pdo.Entries {
+			index := entry.Index
+
+			if index[0:3] != "0x6" {
+				continue // Don't show 0x0000 gap entries or entries that are outside of the RX space
+			}
+
+			subindex := entry.SubIndex
+			if len(subindex) > 2 {
+				subindex = subindex[2:] // strip leading "0x"
+			}
+			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-20s  %s", index, subindex, entry.Name, entry.DataType)})
+		}
+	}
+
+	return lines
 }
 
 func mergePDOLines(pdolines [][]pdoline) [][]string {
@@ -381,12 +407,60 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		}
 	}
 
+	
+
 	row = make([]string, columns)
 	row[0] = "RxPDOs"
-	for c, r := range sortedRevs {
-		row[c+1] = formatRxPDOs(revs[r])
+	rxpdodata := [][]pdoline{}
+
+	for _, r := range sortedRevs {
+		rxpdodata = append(rxpdodata, formatRxPDOs(revs[r]))
 	}
-	printTableRow(f, row, "", "left")
+
+	rxlines := mergePDOLines(rxpdodata)
+
+	if len(rxlines) > 0 {
+		class := "rxpdo"
+		rxline := 0
+		fmt.Printf("** Merged, has %d lines (columns=%d)\n", len(rxlines), columns)
+
+		row = make([]string, columns+1)
+		row[0] = "RX PDOs"
+		for c := 0; c < columns-1; c++ {
+			if rxlines[rxline][c] != "" {
+				row[c+1] = fmt.Sprintf("<pre>%s</pre>", rxlines[rxline][c])
+				if string(rxlines[rxline][c][0]) != " " {
+					class = "rxpdo pdosection"
+				}
+			} else {
+				row[c+1] = ""
+			}
+		}
+		printTableRowSpan(f, row, class, len(rxlines))
+		rxline++
+
+		for {
+			class := "rxpdo"
+			if rxline >= len(rxlines) {
+				break
+			}
+
+			row := make([]string, columns-1)
+			for c := 0; c < columns-1; c++ {
+				if rxlines[rxline][c] != "" {
+					row[c] = fmt.Sprintf("<pre>%s</pre>", rxlines[rxline][c])
+					if string(rxlines[rxline][c][0]) != " " {
+						class = "rxpdo pdosection"
+					}
+				} else {
+					row[c] = ""
+				}
+			}
+			printTableRow(f, row, class, "left")
+			rxline++
+		}
+	}
+
 
 	fmt.Fprintf(f, "</table>\n")
 
