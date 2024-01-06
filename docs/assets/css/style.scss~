@@ -2,8 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+<<<<<<< HEAD
+=======
 tr.txpdo > td {
     padding: 2px;
     empty-cells: hide;
 };
- 
+>>>>>>> 730bff4d (Formatting)

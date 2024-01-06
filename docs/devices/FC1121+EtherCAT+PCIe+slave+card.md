@@ -37,7 +37,7 @@ http://www.beckhoff.com/FC1121
 <td></td>
 </tr>
 <tr class="txpdo">
-<td><pre></pre></td>
+<td></td>
 <td><pre>0x1a80: Device Status Mapping</pre></td>
 </tr>
 <tr >
