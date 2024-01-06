@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 td {
     empty-cells: hide;
+    padding: 2px;
 }
 
 tr.txpdo > td, tr.rxpdo > td {
