@@ -10,25 +10,25 @@ http://www.beckhoff.com/FB1111
 <table>
 <tr >
 <td>Revision</td>
-<td><div class="foo">r984</div></td>
-<td><div class="foo">r985</div></td>
+<td><pre>r984</pre></td>
+<td><pre>r985</pre></td>
 </tr>
 <tr >
 <td>Name</td>
-<td colspan=2 align="center"><div class="foo">FB1111 MCI16 DC 2xMII</div></td>
+<td colspan=2 align="center"><pre>FB1111 MCI16 DC 2xMII</pre></td>
 </tr>
 <tr >
 <td>PID</td>
-<td colspan=2 align="center"><div class="foo">0x04570862</div></td>
+<td colspan=2 align="center"><pre>0x04570862</pre></td>
 </tr>
 <tr >
 <td>Revision No</td>
-<td><div class="foo">0x03e8008c</div></td>
-<td><div class="foo">0x03e9008c</div></td>
+<td><pre>0x03e8008c</pre></td>
+<td><pre>0x03e9008c</pre></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td colspan=2 align="center"><div class="foo"><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r784</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r785</a><br/><a href="FB1311+MCI16+DC">FB1311 MCI16 DC r984</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r784</a></div></td>
+<td colspan=2 align="center"><pre><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r784</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r785</a><br/><a href="FB1311+MCI16+DC">FB1311 MCI16 DC r984</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r784</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td rowspan=3 valign=top>TX PDOs</td>

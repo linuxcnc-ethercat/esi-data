@@ -10,25 +10,25 @@ http://www.beckhoff.com/FB1111
 <table>
 <tr >
 <td>Revision</td>
-<td><div class="foo">r384</div></td>
-<td><div class="foo">r385</div></td>
+<td><pre>r384</pre></td>
+<td><pre>r385</pre></td>
 </tr>
 <tr >
 <td>Name</td>
-<td colspan=2 align="center"><div class="foo">FB1111 32 Ch. Dig. Input 2xMII</div></td>
+<td colspan=2 align="center"><pre>FB1111 32 Ch. Dig. Input 2xMII</pre></td>
 </tr>
 <tr >
 <td>PID</td>
-<td colspan=2 align="center"><div class="foo">0x04570862</div></td>
+<td colspan=2 align="center"><pre>0x04570862</pre></td>
 </tr>
 <tr >
 <td>Revision No</td>
-<td><div class="foo">0x0190008e</div></td>
-<td><div class="foo">0x0191008e</div></td>
+<td><pre>0x0190008e</pre></td>
+<td><pre>0x0191008e</pre></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td colspan=2 align="center"><div class="foo"><a href="EL9800">EL9800 r-15</a><br/><a href="FB1311+Dig.+In">FB1311 Dig. In r384</a></div></td>
+<td colspan=2 align="center"><pre><a href="EL9800">EL9800 r-15</a><br/><a href="FB1311+Dig.+In">FB1311 Dig. In r384</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td rowspan=4 valign=top>TX PDOs</td>

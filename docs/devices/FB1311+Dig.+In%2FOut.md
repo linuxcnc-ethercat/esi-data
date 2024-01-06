@@ -10,23 +10,23 @@ http://www.beckhoff.com/FB1311
 <table>
 <tr >
 <td>Revision</td>
-<td><div class="foo">r84</div></td>
+<td><pre>r84</pre></td>
 </tr>
 <tr >
 <td>Name</td>
-<td><div class="foo">FB1311 16 Ch. Dig. In-/Output 2xMII</div></td>
+<td><pre>FB1311 16 Ch. Dig. In-/Output 2xMII</pre></td>
 </tr>
 <tr >
 <td>PID</td>
-<td><div class="foo">0x051f0862</div></td>
+<td><pre>0x051f0862</pre></td>
 </tr>
 <tr >
 <td>Revision No</td>
-<td><div class="foo">0x0064008e</div></td>
+<td><pre>0x0064008e</pre></td>
 </tr>
 <tr >
 <td>Same PDOs as</td>
-<td><div class="foo"><a href="FB1111+Dig.+In%2FOut">FB1111 Dig. In/Out r84</a><br/><a href="FB1111+Dig.+In%2FOut">FB1111 Dig. In/Out r85</a></div></td>
+<td><pre><a href="FB1111+Dig.+In%2FOut">FB1111 Dig. In/Out r84</a><br/><a href="FB1111+Dig.+In%2FOut">FB1111 Dig. In/Out r85</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td rowspan=2 valign=top>TX PDOs</td>
