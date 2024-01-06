@@ -2,11 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
-tr.txpdo > td {
+tr.txpdo > td, tr.rxpdo > td {
     padding: 2px;
     empty-cells: hide;
 };
  
 tr.pdosection > td {
     font-weight: bold;
+}
+
+table, pre {
+    margin: 2px;
 }

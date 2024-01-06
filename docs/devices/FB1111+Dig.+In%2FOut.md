@@ -38,8 +38,12 @@ http://www.beckhoff.com/FB1111
 <tr class="txpdo pdosection">
 <td colspan=2 align="left"><pre>0x1601: Byte 1</pre></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
-<td colspan=2 align="left"></td>
+<tr class="rxpdo pdosection">
+<td rowspan=2 valign=top>RX PDOs</td>
+<td colspan=2 align="left"><pre>0x1a00: Byte 0</pre></td>
+<td></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td colspan=2 align="left"><pre>0x1a01: Byte 1</pre></td>
 </tr>
 </table>

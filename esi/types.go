@@ -106,22 +106,12 @@ type ESIDevice struct {
 	Vendor      string         `yaml:"Vendor,omitempty"`
 	VendorID    string         `yaml:"VendorID,omitempty"`
 	Profile     ESIProfile     `yaml:"Profile,omitempty"`
-	TxPDOs      []*ESIRxPDO    `xml:"TxPdo" yaml:"TxPDOs,omitempty"`
-	RxPDOs      []*ESITxPDO    `xml:"RxPdo" yaml:"RxPDOs,omitempty"`
+	TxPDOs      []*ESIPDO    `xml:"TxPdo" yaml:"TxPDOs,omitempty"`
+	RxPDOs      []*ESIPDO    `xml:"RxPdo" yaml:"RxPDOs,omitempty"`
 	IDs         []*ESIDeviceID `yaml:"IDs"`
 }
 
-type ESIRxPDO struct {
-	Index   string         `xml:"Index" yaml:"Index,omitempty"`
-	Name    string         `xml:"Name" yaml:"Name,omitempty"`
-	Ref     string         `xml:"Ref,attr" yaml:"Ref,omitempty"`
-	Chn     string         `xml:"Chn,attr" yaml:"Chn,omitempty"`
-	Fixed   string         `xml:"Fixed,attr" yaml:"Fixed,omitempty"`
-	Sm      string         `xml:"Sm,attr" yaml:"Sm,omitempty"`
-	Entries []*ESIPDOEntry `xml:"Entry" yaml:"Entry,omitempty"`
-}
-
-type ESITxPDO struct {
+type ESIPDO struct {
 	Index   string         `xml:"Index" yaml:"Index,omitempty"`
 	Name    string         `xml:"Name" yaml:"Name,omitempty"`
 	Ref     string         `xml:"Ref,attr" yaml:"Ref,omitempty"`

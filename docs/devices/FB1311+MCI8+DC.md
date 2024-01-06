@@ -39,8 +39,9 @@ http://www.beckhoff.com/FB1311
 <tr class="txpdo">
 <td><pre>  0x6000:02  Test In2              UINT</pre></td>
 </tr>
-<tr >
-<td>RxPDOs</td>
+<tr class="rxpdo pdosection">
+<td rowspan=1 valign=top>RX PDOs</td>
+<td><pre>0x1a00: Outputs</pre></td>
 <td></td>
 </tr>
 </table>
