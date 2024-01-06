@@ -1,4 +1,4 @@
-module github.com/linuxcnc-ethercat/linuxcnc-ethercat/scripts/esidecoder
+module github.com/linuxcnc-ethercat/esi-data/esidecoder
 
 go 1.21.5
 
