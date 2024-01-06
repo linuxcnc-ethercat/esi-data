@@ -10,15 +10,15 @@ Beckhoff Automation GmbH & Co. KG
 <table>
 <tr >
 <td>Revision</td>
-<td>r-13</td>
+<td><div class="foo">r-13</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td>EL9800 32 Ch. Dig. Output (4Port, DC)</td>
+<td><div class="foo">EL9800 32 Ch. Dig. Output (4Port, DC)</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td>0x26483052</td>
+<td><div class="foo">0x26483052</div></td>
 </tr>
 <tr >
 <td>Revision No</td>

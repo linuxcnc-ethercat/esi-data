@@ -2,9 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+td {
+    empty-cells: hide;
+}
+
 tr.txpdo > td, tr.rxpdo > td {
     padding: 2px;
-    empty-cells: hide;
 };
  
 tr.pdosection > td {
@@ -13,4 +16,8 @@ tr.pdosection > td {
 
 table, pre {
     margin: 2px;
+}
+
+div.foo {
+    background: #f8f8f8;
 }

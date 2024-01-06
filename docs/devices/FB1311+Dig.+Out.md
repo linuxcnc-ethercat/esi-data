@@ -10,15 +10,15 @@ http://www.beckhoff.com/FB1311
 <table>
 <tr >
 <td>Revision</td>
-<td>r484</td>
+<td><div class="foo">r484</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td>FB1311 32 Ch. Dig. Output 2xMII</td>
+<td><div class="foo">FB1311 32 Ch. Dig. Output 2xMII</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td>0x051f0862</td>
+<td><div class="foo">0x051f0862</div></td>
 </tr>
 <tr >
 <td>Revision No</td>

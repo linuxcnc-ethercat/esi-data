@@ -10,15 +10,15 @@ http://www.beckhoff.com/
 <table>
 <tr >
 <td>Revision</td>
-<td>r0</td>
+<td><div class="foo">r0</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td>CPXXXX-BK1150 EtherCAT Control Panel</td>
+<td><div class="foo">CPXXXX-BK1150 EtherCAT Control Panel</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td>0x1ede4032</td>
+<td><div class="foo">0x1ede4032</div></td>
 </tr>
 <tr >
 <td>Revision No</td>

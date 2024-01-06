@@ -10,15 +10,15 @@ http://www.beckhoff.com/CX8110
 <table>
 <tr >
 <td>Revision</td>
-<td>r0</td>
+<td><div class="foo">r0</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td>CX8110 EtherCAT slave</td>
+<td><div class="foo">CX8110 EtherCAT slave</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td>0x1fae6032</td>
+<td><div class="foo">0x1fae6032</div></td>
 </tr>
 <tr >
 <td>Revision No</td>

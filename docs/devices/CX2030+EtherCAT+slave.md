@@ -10,17 +10,17 @@ http://www.beckhoff.com/CX2000
 <table>
 <tr >
 <td>Revision</td>
-<td>r0</td>
-<td>r1</td>
-<td>r2</td>
+<td><div class="foo">r0</div></td>
+<td><div class="foo">r1</div></td>
+<td><div class="foo">r2</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td colspan=3 align="center">CX2030 EtherCAT slave</td>
+<td colspan=3 align="center"><div class="foo">CX2030 EtherCAT slave</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td colspan=3 align="center">0x07ee6034</td>
+<td colspan=3 align="center"><div class="foo">0x07ee6034</div></td>
 </tr>
 <tr >
 <td>Revision No</td>

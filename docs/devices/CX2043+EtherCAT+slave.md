@@ -10,15 +10,15 @@ http://www.beckhoff.com/CX2000
 <table>
 <tr >
 <td>Revision</td>
-<td>r0</td>
+<td><div class="foo">r0</div></td>
 </tr>
 <tr >
 <td>Name</td>
-<td>CX2043 EtherCAT slave</td>
+<td><div class="foo">CX2043 EtherCAT slave</div></td>
 </tr>
 <tr >
 <td>PID</td>
-<td>0x07fb6034</td>
+<td><div class="foo">0x07fb6034</div></td>
 </tr>
 <tr >
 <td>Revision No</td>
