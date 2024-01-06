@@ -30,12 +30,12 @@ http://www.beckhoff.com/FB1111
 <td>Same PDOs as</td>
 <td colspan=2 align="center"><a href="FB1311+Dig.+In%2FOut">FB1311 Dig. In/Out r84</a></td>
 </tr>
-<tr class="txpdo">
+<tr class="txpdo pdosection">
 <td rowspan=2 valign=top>TX PDOs</td>
 <td colspan=2 align="left"><pre>0x1600: Byte 0</pre></td>
 <td></td>
 </tr>
-<tr class="txpdo">
+<tr class="txpdo pdosection">
 <td colspan=2 align="left"><pre>0x1601: Byte 1</pre></td>
 </tr>
 <tr >

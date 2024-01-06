@@ -30,7 +30,7 @@ http://www.beckhoff.com/FB1111
 <td>Same PDOs as</td>
 <td colspan=2 align="center"><a href="FB1111+MCI16+DC">FB1111 MCI16 DC r984</a><br/><a href="FB1111+MCI16+DC">FB1111 MCI16 DC r985</a><br/><a href="FB1311+MCI16+DC">FB1311 MCI16 DC r984</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r784</a></td>
 </tr>
-<tr class="txpdo">
+<tr class="txpdo pdosection">
 <td rowspan=3 valign=top>TX PDOs</td>
 <td colspan=2 align="left"><pre>0x1600: Inputs</pre></td>
 <td></td>

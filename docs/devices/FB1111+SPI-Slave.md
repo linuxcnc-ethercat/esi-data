@@ -30,7 +30,7 @@ http://www.beckhoff.com/FB1111
 <td>Same PDOs as</td>
 <td colspan=2 align="center"><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="FB1311+SPI-Slave">FB1311 SPI-Slave r584</a></td>
 </tr>
-<tr class="txpdo">
+<tr class="txpdo pdosection">
 <td rowspan=1 valign=top>TX PDOs</td>
 <td colspan=2 align="left"><pre>0x1600: Inputs</pre></td>
 <td></td>
