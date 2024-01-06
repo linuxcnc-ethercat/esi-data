@@ -129,6 +129,7 @@ func printTableRow(f io.Writer, row []string, class string, align string) {
 	for i := 0; i < len(row); i++ {
 		column := row[i]
 		colspan := checkColspan(row, i)
+		
 		if colspan > 1 {
 			fmt.Fprintf(f, "<td colspan=%d align=%q>%s</td>\n", colspan, align, column)
 		} else {
@@ -309,10 +310,10 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 
 	row = make([]string, columns)
 	row[0] = "PID"
-	for c, r := range sortedRevs {
+	for c, r := range sortedRevs { 
 		row[c+1] = revIDs[r].ProductCode
 	}
-	printTableRow(f, row, "", "center")
+	printTableRow(f, row, "", "center") 
 
 	row = make([]string, columns)
 	row[0] = "Revision No"
@@ -345,7 +346,11 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		row = make([]string, columns+1)
 		row[0] = "TX PDOs"
 		for c := 0; c < columns-1; c++ {
-			row[c+1] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+			if txlines[txline][c] != "" {
+				row[c+1] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+			} else {
+				row[c+1] = ""
+			}
 		}
 		printTableRowSpan(f, row, "txpdo", len(txlines))
 		txline++
@@ -357,7 +362,11 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 
 			row := make([]string, columns-1)
 			for c := 0; c < columns-1; c++ {
-				row[c] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+				if txlines[txline][c] != "" {
+					row[c] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+				} else {
+					row[c] = ""
+				}
 			}
 			printTableRow(f, row, "txpdo", "left")
 			txline++
