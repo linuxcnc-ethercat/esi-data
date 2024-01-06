@@ -76,7 +76,7 @@ func main() {
 			// skip  foo-bar-baz devices for now
 			continue
 		}
-		
+
 		for r, rev := range revs {
 			fmt.Printf("    %s = %s, %s\n", r, rev.IDs[0].Type, rev.IDs[0].RevisionNo)
 		}
@@ -111,8 +111,8 @@ func getIDFor(ids []*esi.ESIDeviceID, t, r string) *esi.ESIDeviceID {
 func checkColspan(row []string, column int) int {
 	span := 0
 	val := row[column]
-	for i:=column;i<len(row);i++ {
-		if row[i]==val {
+	for i := column; i < len(row); i++ {
+		if row[i] == val {
 			span++
 		} else {
 			return span
@@ -121,17 +121,34 @@ func checkColspan(row []string, column int) int {
 	return span
 }
 
-func printTableRow(f io.Writer, row []string) {
+func printTableRow(f io.Writer, row []string, align string) {
 	fmt.Fprintf(f, "<tr>\n")
-	for i:=0;i<len(row);i++ {
+	for i := 0; i < len(row); i++ {
 		column := row[i]
 		colspan := checkColspan(row, i)
-		if colspan>1 {
-			fmt.Fprintf(f, "<td colspan=%d align=\"center\">%s</td>\n", colspan, column)
+		if colspan > 1 {
+			fmt.Fprintf(f, "<td colspan=%d align=%q>%s</td>\n", colspan, align, column)
 		} else {
 			fmt.Fprintf(f, "<td>%s</td>\n", column)
 		}
-		i += colspan-1
+		i += colspan - 1
+	}
+	fmt.Fprintf(f, "</tr>\n")
+}
+
+func printTableRowSpan(f io.Writer, row []string, rowspan int) {
+	fmt.Fprintf(f, "<tr>\n")
+	fmt.Fprintf(f, "<td rowspan=%d valign=top>%s</td>\n", rowspan, row[0])
+
+	for i := 1; i < len(row); i++ {
+		column := row[i]
+		colspan := checkColspan(row, i)
+		if colspan > 1 {
+			fmt.Fprintf(f, "<td colspan=%d align=\"left\">%s</td>\n", colspan, column)
+		} else {
+			fmt.Fprintf(f, "<td>%s</td>\n", column)
+		}
+		i += colspan - 1
 	}
 	fmt.Fprintf(f, "</tr>\n")
 }
@@ -148,10 +165,102 @@ func formatEquivDevices(device *esi.ESIDevice, devname string) string {
 	return strings.Join(devs, "<br/>")
 }
 
+type pdoline struct {
+	key    string
+	output string
+}
+
+// Format Tx PDOs.  We want to be able to merge across revisions and
+// *only* show changes, so we need to break each line up on its own,
+// and then we'll reformat them later once we've matched them across
+// all revs.  So, the format is basically <key>:<value>, where <key>
+// is more or less sorted in order.  Then we'll iterate through N
+// parallel arrays (below) and pull the lowest remaining key.
+func formatTxPDOs(device *esi.ESIDevice) []pdoline {
+	lines := []pdoline{}
+
+	for _, pdo := range device.TxPDOs {
+		lines = append(lines, pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
+
+		for _, entry := range pdo.Entries {
+			index := entry.Index
+
+			if index[0:3] != "0x6" {
+				continue // Don't show 0x0000 gap entries or entries that are outside of the TX space
+			}
+
+			subindex := entry.SubIndex
+			if len(subindex) > 2 {
+				subindex = subindex[2:] // strip leading "0x"
+			}
+			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-20s  %s", index, subindex, entry.Name, entry.DataType)})
+		}
+	}
+
+	return lines
+}
+
+func formatRxPDOs(device *esi.ESIDevice) string {
+	return ""
+}
+
+func mergePDOLines(pdolines [][]pdoline) [][]string {
+	columns := len(pdolines)
+	currentline := make([]int, columns)
+	lastline := make([]int, columns)
+	results := [][]string{}
+
+	for i := range pdolines {
+		lastline[i] = len(pdolines[i])
+	}
+
+	// Look at the current line across all columns and pick the
+	// lowest `key`.  Then, for each column that has that key as
+	// the `currentline` in pdolines, emit the output into
+	// `results`.  Then move `currentline` forward for each column
+	// that emitted something.
+	for {
+		// Check to see if we've used all of our input
+		done := true
+		for i := range currentline {
+			if currentline[i] < lastline[i] {
+				done = false
+			}
+		}
+
+		if done {
+			return results
+		}
+
+		output := make([]string, columns)
+
+		// Find the lowest key across all of the current lines
+		lowestKey := ""
+		for i := range currentline {
+			if currentline[i] < lastline[i] {
+				l := pdolines[i][currentline[i]].key
+				if lowestKey == "" || l < lowestKey {
+					lowestKey = l
+				}
+			}
+		}
+
+		// Emit into `output` if the current line equals `lowestkey`, and move `currentline` forward.
+		for i := range currentline {
+			output[i]="-"
+			if currentline[i] < lastline[i] && pdolines[i][currentline[i]].key == lowestKey {
+				output[i] = pdolines[i][currentline[i]].output
+				currentline[i]++
+			}
+		}
+		results = append(results, output)
+	}
+}
+
 func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) error {
 	sortedRevs := sortRevs(revs)
 	revIDs := map[string]*esi.ESIDeviceID{}
-	columns := len(sortedRevs)+1
+	columns := len(sortedRevs) + 1
 
 	for _, r := range sortedRevs {
 		fmt.Printf("**** looking for %q in %v\n", r, revs)
@@ -159,50 +268,103 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		if revIDs[r] == nil {
 			return fmt.Errorf("getIDFor(.., %q, %q)==nil", devname, r)
 		}
+
 	}
-	fmt.Fprintf(f, "# %s\n", devname)
+
+	name := revIDs[sortedRevs[0]].Name
+	vendor := revIDs[sortedRevs[0]].Vendor
+	url := revIDs[sortedRevs[0]].URL
+	brand := strings.Split(vendor, " ")[0]
+
+	fmt.Fprintf(f, "# %s %s\n", brand, devname)
 	fmt.Fprintf(f, "\n")
+	fmt.Fprintf(f, "%s\n\n", name)
+	fmt.Fprintf(f, "%s\n\n", vendor)
+	fmt.Fprintf(f, "%s\n\n", url)
+
 	fmt.Fprintf(f, "## Revisions\n")
 
 	fmt.Fprintf(f, "<table>\n")
 
 	row := make([]string, columns)
-	row[0]="Revision"
+	row[0] = "Revision"
 	// Revision name header line
 	for c, r := range sortedRevs {
 		row[c+1] = formatRevname(r)
 	}
-	printTableRow(f, row)
+	printTableRow(f, row, "center")
 
 	row = make([]string, columns)
-	row[0]="Name"
+	row[0] = "Name"
 	for c, r := range sortedRevs {
 		row[c+1] = revIDs[r].Name
 	}
-	printTableRow(f, row)
+	printTableRow(f, row, "center")
 
 	row = make([]string, columns)
-	row[0]="PID"
+	row[0] = "PID"
 	for c, r := range sortedRevs {
 		row[c+1] = revIDs[r].ProductCode
 	}
-	printTableRow(f, row)
+	printTableRow(f, row, "center")
 
 	row = make([]string, columns)
-	row[0]="Revision No"
+	row[0] = "Revision No"
 	for c, r := range sortedRevs {
 		row[c+1] = revIDs[r].RevisionNo
 	}
-	printTableRow(f, row)
+	printTableRow(f, row, "center")
 
 	row = make([]string, columns)
-	row[0]="Same PDOs as"
+	row[0] = "Same PDOs as"
 	for c, r := range sortedRevs {
-		row[c+1] = formatEquivDevices(revs[r],devname)
+		row[c+1] = formatEquivDevices(revs[r], devname)
 	}
-	printTableRow(f, row)
+	printTableRow(f, row, "center")
 
-	
+	row = make([]string, columns)
+	row[0] = "TxPDOs"
+	txpdodata := [][]pdoline{}
+
+	for _, r := range sortedRevs {
+		txpdodata = append(txpdodata, formatTxPDOs(revs[r]))
+	}
+
+	txlines := mergePDOLines(txpdodata)
+
+	if len(txlines) > 0 {
+		txline := 0
+		fmt.Printf("** Merged, has %d lines (columns=%d)\n", len(txlines), columns)
+
+		row = make([]string, columns+1)
+		row[0] = "TX PDOs"
+		for c := 0; c < columns-1; c++ {
+			row[c+1] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+		}
+		printTableRowSpan(f, row, len(txlines))
+		txline++
+
+		for {
+			if txline >= len(txlines) {
+				break
+			}
+
+			row := make([]string, columns-1)
+			for c := 0; c < columns-1; c++ {
+				row[c] = fmt.Sprintf("<pre>%s</pre>", txlines[txline][c])
+			}
+			printTableRow(f, row, "left")
+			txline++
+		}
+	}
+
+	row = make([]string, columns)
+	row[0] = "RxPDOs"
+	for c, r := range sortedRevs {
+		row[c+1] = formatRxPDOs(revs[r])
+	}
+	printTableRow(f, row, "left")
+
 	fmt.Fprintf(f, "</table>\n")
 
 	return nil
