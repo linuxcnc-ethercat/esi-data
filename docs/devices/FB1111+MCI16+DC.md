@@ -42,8 +42,14 @@ http://www.beckhoff.com/FB1111
 <td colspan=2 align="left"><pre>  0x6000:02  Test In2              UINT</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td rowspan=1 valign=top>RX PDOs</td>
+<td rowspan=3 valign=top>RX PDOs</td>
 <td colspan=2 align="left"><pre>0x1a00: Outputs</pre></td>
 <td></td>
+</tr>
+<tr class="rxpdo">
+<td colspan=2 align="left"><pre>  0x7000:01  Test Out1             UINT</pre></td>
+</tr>
+<tr class="rxpdo">
+<td colspan=2 align="left"><pre>  0x7000:02  Test Out2             UINT</pre></td>
 </tr>
 </table>
