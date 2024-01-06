@@ -3,8 +3,8 @@
 ## Revisions
 <table>
 <tr>
-<td></td>
-<td>rev r-13</td>
+<td>Revision</td>
+<td>r-13</td>
 </tr>
 <tr>
 <td>Name</td>
@@ -20,6 +20,6 @@
 </tr>
 <tr>
 <td>Same PDOs as</td>
-<td><a href="EL9800.md">EL9800 rev r-14</a></td>
+<td><a href="EL9800.md">EL9800 r-14</a></td>
 </tr>
 </table>

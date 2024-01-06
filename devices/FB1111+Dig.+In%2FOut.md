@@ -3,9 +3,9 @@
 ## Revisions
 <table>
 <tr>
-<td></td>
-<td>rev r84</td>
-<td>rev r85</td>
+<td>Revision</td>
+<td>r84</td>
+<td>r85</td>
 </tr>
 <tr>
 <td>Name</td>
@@ -22,6 +22,6 @@
 </tr>
 <tr>
 <td>Same PDOs as</td>
-<td colspan=2 align="center"><a href="FB1311+Dig.+In%2FOut.md">FB1311 Dig. In/Out rev r84</a></td>
+<td colspan=2 align="center"><a href="FB1311+Dig.+In%2FOut.md">FB1311 Dig. In/Out r84</a></td>
 </tr>
 </table>

@@ -3,9 +3,9 @@
 ## Revisions
 <table>
 <tr>
-<td></td>
-<td>rev r584</td>
-<td>rev r585</td>
+<td>Revision</td>
+<td>r584</td>
+<td>r585</td>
 </tr>
 <tr>
 <td>Name</td>
@@ -22,6 +22,6 @@
 </tr>
 <tr>
 <td>Same PDOs as</td>
-<td colspan=2 align="center"><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="EL9800.md">EL9800 rev r-15</a><br/><a href="FB1311+SPI-Slave.md">FB1311 SPI-Slave rev r584</a></td>
+<td colspan=2 align="center"><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="EL9800.md">EL9800 r-15</a><br/><a href="FB1311+SPI-Slave.md">FB1311 SPI-Slave r584</a></td>
 </tr>
 </table>

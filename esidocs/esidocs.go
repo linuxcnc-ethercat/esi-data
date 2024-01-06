@@ -72,6 +72,11 @@ func main() {
 
 	for d, revs := range devs {
 		fmt.Printf("==> %s\n", d)
+		if len(strings.Split(d, "-")) > 2 {
+			// skip  foo-bar-baz devices for now
+			continue
+		}
+		
 		for r, rev := range revs {
 			fmt.Printf("    %s = %s, %s\n", r, rev.IDs[0].Type, rev.IDs[0].RevisionNo)
 		}
@@ -162,7 +167,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	fmt.Fprintf(f, "<table>\n")
 
 	row := make([]string, columns)
-	row[0]=""
+	row[0]="Revision"
 	// Revision name header line
 	for c, r := range sortedRevs {
 		row[c+1] = formatRevname(r)
