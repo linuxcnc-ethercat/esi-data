@@ -222,7 +222,7 @@ func formatRxPDOs(device *esi.ESIDevice) []pdoline {
 		for _, entry := range pdo.Entries {
 			index := entry.Index
 
-			if index[0:3] != "0x6" {
+			if index[0:3] != "0x7" {
 				continue // Don't show 0x0000 gap entries or entries that are outside of the RX space
 			}
 
