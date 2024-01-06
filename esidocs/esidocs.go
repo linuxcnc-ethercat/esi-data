@@ -319,39 +319,42 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 
 	fmt.Fprintf(f, "<table>\n")
 
+	div := "<div class=\"foo\">"
+	enddiv := "</div>"
+
 	row := make([]string, columns)
 	row[0] = "Revision"
 	// Revision name header line
 	for c, r := range sortedRevs {
-		row[c+1] = "<div class=\"foo\">"+formatRevname(r)+"</div>"
+		row[c+1] = div+formatRevname(r)+enddiv
 	}
 	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Name"
 	for c, r := range sortedRevs {
-		row[c+1] = "<div class=\"foo\">"+revIDs[r].Name+"</div>"
+		row[c+1] = div+revIDs[r].Name+enddiv
 	}
 	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "PID"
 	for c, r := range sortedRevs {
-		row[c+1] = "<div class=\"foo\">"+revIDs[r].ProductCode+"</div>"
+		row[c+1] = div+revIDs[r].ProductCode+enddiv
 	}
 	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Revision No"
 	for c, r := range sortedRevs {
-		row[c+1] = revIDs[r].RevisionNo
+		row[c+1] = div+revIDs[r].RevisionNo+enddiv
 	}
 	printTableRow(f, row, "", "center")
 
 	row = make([]string, columns)
 	row[0] = "Same PDOs as"
 	for c, r := range sortedRevs {
-		row[c+1] = formatEquivDevices(revs[r], devname)
+		row[c+1] = div+formatEquivDevices(revs[r], devname)+enddiv
 	}
 	printTableRow(f, row, "", "center")
 
