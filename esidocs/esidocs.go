@@ -157,7 +157,7 @@ func formatEquivDevices(device *esi.ESIDevice, devname string) string {
 	devs := []string{}
 	for _, id := range device.IDs {
 		if id.Type != devname {
-			devs = append(devs, fmt.Sprintf("<a href=\"%s.md\">%s %s</a>", url.QueryEscape(id.Type), id.Type, formatRevname(id.RevisionNo)))
+			devs = append(devs, fmt.Sprintf("<a href=\"%s\">%s %s</a>", url.QueryEscape(id.Type), id.Type, formatRevname(id.RevisionNo)))
 		}
 	}
 
