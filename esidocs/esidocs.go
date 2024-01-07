@@ -129,26 +129,26 @@ func printTableRow(f io.Writer, row []string, class string, align string, spanni
 	// This is ugly; it'd be better to fix this before we get
 	// here, but we want empty cells to actually stay empty, not
 	// be <pre></pre>
-	for i:=0;i<len(row); i++ {
+	for i := 0; i < len(row); i++ {
 		if row[i] == "<pre></pre>" {
-			row[i]=""
+			row[i] = ""
 		}
 	}
-	
+
 	fmt.Fprintf(f, "<tr %s>\n", class)
 	for i := 0; i < len(row); i++ {
 		column := row[i]
 		colspan := checkColspan(row, i)
 		class := ""
 
-		if i==0 && !spanning {
+		if i == 0 && !spanning {
 			class = "class=\"first\""
 		}
 
 		if colspan > 1 {
 			fmt.Fprintf(f, "<td %s colspan=%d align=%q>%s</td>\n", class, colspan, align, column)
 		} else {
-			fmt.Fprintf(f, "<td %s>%s</td>\n", class,column)
+			fmt.Fprintf(f, "<td %s>%s</td>\n", class, column)
 		}
 		i += colspan - 1
 	}
@@ -198,25 +198,12 @@ type pdoline struct {
 // all revs.  So, the format is basically <key>:<value>, where <key>
 // is more or less sorted in order.  Then we'll iterate through N
 // parallel arrays (below) and pull the lowest remaining key.
-func formatTxPDOs(device *esi.ESIDevice) []pdoline {
-	lines := []pdoline{}
+func formatTxPDOs(device *esi.ESIDevice) []*pdoline {
+	lines := []*pdoline{}
 
 	for _, pdo := range device.TxPDOs {
-		lines = append(lines, pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
-
-		for _, entry := range pdo.Entries {
-			index := entry.Index
-
-			if index[0:3] != "0x6" {
-				continue // Don't show 0x0000 gap entries or entries that are outside of the TX space
-			}
-
-			subindex := entry.SubIndex
-			if len(subindex) > 2 {
-				subindex = subindex[2:] // strip leading "0x"
-			}
-			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s", index, subindex, entry.Name, entry.DataType)})
-		}
+		lines = append(lines, &pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
+		lines = append(lines, formatPDOEntries(pdo.Index, pdo.Entries)...)
 	}
 
 	return lines
@@ -228,31 +215,38 @@ func formatTxPDOs(device *esi.ESIDevice) []pdoline {
 // all revs.  So, the format is basically <key>:<value>, where <key>
 // is more or less sorted in order.  Then we'll iterate through N
 // parallel arrays (below) and pull the lowest remaining key.
-func formatRxPDOs(device *esi.ESIDevice) []pdoline {
-	lines := []pdoline{}
+func formatRxPDOs(device *esi.ESIDevice) []*pdoline {
+	lines := []*pdoline{}
 
 	for _, pdo := range device.RxPDOs {
-		lines = append(lines, pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
-
-		for _, entry := range pdo.Entries {
-			index := entry.Index
-
-			if index[0:3] != "0x7" {
-				continue // Don't show 0x0000 gap entries or entries that are outside of the RX space
-			}
-
-			subindex := entry.SubIndex
-			if len(subindex) > 2 {
-				subindex = subindex[2:] // strip leading "0x"
-			}
-			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s", index, subindex, entry.Name, entry.DataType)})
-		}
+		lines = append(lines, &pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
+		lines = append(lines, formatPDOEntries(pdo.Index, pdo.Entries)...)
 	}
 
 	return lines
 }
 
-func mergePDOLines(pdolines [][]pdoline) [][]string {
+func formatPDOEntries(pdoindex string, entries []*esi.ESIPDOEntry) []*pdoline {
+	lines := []*pdoline{}
+
+	for _, entry := range entries {
+		index := entry.Index
+
+		if index[0:3] != "0x7" {
+			continue // Don't show 0x0000 gap entries or entries that are outside of the RX space
+		}
+
+		subindex := entry.SubIndex
+		if len(subindex) > 2 {
+			subindex = subindex[2:] // strip leading "0x"
+		}
+		lines = append(lines, &pdoline{key: fmt.Sprintf("%s %s:%s", pdoindex, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s", index, subindex, entry.Name, entry.DataType)})
+	}
+
+	return lines
+}
+
+func mergePDOLines(pdolines [][]*pdoline) [][]string {
 	columns := len(pdolines)
 	currentline := make([]int, columns)
 	lastline := make([]int, columns)
@@ -341,41 +335,41 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	row[0] = "Revision"
 	// Revision name header line
 	for c, r := range sortedRevs {
-		row[c+1] = div+formatRevname(r)+enddiv
+		row[c+1] = div + formatRevname(r) + enddiv
 	}
 	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "Name"
 	for c, r := range sortedRevs {
-		row[c+1] = div+revIDs[r].Name+enddiv
+		row[c+1] = div + revIDs[r].Name + enddiv
 	}
 	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "PID"
 	for c, r := range sortedRevs {
-		row[c+1] = div+revIDs[r].ProductCode+enddiv
+		row[c+1] = div + revIDs[r].ProductCode + enddiv
 	}
 	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "Revision Code"
 	for c, r := range sortedRevs {
-		row[c+1] = div+revIDs[r].RevisionNo+enddiv
+		row[c+1] = div + revIDs[r].RevisionNo + enddiv
 	}
 	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "Equivalant Devices"
 	for c, r := range sortedRevs {
-		row[c+1] = div+formatEquivDevices(revs[r], devname)+enddiv
+		row[c+1] = div + formatEquivDevices(revs[r], devname) + enddiv
 	}
 	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "TxPDOs"
-	txpdodata := [][]pdoline{}
+	txpdodata := [][]*pdoline{}
 
 	for _, r := range sortedRevs {
 		txpdodata = append(txpdodata, formatTxPDOs(revs[r]))
@@ -425,11 +419,9 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 		}
 	}
 
-	
-
 	row = make([]string, columns)
 	row[0] = "RxPDOs"
-	rxpdodata := [][]pdoline{}
+	rxpdodata := [][]*pdoline{}
 
 	for _, r := range sortedRevs {
 		rxpdodata = append(rxpdodata, formatRxPDOs(revs[r]))
@@ -478,7 +470,6 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 			rxline++
 		}
 	}
-
 
 	fmt.Fprintf(f, "</table>\n")
 
