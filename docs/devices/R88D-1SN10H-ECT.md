@@ -43,160 +43,160 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6041:00  ステータスワード                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6041:00  Statusword                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6064:00  現在位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6064:00  Position actual value           DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60b9:00  ラッチステータス                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b9:00  Touch probe status              UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60ba:00  ラッチ1位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ba:00  Touch probe pos1 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60bc:00  ラッチ2位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60bc:00  Touch probe pos2 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x603f:00  エラーコード                          UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60fd:00  デジタル入力                          UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1b01: 258th 送信 PDO マッピング</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x603f:00  エラーコード                          UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6041:00  ステータスワード                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6041:00  Statusword                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6064:00  現在位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6064:00  Position actual value           DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6077:00  現在トルク                           INT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6077:00  Torque actual value             INT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60f4:00  位置偏差                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60f4:00  Following error actual value    DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60b9:00  ラッチステータス                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b9:00  Touch probe status              UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60ba:00  ラッチ1位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ba:00  Touch probe pos1 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60bc:00  ラッチ2位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60bc:00  Touch probe pos2 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60fd:00  デジタル入力                          UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1b02: 259th 送信 PDO マッピング</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x603f:00  エラーコード                          UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6041:00  ステータスワード                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6041:00  Statusword                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6064:00  現在位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6064:00  Position actual value           DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6077:00  現在トルク                           INT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6077:00  Torque actual value             INT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6061:00  オペレーションモード表示                    SINT (8 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6061:00  Modes of operation display      SINT (8 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60b9:00  ラッチステータス                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b9:00  Touch probe status              UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60ba:00  ラッチ1位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ba:00  Touch probe pos1 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60bc:00  ラッチ2位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60bc:00  Touch probe pos2 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60fd:00  デジタル入力                          UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1b03: 260th 送信 PDO マッピング</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x603f:00  エラーコード                          UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6041:00  ステータスワード                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6041:00  Statusword                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6064:00  現在位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6064:00  Position actual value           DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6077:00  現在トルク                           INT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6077:00  Torque actual value             INT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60f4:00  位置偏差                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60f4:00  Following error actual value    DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6061:00  オペレーションモード表示                    SINT (8 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6061:00  Modes of operation display      SINT (8 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60b9:00  ラッチステータス                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b9:00  Touch probe status              UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60ba:00  ラッチ1位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ba:00  Touch probe pos1 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60bc:00  ラッチ2位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60bc:00  Touch probe pos2 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60fd:00  デジタル入力                          UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1b04: 261th 送信 PDO マッピング</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x603f:00  エラーコード                          UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6041:00  ステータスワード                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6041:00  Statusword                      UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6064:00  現在位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6064:00  Position actual value           DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6077:00  現在トルク                           INT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6077:00  Torque actual value             INT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6061:00  オペレーションモード表示                    SINT (8 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6061:00  Modes of operation display      SINT (8 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60b9:00  ラッチステータス                        UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b9:00  Touch probe status              UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60ba:00  ラッチ1位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ba:00  Touch probe pos1 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60bc:00  ラッチ2位置（立ち上がり）                   DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60bc:00  Touch probe pos2 pos value      DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x60fd:00  デジタル入力                          UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x606c:00  現在速度                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x606c:00  Velocity actual value           DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1b10: 273th 送信 PDO マッピング</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6640:00  STOコマンド                         BOOL</pre></td>
+<td  colspan=4 align="left"><pre>  0x6640:00  STO command                     BOOL</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=4 align="left"><pre>  0x6632:00  セーフティ異常                         BOOL</pre></td>
+<td  colspan=4 align="left"><pre>  0x6632:00  error acknowledge               BOOL</pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1bff: 512th 送信 PDO マッピング</pre></td>
@@ -207,141 +207,141 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6040:00  コントロールワード                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607a:00  目標位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607a:00  Target position                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60b8:00  ラッチ機能                           UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b8:00  Touch probe function            UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1701: 258th 受信 PDO マッピング</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6040:00  コントロールワード                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607a:00  目標位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607a:00  Target position                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60b8:00  ラッチ機能                           UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b8:00  Touch probe function            UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60fe:01  物理出力                            UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60fe:01  Physical outputs                UDINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1702: 259th 受信 PDO マッピング</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6040:00  コントロールワード                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607a:00  目標位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607a:00  Target position                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60ff:00  目標速度                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ff:00  Target velocity                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6071:00  目標トルク                           INT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6071:00  Target torque                   INT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6060:00  オペレーションモード                      SINT (8 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6060:00  Modes of operation              SINT (8 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60b8:00  ラッチ機能                           UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b8:00  Touch probe function            UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607f:00  最大プロファイル速度                      UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607f:00  Max profile velocity            UDINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1703: 260th 受信 PDO マッピング</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6040:00  コントロールワード                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607a:00  目標位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607a:00  Target position                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60ff:00  目標速度                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ff:00  Target velocity                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6060:00  オペレーションモード                      SINT (8 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6060:00  Modes of operation              SINT (8 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60b8:00  ラッチ機能                           UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b8:00  Touch probe function            UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60e0:00  正方向トルク制限値                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60e0:00  Positive torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60e1:00  負方向トルク制限値                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60e1:00  Negative torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1704: 261th 受信 PDO マッピング</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6040:00  コントロールワード                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607a:00  目標位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607a:00  Target position                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60ff:00  目標速度                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ff:00  Target velocity                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6071:00  目標トルク                           INT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6071:00  Target torque                   INT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6060:00  オペレーションモード                      SINT (8 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6060:00  Modes of operation              SINT (8 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60b8:00  ラッチ機能                           UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b8:00  Touch probe function            UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607f:00  最大プロファイル速度                      UDINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607f:00  Max profile velocity            UDINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60e0:00  正方向トルク制限値                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60e0:00  Positive torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60e1:00  負方向トルク制限値                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60e1:00  Negative torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1705: 262th 受信 PDO マッピング</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6040:00  コントロールワード                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x607a:00  目標位置                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x607a:00  Target position                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60ff:00  目標速度                            DINT (32 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60ff:00  Target velocity                 DINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6060:00  オペレーションモード                      SINT (8 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x6060:00  Modes of operation              SINT (8 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60b8:00  ラッチ機能                           UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b8:00  Touch probe function            UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60e0:00  正方向トルク制限値                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60e0:00  Positive torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60e1:00  負方向トルク制限値                       UINT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60e1:00  Negative torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x60b2:00  トルクオフセット                        INT (16 bits)</pre></td>
+<td  colspan=4 align="left"><pre>  0x60b2:00  Torque offset                   INT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td  colspan=4 align="left"><pre>0x1710: 273th 受信 PDO マッピング</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6640:00  STOコマンド                         BOOL</pre></td>
+<td  colspan=4 align="left"><pre>  0x6640:00  STO command                     BOOL</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=4 align="left"><pre>  0x6632:00  セーフティ異常                         BOOL</pre></td>
+<td  colspan=4 align="left"><pre>  0x6632:00  error acknowledge               BOOL</pre></td>
 </tr>
 </table>

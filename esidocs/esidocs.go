@@ -296,7 +296,7 @@ func formatPDOEntries(pdoindex string, entries []*esi.ESIPDOEntry) []*pdoline {
 		if entry.BitLen != 1 {
 			bits = fmt.Sprintf(" (%d bits)", entry.BitLen)
 		}
-		lines = append(lines, &pdoline{key: fmt.Sprintf("%s %s:%s", pdoindex, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s%s", index, subindex, entry.Name, entry.DataType, bits)})
+		lines = append(lines, &pdoline{key: fmt.Sprintf("%s %s:%s", pdoindex, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s%s", index, subindex, entry.PDOName, entry.DataType, bits)})
 	}
 
 	return lines
