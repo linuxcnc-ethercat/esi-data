@@ -232,7 +232,7 @@ func formatPDOEntries(pdoindex string, entries []*esi.ESIPDOEntry) []*pdoline {
 	for _, entry := range entries {
 		index := entry.Index
 
-		if index[0:3] != "0x7" {
+		if index[0:3] != "0x7" && index[0:3] != "0x6" {
 			continue // Don't show 0x0000 gap entries or entries that are outside of the RX space
 		}
 
@@ -240,7 +240,11 @@ func formatPDOEntries(pdoindex string, entries []*esi.ESIPDOEntry) []*pdoline {
 		if len(subindex) > 2 {
 			subindex = subindex[2:] // strip leading "0x"
 		}
-		lines = append(lines, &pdoline{key: fmt.Sprintf("%s %s:%s", pdoindex, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s", index, subindex, entry.Name, entry.DataType)})
+		bits := ""
+		if entry.BitLen != 1 {
+			bits = fmt.Sprintf(" (%d bits)", entry.BitLen)
+		}
+		lines = append(lines, &pdoline{key: fmt.Sprintf("%s %s:%s", pdoindex, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s%s", index, subindex, entry.Name, entry.DataType, bits)})
 	}
 
 	return lines
