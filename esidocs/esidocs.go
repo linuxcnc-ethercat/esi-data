@@ -99,23 +99,50 @@ func main() {
 
 
 func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) {
-	fmt.Fprintf(f, "# Devices\n")
-
-	fmt.Fprintf(f, "<table>\n")
-
+	vendordevs := map[string][]string{}
 	for dev, revs := range devices {
-		description := ""
 		vendor := ""
 		
 		for _, revdevice := range revs {
-			description = revdevice.IDs[0].Name
 			vendor = strings.Split(revdevice.IDs[0].Vendor, " ")[0]
 			break
 		}
-		
-		fmt.Fprintf(f, "<tr><td><a href=%q>%s %s</a></td><td>%s</td></tr>\n", dev, vendor, dev, description)
+		if vendordevs[vendor]==nil {
+			vendordevs[vendor] = []string{}
+		}
+		vendordevs[vendor] = append(vendordevs[vendor], dev)
 	}
-	fmt.Fprintf(f, "</table>\n")
+
+	vendors := []string{}
+	for v := range vendordevs {
+		vendors = append(vendors, v)
+	}
+
+	slices.Sort(vendors)
+	
+	fmt.Fprintf(f, "# Devices\n")
+
+	for _, v := range vendors {
+		fmt.Fprintf(f, "## %s\n", v)
+
+		fmt.Fprintf(f, "<table>\n")
+
+		slices.Sort(vendordevs[v])
+
+		for _, dev := range vendordevs[v] {
+			description := ""
+			vendor := ""
+			
+			for _, revdevice := range devices[dev] {
+				description = revdevice.IDs[0].Name
+				vendor = strings.Split(revdevice.IDs[0].Vendor, " ")[0]
+				break
+			}
+		
+			fmt.Fprintf(f, "<tr><td><a href=%q>%s %s</a></td><td>%s</td></tr>\n", dev, vendor, dev, description)
+		}
+		fmt.Fprintf(f, "</table>\n")
+	}
 }
 
 func sortRevs(revs map[string]*esi.ESIDevice) []string {
