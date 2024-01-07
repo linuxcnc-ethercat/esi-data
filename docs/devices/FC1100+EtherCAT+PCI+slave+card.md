@@ -22,12 +22,12 @@ Documentation: <a href="http://www.beckhoff.com/FC1100">http://www.beckhoff.com/
 <td  colspan=2 align="center"><pre>0x044c0c62</pre></td>
 </tr>
 <tr >
-<td class="first">Revision No</td>
+<td class="first">Revision Code</td>
 <td ><pre>0x00100000</pre></td>
 <td ><pre>0x00110000</pre></td>
 </tr>
 <tr >
-<td class="first">Same PDOs as</td>
+<td class="first">Equivalant Devices</td>
 <td ><pre><a href="EL9930">EL9930 r0</a><br/><a href="FC1121+EtherCAT+PCIe+slave+card">FC1121 EtherCAT PCIe slave card r0</a></pre></td>
 <td ><pre><a href="CX2020+EtherCAT+slave">CX2020 EtherCAT slave r0</a><br/><a href="CX2020+EtherCAT+slave">CX2020 EtherCAT slave r1</a><br/><a href="CX2020+EtherCAT+slave">CX2020 EtherCAT slave r2</a><br/><a href="CX2030+EtherCAT+slave">CX2030 EtherCAT slave r0</a><br/><a href="CX2030+EtherCAT+slave">CX2030 EtherCAT slave r1</a><br/><a href="CX2030+EtherCAT+slave">CX2030 EtherCAT slave r2</a><br/><a href="CX2033+EtherCAT+slave">CX2033 EtherCAT slave r0</a><br/><a href="CX2040+EtherCAT+slave">CX2040 EtherCAT slave r0</a><br/><a href="CX2040+EtherCAT+slave">CX2040 EtherCAT slave r1</a><br/><a href="CX2040+EtherCAT+slave">CX2040 EtherCAT slave r2</a><br/><a href="CX2042+EtherCAT+slave">CX2042 EtherCAT slave r0</a><br/><a href="CX2043+EtherCAT+slave">CX2043 EtherCAT slave r0</a><br/><a href="CX2062+EtherCAT+slave">CX2062 EtherCAT slave r0</a><br/><a href="CX2072+EtherCAT+slave">CX2072 EtherCAT slave r0</a><br/><a href="CX5010+EtherCAT+slave">CX5010 EtherCAT slave r0</a><br/><a href="CX5010+EtherCAT+slave">CX5010 EtherCAT slave r1</a><br/><a href="CX5020+EtherCAT+slave">CX5020 EtherCAT slave r0</a><br/><a href="CX5020+EtherCAT+slave">CX5020 EtherCAT slave r1</a><br/><a href="CX5110+EtherCAT+slave">CX5110 EtherCAT slave r0</a><br/><a href="CX5120+EtherCAT+slave">CX5120 EtherCAT slave r0</a><br/><a href="CX5130+EtherCAT+slave">CX5130 EtherCAT slave r0</a><br/><a href="CX5140+EtherCAT+slave">CX5140 EtherCAT slave r0</a><br/><a href="CX5230+EtherCAT+slave">CX5230 EtherCAT slave r0</a><br/><a href="CX5240+EtherCAT+slave">CX5240 EtherCAT slave r0</a><br/><a href="CX8010+EtherCAT+slave">CX8010 EtherCAT slave r0</a><br/><a href="CX8010+EtherCAT+slave">CX8010 EtherCAT slave r1</a><br/><a href="CX8110+EtherCAT+slave">CX8110 EtherCAT slave r0</a><br/><a href="CX9020+EtherCAT+slave">CX9020 EtherCAT slave r0</a><br/><a href="CX9020+EtherCAT+slave">CX9020 EtherCAT slave r1</a><br/><a href="FC1121+EtherCAT+PCIe+slave+card">FC1121 EtherCAT PCIe slave card r1</a></pre></td>
 </tr>
@@ -37,7 +37,7 @@ Documentation: <a href="http://www.beckhoff.com/FC1100">http://www.beckhoff.com/
 <td></td>
 </tr>
 <tr class="txpdo pdosection">
-<td class="first"></td>
+<td ></td>
 <td ><pre>0x1a80: Device Status Mapping</pre></td>
 </tr>
 <tr class="rxpdo pdosection">

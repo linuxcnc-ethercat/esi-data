@@ -22,12 +22,12 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td  colspan=2 align="center"><pre>0x04570862</pre></td>
 </tr>
 <tr >
-<td class="first">Revision No</td>
+<td class="first">Revision Code</td>
 <td ><pre>0x0064008e</pre></td>
 <td ><pre>0x0065008e</pre></td>
 </tr>
 <tr >
-<td class="first">Same PDOs as</td>
+<td class="first">Equivalant Devices</td>
 <td  colspan=2 align="center"><pre><a href="FB1311+Dig.+In%2FOut">FB1311 Dig. In/Out r84</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
@@ -36,7 +36,7 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td></td>
 </tr>
 <tr class="txpdo pdosection">
-<td class="first" colspan=2 align="left"><pre>0x1601: Byte 1</pre></td>
+<td  colspan=2 align="left"><pre>0x1601: Byte 1</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td class="first" rowspan=2 valign=top>RX PDOs</td>
@@ -44,6 +44,6 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td class="first" colspan=2 align="left"><pre>0x1a01: Byte 1</pre></td>
+<td  colspan=2 align="left"><pre>0x1a01: Byte 1</pre></td>
 </tr>
 </table>

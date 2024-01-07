@@ -22,12 +22,12 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td  colspan=2 align="center"><pre>0x04570862</pre></td>
 </tr>
 <tr >
-<td class="first">Revision No</td>
+<td class="first">Revision Code</td>
 <td ><pre>0x03e8008c</pre></td>
 <td ><pre>0x03e9008c</pre></td>
 </tr>
 <tr >
-<td class="first">Same PDOs as</td>
+<td class="first">Equivalant Devices</td>
 <td  colspan=2 align="center"><pre><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r784</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r785</a><br/><a href="FB1311+MCI16+DC">FB1311 MCI16 DC r984</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r784</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
@@ -36,10 +36,10 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td></td>
 </tr>
 <tr class="txpdo">
-<td class="first" colspan=2 align="left"><pre>  0x6000:01  Test In1                        UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x6000:01  Test In1                        UINT</pre></td>
 </tr>
 <tr class="txpdo">
-<td class="first" colspan=2 align="left"><pre>  0x6000:02  Test In2                        UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x6000:02  Test In2                        UINT</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td class="first" rowspan=3 valign=top>RX PDOs</td>
@@ -47,9 +47,9 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td></td>
 </tr>
 <tr class="rxpdo">
-<td class="first" colspan=2 align="left"><pre>  0x7000:01  Test Out1                       UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x7000:01  Test Out1                       UINT</pre></td>
 </tr>
 <tr class="rxpdo">
-<td class="first" colspan=2 align="left"><pre>  0x7000:02  Test Out2                       UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x7000:02  Test Out2                       UINT</pre></td>
 </tr>
 </table>

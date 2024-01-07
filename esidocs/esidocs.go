@@ -121,7 +121,7 @@ func checkColspan(row []string, column int) int {
 	return span
 }
 
-func printTableRow(f io.Writer, row []string, class string, align string) {
+func printTableRow(f io.Writer, row []string, class string, align string, spanning bool) {
 	if class != "" {
 		class = fmt.Sprintf("class=%q", class)
 	}
@@ -141,7 +141,7 @@ func printTableRow(f io.Writer, row []string, class string, align string) {
 		colspan := checkColspan(row, i)
 		class := ""
 
-		if i==0 {
+		if i==0 && !spanning {
 			class = "class=\"first\""
 		}
 
@@ -343,35 +343,35 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	for c, r := range sortedRevs {
 		row[c+1] = div+formatRevname(r)+enddiv
 	}
-	printTableRow(f, row, "", "center")
+	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "Name"
 	for c, r := range sortedRevs {
 		row[c+1] = div+revIDs[r].Name+enddiv
 	}
-	printTableRow(f, row, "", "center")
+	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "PID"
 	for c, r := range sortedRevs {
 		row[c+1] = div+revIDs[r].ProductCode+enddiv
 	}
-	printTableRow(f, row, "", "center")
+	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
-	row[0] = "Revision No"
+	row[0] = "Revision Code"
 	for c, r := range sortedRevs {
 		row[c+1] = div+revIDs[r].RevisionNo+enddiv
 	}
-	printTableRow(f, row, "", "center")
+	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
-	row[0] = "Same PDOs as"
+	row[0] = "Equivalant Devices"
 	for c, r := range sortedRevs {
 		row[c+1] = div+formatEquivDevices(revs[r], devname)+enddiv
 	}
-	printTableRow(f, row, "", "center")
+	printTableRow(f, row, "", "center", false)
 
 	row = make([]string, columns)
 	row[0] = "TxPDOs"
@@ -420,7 +420,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 					row[c] = ""
 				}
 			}
-			printTableRow(f, row, class, "left")
+			printTableRow(f, row, class, "left", true)
 			txline++
 		}
 	}
@@ -474,7 +474,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 					row[c] = ""
 				}
 			}
-			printTableRow(f, row, class, "left")
+			printTableRow(f, row, class, "left", true)
 			rxline++
 		}
 	}
