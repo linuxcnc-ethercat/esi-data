@@ -385,7 +385,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 
 	fmt.Fprintf(f, "## Revisions and PDOs\n")
 
-	fmt.Fprintf(f, "The ESI data ingested by [github.com/linuxcnc-ethercat/esi-data](http://github.com/linuxcnc-ethercat/esi-data)")
+	fmt.Fprintf(f, "The ESI data ingested by [github.com/linuxcnc-ethercat/esi-data](http://github.com/linuxcnc-ethercat/esi-data) ")
 	fmt.Fprintf(f, "describes %d revision(s) of this hardware.  Here are the known revisions and their differences.\n\n", len(sortedRevs))
 	fmt.Fprintf(f, "This also includes the send and receive PDOs defined for each revision, and a link to other known devices with identical PDOs.\n\n")
 
