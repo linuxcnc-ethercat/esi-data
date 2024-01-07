@@ -21,11 +21,11 @@ Documentation: <a href="http://www.beckhoff.com/FB1311">http://www.beckhoff.com/
 <td ><pre>0x051f0862</pre></td>
 </tr>
 <tr >
-<td class="first">Revision No</td>
+<td class="first">Revision Code</td>
 <td ><pre>0x0258008d</pre></td>
 </tr>
 <tr >
-<td class="first">Same PDOs as</td>
+<td class="first">Equivalant Devices</td>
 <td ><pre><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="EL9800">EL9800 r-15</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r584</a><br/><a href="FB1111+SPI-Slave">FB1111 SPI-Slave r585</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">

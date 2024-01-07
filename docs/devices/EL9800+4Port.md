@@ -21,11 +21,11 @@ Documentation: <a href=""></a>
 <td ><pre>0x26483052</pre></td>
 </tr>
 <tr >
-<td class="first">Revision No</td>
+<td class="first">Revision Code</td>
 <td ><pre>0x00030578</pre></td>
 </tr>
 <tr >
-<td class="first">Same PDOs as</td>
+<td class="first">Equivalant Devices</td>
 <td ><pre><a href="EL9800">EL9800 r-14</a></pre></td>
 </tr>
 <tr class="rxpdo pdosection">
@@ -34,12 +34,12 @@ Documentation: <a href=""></a>
 <td></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td class="first"><pre>0x1a01: Byte 1</pre></td>
+<td ><pre>0x1a01: Byte 1</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td class="first"><pre>0x1a02: Byte 2</pre></td>
+<td ><pre>0x1a02: Byte 2</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td class="first"><pre>0x1a03: Byte 3</pre></td>
+<td ><pre>0x1a03: Byte 3</pre></td>
 </tr>
 </table>
