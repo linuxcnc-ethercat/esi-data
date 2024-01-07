@@ -119,7 +119,7 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 	fmt.Fprintf(f, "# Devices\n")
 
 	for _, v := range vendors {
-		fmt.Fprintf(f, "## %s\n", v)
+		fmt.Fprintf(f, "\n## %s\n", v)
 
 		fmt.Fprintf(f, "<table>\n")
 
@@ -136,7 +136,7 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 				}
 			}
 		
-			fmt.Fprintf(f, "<tr><td><a href=%q>%s</a></td><td>%s</td></tr>\n", dev, dev, description)
+			fmt.Fprintf(f, "<tr><td width=\"30%%\"><a href=%q>%s</a></td><td>%s</td></tr>\n", dev, dev, description)
 		}
 		fmt.Fprintf(f, "</table>\n")
 	}
