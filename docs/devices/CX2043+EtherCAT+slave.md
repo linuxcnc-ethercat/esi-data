@@ -1,4 +1,5 @@
 <div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | CX2043 EtherCAT slave</div>
+
 #  Beckhoff CX2043 EtherCAT slave
 
 <dl>

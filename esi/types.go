@@ -106,8 +106,8 @@ type ESIDevice struct {
 	Vendor      string         `yaml:"Vendor,omitempty"`
 	VendorID    string         `yaml:"VendorID,omitempty"`
 	Profile     ESIProfile     `yaml:"Profile,omitempty"`
-	TxPDOs      []*ESIPDO    `xml:"TxPdo" yaml:"TxPDOs,omitempty"`
-	RxPDOs      []*ESIPDO    `xml:"RxPdo" yaml:"RxPDOs,omitempty"`
+	TxPDOs      []*ESIPDO      `xml:"TxPdo" yaml:"TxPDOs,omitempty"`
+	RxPDOs      []*ESIPDO      `xml:"RxPdo" yaml:"RxPDOs,omitempty"`
 	IDs         []*ESIDeviceID `yaml:"IDs"`
 }
 
@@ -135,10 +135,16 @@ type ESIGroup struct {
 	EnglishName string
 }
 
+type ESIVendorName struct {
+	Name       string `xml:",chardata"`
+	LanguageID string `xml:"LcId,attr"`
+}
+
 type ESIData struct {
-	EtherCATInfo xml.Name     `xml:"EtherCATInfo"`
-	VendorID     string       `xml:"Vendor>Id"`
-	VendorName   string       `xml:"Vendor>Name"`
-	Groups       []*ESIGroup  `xml:"Descriptions>Groups>Group"`
-	Devices      []*ESIDevice `xml:"Descriptions>Devices>Device"`
+	EtherCATInfo xml.Name         `xml:"EtherCATInfo"`
+	VendorID     string           `xml:"Vendor>Id"`
+	VendorNames  []*ESIVendorName `xml:"Vendor>Name"`
+	VendorName   string
+	Groups       []*ESIGroup      `xml:"Descriptions>Groups>Group"`
+	Devices      []*ESIDevice     `xml:"Descriptions>Devices>Device"`
 }
