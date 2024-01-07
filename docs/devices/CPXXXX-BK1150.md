@@ -1,12 +1,16 @@
-# Beckhoff CPXXXX-BK1150
+#  Beckhoff CPXXXX-BK1150
 
-CPXXXX-BK1150 EtherCAT Control Panel
-
-Beckhoff Automation GmbH & Co. KG
-
-Documentation: <a href="http://www.beckhoff.com/">http://www.beckhoff.com/</a>
-
+<dl>
+  <dt>Type:</dt><dd>CPXXXX-BK1150</dd>
+  <dt>Description:</dt><dd>CPXXXX-BK1150 EtherCAT Control Panel</dd>
+  <dt>Vendor</dt><dd>Beckhoff Automation GmbH & Co. KG</dd>
+  <dt>Documentation</dt><dd><a href="http://www.beckhoff.com/">http://www.beckhoff.com/</a></dd>
+</dl>
 ## Revisions and PDOs
+The ESI data ingested by [github.com/linuxcnc-ethercat/esi-data](http://github.com/linuxcnc-ethercat/esi-data)describes 1 revision(s) of this hardware.  Here are the known revisions and their differences.
+
+This also includes the send and receive PDOs defined for each revision, and a link to other known devices with identical PDOs.
+
 <table>
 <tr >
 <td class="first">Revision</td>

@@ -88,6 +88,34 @@ func main() {
 
 		createPageFor(f, d, revs)
 	}
+
+	f, err := os.Create(filepath.Join(*outputDirFlag, "index.md"))
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+	createIndexPage(f, devs)
+}
+
+
+func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) {
+	fmt.Fprintf(f, "# Devices\n")
+
+	fmt.Fprintf(f, "<table>\n")
+
+	for dev, revs := range devices {
+		description := ""
+		vendor := ""
+		
+		for _, revdevice := range revs {
+			description = revdevice.IDs[0].Name
+			vendor = strings.Split(revdevice.IDs[0].Vendor, " ")[0]
+			break
+		}
+		
+		fmt.Fprintf(f, "<tr><td><a href=%q>%s %s</a></td><td>%s</td></tr>\n", dev, vendor, dev, description)
+	}
+	fmt.Fprintf(f, "</table>\n")
 }
 
 func sortRevs(revs map[string]*esi.ESIDevice) []string {
@@ -309,7 +337,6 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	columns := len(sortedRevs) + 1
 
 	for _, r := range sortedRevs {
-		fmt.Printf("**** looking for %q in %v\n", r, revs)
 		revIDs[r] = getIDFor(revs[r].IDs, devname, r)
 		if revIDs[r] == nil {
 			return fmt.Errorf("getIDFor(.., %q, %q)==nil", devname, r)
@@ -322,13 +349,20 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	url := revIDs[sortedRevs[0]].URL
 	brand := strings.Split(vendor, " ")[0]
 
-	fmt.Fprintf(f, "# %s %s\n", brand, devname)
+	fmt.Fprintf(f, "#  %s %s\n", brand, devname)
 	fmt.Fprintf(f, "\n")
-	fmt.Fprintf(f, "%s\n\n", name)
-	fmt.Fprintf(f, "%s\n\n", vendor)
-	fmt.Fprintf(f, "Documentation: <a href=%q>%s</a>\n\n", url, url)
+	fmt.Fprintf(f, "<dl>\n")
+	fmt.Fprintf(f, "  <dt>Type:</dt><dd>%s</dd>\n", revIDs[sortedRevs[0]].Type)
+	fmt.Fprintf(f, "  <dt>Description:</dt><dd>%s</dd>\n", name)
+	fmt.Fprintf(f, "  <dt>Vendor</dt><dd>%s</dd>\n", vendor)
+	fmt.Fprintf(f, "  <dt>Documentation</dt><dd><a href=%q>%s</a></dd>\n", url, url)
+	fmt.Fprintf(f, "</dl>\n")
 
 	fmt.Fprintf(f, "## Revisions and PDOs\n")
+
+	fmt.Fprintf(f, "The ESI data ingested by [github.com/linuxcnc-ethercat/esi-data](http://github.com/linuxcnc-ethercat/esi-data)")
+	fmt.Fprintf(f, "describes %d revision(s) of this hardware.  Here are the known revisions and their differences.\n\n", len(sortedRevs))
+	fmt.Fprintf(f, "This also includes the send and receive PDOs defined for each revision, and a link to other known devices with identical PDOs.\n\n")
 
 	fmt.Fprintf(f, "<table>\n")
 
@@ -384,7 +418,6 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	if len(txlines) > 0 {
 		class := "txpdo"
 		txline := 0
-		fmt.Printf("** Merged, has %d lines (columns=%d)\n", len(txlines), columns)
 
 		row = make([]string, columns+1)
 		row[0] = "TX PDOs"
@@ -436,7 +469,6 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	if len(rxlines) > 0 {
 		class := "rxpdo"
 		rxline := 0
-		fmt.Printf("** Merged, has %d lines (columns=%d)\n", len(rxlines), columns)
 
 		row = make([]string, columns+1)
 		row[0] = "RX PDOs"
