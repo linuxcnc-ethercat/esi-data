@@ -122,11 +122,12 @@ type ESIPDO struct {
 }
 
 type ESIPDOEntry struct {
-	Name     string `xml:"Name" yaml:"Name,omitempty"`
-	Index    string `xml:"Index" yaml:"Index,omitempty"`
-	SubIndex string `xml:"SubIndex" yaml:"SubIndex,omitempty"`
-	BitLen   int    `xml:"BitLen" yaml:"BitLen,omitempty"`
-	DataType string `xml:"DataType" yaml:"DataType,omitempty"`
+	PDOName   string         `yaml:"Name,omitempty"`
+	LangNames []*ESILangName `xml:"Name" yaml:"Names,omitempty"`
+	Index     string         `xml:"Index" yaml:"Index,omitempty"`
+	SubIndex  string         `xml:"SubIndex" yaml:"SubIndex,omitempty"`
+	BitLen    int            `xml:"BitLen" yaml:"BitLen,omitempty"`
+	DataType  string         `xml:"DataType" yaml:"DataType,omitempty"`
 }
 
 type ESIGroup struct {
@@ -135,16 +136,16 @@ type ESIGroup struct {
 	EnglishName string
 }
 
-type ESIVendorName struct {
+type ESILangName struct {
 	Name       string `xml:",chardata"`
 	LanguageID string `xml:"LcId,attr"`
 }
 
 type ESIData struct {
-	EtherCATInfo xml.Name         `xml:"EtherCATInfo"`
-	VendorID     string           `xml:"Vendor>Id"`
-	VendorNames  []*ESIVendorName `xml:"Vendor>Name"`
+	EtherCATInfo xml.Name       `xml:"EtherCATInfo"`
+	VendorID     string         `xml:"Vendor>Id"`
+	VendorNames  []*ESILangName `xml:"Vendor>Name"`
 	VendorName   string
-	Groups       []*ESIGroup      `xml:"Descriptions>Groups>Group"`
-	Devices      []*ESIDevice     `xml:"Descriptions>Devices>Device"`
+	Groups       []*ESIGroup  `xml:"Descriptions>Groups>Group"`
+	Devices      []*ESIDevice `xml:"Descriptions>Devices>Device"`
 }

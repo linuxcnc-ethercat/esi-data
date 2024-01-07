@@ -57,7 +57,7 @@
 <tr><td width="30%"><a href="AT2002-0250">AT2002-0250</a></td><td>AT2002-0250 Motor module with feed (B23-Connector) 250 mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2002-5249">AT2002-5249</a></td><td>AT2002-5249 Sensor line (Track management) with feed</td></tr>
 <tr><td width="30%"><a href="AT2002-5250">AT2002-5250</a></td><td>AT2002-5250 Sensor line with feed (B23-Connector)</td></tr>
-<tr><td width="30%"><a href="AT2020-0250">AT2020-0250</a></td><td>AT2020-0250 Motor module, +22.5°, 250mm, 50V</td></tr>
+<tr><td width="30%"><a href="AT2020-0250">AT2020-0250</a></td><td>AT2020-0250 Motor module, +22.5°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2020-5250">AT2020-5250</a></td><td>AT2020-5250 Sensor line +22.5°</td></tr>
 <tr><td width="30%"><a href="AT2021-0250">AT2021-0250</a></td><td>AT2021-0250 Motor module with feed , +22.5°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2021-5250">AT2021-5250</a></td><td>AT2021-5250 Sensor line with feed, +22.5°</td></tr>
@@ -71,7 +71,7 @@
 <tr><td width="30%"><a href="AT2041-5250">AT2041-5250</a></td><td>AT2041-5250 Sensor line with feed, +45°</td></tr>
 <tr><td width="30%"><a href="AT2042-0250">AT2042-0250</a></td><td>AT2042-0250 Motor module with feed (B23-Connector), +45°, 250 mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2042-5250">AT2042-5250</a></td><td>AT2042-5250 Sensor line with feed (B23-Connector), +45°</td></tr>
-<tr><td width="30%"><a href="AT2050-0500">AT2050-0500</a></td><td>AT2050-0500 Motor module, 90° clothoid, EtherCAT In, 48V</td></tr>
+<tr><td width="30%"><a href="AT2050-0500">AT2050-0500</a></td><td>AT2050-0500 Motor module, 90° clothoid, EtherCAT In, 50V</td></tr>
 <tr><td width="30%"><a href="AT2050-0501">AT2050-0501</a></td><td>AT2050-0501 Motor module, 90° clothoid, EtherCAT Out, 48V</td></tr>
 <tr><td width="30%"><a href="AT2050-5500">AT2050-5500</a></td><td>AT2050-5500 Sensor line 90° clothoid, EtherCAT In</td></tr>
 <tr><td width="30%"><a href="AT2050-5501">AT2050-5501</a></td><td>AT2050-5501 Sensor line 90° clothoid, EtherCAT Out</td></tr>
@@ -382,7 +382,7 @@
 <tr><td width="30%"><a href="AX8540-0000-0104">AX8540-0000-0104</a></td><td>AX8540-0000-0104</td></tr>
 <tr><td width="30%"><a href="AX8540-0000-0105">AX8540-0000-0105</a></td><td>AX8540-0000-0105</td></tr>
 <tr><td width="30%"><a href="AX8600-0000-0101">AX8600-0000-0101</a></td><td>AX8600-0000-0101</td></tr>
-<tr><td width="30%"><a href="AX8620">AX8620</a></td><td>AX8620-0000-0026</td></tr>
+<tr><td width="30%"><a href="AX8620">AX8620</a></td><td>AX8620-0000-0029</td></tr>
 <tr><td width="30%"><a href="AX8620-0000-0030">AX8620-0000-0030</a></td><td>AX8620-0000-0030</td></tr>
 <tr><td width="30%"><a href="AX8620-0000-0031">AX8620-0000-0031</a></td><td>AX8620-0000-0031</td></tr>
 <tr><td width="30%"><a href="AX8620-0000-0032">AX8620-0000-0032</a></td><td>AX8620-0000-0032</td></tr>
@@ -612,7 +612,7 @@
 <tr><td width="30%"><a href="EL1899">EL1899</a></td><td>EL1899 16Ch. Dig. Input 24V, 10µs, negative</td></tr>
 <tr><td width="30%"><a href="EL1904">EL1904</a></td><td>EL1904, 4 Ch. Safety Input 24V, TwinSAFE</td></tr>
 <tr><td width="30%"><a href="EL1918">EL1918</a></td><td>EL1918, 8Ch. Safety Input 24V, TwinSAFE</td></tr>
-<tr><td width="30%"><a href="EL2002">EL2002</a></td><td>EL2002 2Ch. Dig. Output 24V, 0,5A</td></tr>
+<tr><td width="30%"><a href="EL2002">EL2002</a></td><td>EL2002 2Ch. Dig. Output 24V, 0.5A</td></tr>
 <tr><td width="30%"><a href="EL2004">EL2004</a></td><td>EL2004 4Ch. Dig. Output 24V, 0,5A</td></tr>
 <tr><td width="30%"><a href="EL2008">EL2008</a></td><td>EL2008 8Ch. Dig. Output 24V, 0.5A</td></tr>
 <tr><td width="30%"><a href="EL2008-0015">EL2008-0015</a></td><td>EL2008-0015 8Ch. Dig. Output 24V DC, 0.35A, not short-circuit proof</td></tr>
@@ -633,8 +633,8 @@
 <tr><td width="30%"><a href="EL2212">EL2212</a></td><td>EL2212 2Ch. dig. output with overexcitation (24V DC, 2.5A, 10A Peak)</td></tr>
 <tr><td width="30%"><a href="EL2252">EL2252</a></td><td>EL2252 2Ch. Dig. Output 24V, 0.5A, DC Time Stamp</td></tr>
 <tr><td width="30%"><a href="EL2258">EL2258</a></td><td>EL2258 8Ch. Dig Output 24V with Multi-Time-Stamp</td></tr>
-<tr><td width="30%"><a href="EL2262">EL2262</a></td><td>EL2262 2Ch. Dig. Output 24V, 1µs, DC Oversample</td></tr>
-<tr><td width="30%"><a href="EL2502">EL2502</a></td><td>EL2502 2Ch. PWM output, 24V</td></tr>
+<tr><td width="30%"><a href="EL2262">EL2262</a></td><td>EL2262 2Ch. Dig. Output 24V, 0.5A, DC Over Sampling</td></tr>
+<tr><td width="30%"><a href="EL2502">EL2502</a></td><td>EL2502 2Ch. PWM Output, 24V</td></tr>
 <tr><td width="30%"><a href="EL2502-0005">EL2502-0005</a></td><td>EL2502-0005 2Ch. PWM, optical output</td></tr>
 <tr><td width="30%"><a href="EL2502-0010">EL2502-0010</a></td><td>EL2502-0010 2 Ch. PWM output, 24V, 2 Ch DC Time Stamp</td></tr>
 <tr><td width="30%"><a href="EL2521">EL2521</a></td><td>EL2521 1Ch. Pulse Train Output</td></tr>
@@ -643,7 +643,7 @@
 <tr><td width="30%"><a href="EL2521-0124">EL2521-0124</a></td><td>EL2521-0124 1Ch. Pulse Train 24V DC Output Capture/Compare</td></tr>
 <tr><td width="30%"><a href="EL2521-1001">EL2521-1001</a></td><td>EL2521-1001 1Ch. Pulse Train Output</td></tr>
 <tr><td width="30%"><a href="EL2522">EL2522</a></td><td>EL2522 2Ch. Pulse Train Output</td></tr>
-<tr><td width="30%"><a href="EL2535">EL2535</a></td><td>EL2535 2Ch. Pulse Width Current Output (24V, 1A)</td></tr>
+<tr><td width="30%"><a href="EL2535">EL2535</a></td><td>EL2535 2Ch. Pulse Width Current Output (24V, 1 A)</td></tr>
 <tr><td width="30%"><a href="EL2535-0002">EL2535-0002</a></td><td>EL2535-0002 2Ch. Pulse Width Current Output (24V, 2 A)</td></tr>
 <tr><td width="30%"><a href="EL2535-0005">EL2535-0005</a></td><td>EL2535-0005 2Ch. Pulse Width Current Output (24V, 5 A)</td></tr>
 <tr><td width="30%"><a href="EL2535-0050">EL2535-0050</a></td><td>EL2535-0050 2Ch. Pulse Width Current Output (24V, 50 mA)</td></tr>
@@ -708,7 +708,7 @@
 <tr><td width="30%"><a href="EL3061">EL3061</a></td><td>EL3061 1Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3062">EL3062</a></td><td>EL3062 2Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3062-0015">EL3062-0015</a></td><td>EL3062-0015 2Ch. Ana. Input 0-15V</td></tr>
-<tr><td width="30%"><a href="EL3062-0030">EL3062-0030</a></td><td>EL3062-0030 2Ch. Ana. Input 0-30V</td></tr>
+<tr><td width="30%"><a href="EL3062-0030">EL3062-0030</a></td><td>EL3062-0030 2Ch. Ana. Input 0-30 V</td></tr>
 <tr><td width="30%"><a href="EL3064">EL3064</a></td><td>EL3064 4Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3068">EL3068</a></td><td>EL3068 8Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3072">EL3072</a></td><td>EL3072 2Ch. Ana. Input +/-10V, +/-20mA</td></tr>
@@ -716,12 +716,12 @@
 <tr><td width="30%"><a href="EL3101">EL3101</a></td><td>EL3101 1Ch. Ana. Input +/-10V Diff.</td></tr>
 <tr><td width="30%"><a href="EL3102">EL3102</a></td><td>EL3102 2Ch. Ana. Input +/-10V, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3104">EL3104</a></td><td>EL3104 4Ch. Ana. Input +/-10V Diff.</td></tr>
-<tr><td width="30%"><a href="EL3111">EL3111</a></td><td>EL3111 1Ch. Ana. Input 0-20mA DIFF</td></tr>
-<tr><td width="30%"><a href="EL3112">EL3112</a></td><td>EL3112 2Ch. Ana Input 0-20mA, Diff.</td></tr>
+<tr><td width="30%"><a href="EL3111">EL3111</a></td><td>EL3111 1Ch. Ana. Input 0-20mA, Diff.</td></tr>
+<tr><td width="30%"><a href="EL3112">EL3112</a></td><td>EL3112 2Ch. Ana. Input 0-20mA, DIFF</td></tr>
 <tr><td width="30%"><a href="EL3112-0011">EL3112-0011</a></td><td>EL3112-0011 2Ch. Ana Input +/-20mA, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3114">EL3114</a></td><td>EL3114 4Ch. Ana. Input 0-20mA Diff.</td></tr>
 <tr><td width="30%"><a href="EL3121">EL3121</a></td><td>EL3121 1Ch. Ana. Input 4-20mA Diff.</td></tr>
-<tr><td width="30%"><a href="EL3122">EL3122</a></td><td>EL3122 2Ch. Ana. Input 4-20mA, Diff.</td></tr>
+<tr><td width="30%"><a href="EL3122">EL3122</a></td><td>EL3122 2Ch. Ana Input 4-20mA, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3124">EL3124</a></td><td>EL3124 4Ch. Ana. Input 4-20mA Diff.</td></tr>
 <tr><td width="30%"><a href="EL3124-0090">EL3124-0090</a></td><td>EL3124-0090 4Ch. Ana. Input 4-20mA, Diff., TwinSAFE SC</td></tr>
 <tr><td width="30%"><a href="EL3141">EL3141</a></td><td>EL3141 1Ch. Ana. Input 0-20mA</td></tr>
@@ -796,7 +796,7 @@
 <tr><td width="30%"><a href="EL3453">EL3453</a></td><td>EL3453 3Ch. Power Measuring</td></tr>
 <tr><td width="30%"><a href="EL3453-0020">EL3453-0020</a></td><td>EL3453 3Ch. Power Measuring calibrated</td></tr>
 <tr><td width="30%"><a href="EL3453-0100">EL3453-0100</a></td><td>EL3453 3Ch. Power Measuring 100V</td></tr>
-<tr><td width="30%"><a href="EL3483">EL3483</a></td><td>EL3483 3Ch. Mains Monitoring </td></tr>
+<tr><td width="30%"><a href="EL3483">EL3483</a></td><td>EL3483 3Ch. Mains Monitoring</td></tr>
 <tr><td width="30%"><a href="EL3483-0060">EL3483-0060</a></td><td>EL3483 3Ch. Mains Monitoring with voltage metering</td></tr>
 <tr><td width="30%"><a href="EL3602">EL3602</a></td><td>EL3602 2Ch. Ana. Input +/-10Volt, Diff. 24bit</td></tr>
 <tr><td width="30%"><a href="EL3602-0002">EL3602-0002</a></td><td>EL3602-0002 2Ch. Ana. Input +/-200mV, Diff. 24bit</td></tr>
@@ -895,16 +895,16 @@
 <tr><td width="30%"><a href="EL6652-0010">EL6652-0010</a></td><td>EL6652-0010 EtherNet/IP Adapter (Slave)</td></tr>
 <tr><td width="30%"><a href="EL6688">EL6688</a></td><td>EL6688 - External Synchronisation Interface (IEEE1588)</td></tr>
 <tr><td width="30%"><a href="EL6690">EL6690</a></td><td>EL6690 EtherCAT Bridge terminal (Secondary)</td></tr>
-<tr><td width="30%"><a href="EL6692">EL6692</a></td><td>EL6692 EtherCAT Bridge terminal (Secondary)</td></tr>
+<tr><td width="30%"><a href="EL6692">EL6692</a></td><td>EL6692 EtherCAT Bridge terminal (Primary)</td></tr>
 <tr><td width="30%"><a href="EL6695">EL6695</a></td><td>EL6695 EtherCAT Bridge terminal (Primary)</td></tr>
 <tr><td width="30%"><a href="EL6695-0002">EL6695-0002</a></td><td>EL6695 EtherCAT Bridge terminal (Secondary)</td></tr>
 <tr><td width="30%"><a href="EL6711-0010">EL6711-0010</a></td><td>EL6711-0010 CC-Link gateway</td></tr>
 <tr><td width="30%"><a href="EL6720">EL6720</a></td><td>EL6720 Lightbus Master</td></tr>
-<tr><td width="30%"><a href="EL6731">EL6731</a></td><td>EL6731 PROFIBUS DP Master</td></tr>
-<tr><td width="30%"><a href="EL6731-0010">EL6731-0010</a></td><td>EL6731-0010 Profibus Slave (12 MBaud)</td></tr>
+<tr><td width="30%"><a href="EL6731">EL6731</a></td><td>EL6731 Profibus Master (12 MBaud)</td></tr>
+<tr><td width="30%"><a href="EL6731-0010">EL6731-0010</a></td><td>EL6731-0010 PROFIBUS DP Slave</td></tr>
 <tr><td width="30%"><a href="EL6731-0100">EL6731-0100</a></td><td>EL6731 PROFIBUS DP Master (Free Run)</td></tr>
 <tr><td width="30%"><a href="EL6731-1003">EL6731-1003</a></td><td>EL6731-1003 PROFIBUS Master</td></tr>
-<tr><td width="30%"><a href="EL6740-0010">EL6740-0010</a></td><td>EL6740-0010 InterBus Slave</td></tr>
+<tr><td width="30%"><a href="EL6740-0010">EL6740-0010</a></td><td>EL6740 InterBus Slave</td></tr>
 <tr><td width="30%"><a href="EL6751">EL6751</a></td><td>EL6751 CANopen Master</td></tr>
 <tr><td width="30%"><a href="EL6751-0005">EL6751-0005</a></td><td>EL6751-0005 CANopen Master (plastic optical fibre connection)</td></tr>
 <tr><td width="30%"><a href="EL6751-0010">EL6751-0010</a></td><td>EL6751-0010 CANopen Slave</td></tr>
@@ -929,9 +929,9 @@
 <tr><td width="30%"><a href="EL7047-0052">EL7047-0052</a></td><td>EL7047-0052 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7047-9014">EL7047-9014</a></td><td>EL7047-9014 1Ch. Stepper motor output stage with STO (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7201">EL7201</a></td><td>EL7201 1Ch. MDP742 Servo motor output stage (50V, 4A)</td></tr>
-<tr><td width="30%"><a href="EL7201-0001">EL7201-0001</a></td><td>EL7201-0001 1Ch. DS402 Servo motor output stage (50V, 4A)</td></tr>
-<tr><td width="30%"><a href="EL7201-0010">EL7201-0010</a></td><td>EL7201-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 2.8A RMS)</td></tr>
-<tr><td width="30%"><a href="EL7201-0011">EL7201-0011</a></td><td>EL7201-0011 1Ch. DS402 Servo motor output stage with OCT (50V, 2.8A RMS)</td></tr>
+<tr><td width="30%"><a href="EL7201-0001">EL7201-0001</a></td><td>EL7201 1Ch. DS402 Servo motor output stage (50V, 4A)</td></tr>
+<tr><td width="30%"><a href="EL7201-0010">EL7201-0010</a></td><td>EL7201-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 4A)</td></tr>
+<tr><td width="30%"><a href="EL7201-0011">EL7201-0011</a></td><td>EL7201-0011 1Ch. DS402 Servo motor output stage with OCT (50V, 4A)</td></tr>
 <tr><td width="30%"><a href="EL7201-9014">EL7201-9014</a></td><td>EL7201-9014 1Ch. MDP742 Servo motor output stage with OCT (50V, 2.8A RMS) and STO input</td></tr>
 <tr><td width="30%"><a href="EL7201-9015">EL7201-9015</a></td><td>EL7201-9015 1Ch. DS402 Servo motor output stage with OCT (50V, 2.8A RMS) and STO input</td></tr>
 <tr><td width="30%"><a href="EL7211">EL7211</a></td><td>EL7211 1Ch. MDP742 Servo motor output stage (50V, 4.5A RMS)</td></tr>
@@ -1197,7 +1197,7 @@
 <tr><td width="30%"><a href="EP3351-2022">EP3351-2022</a></td><td>EP3351-2022 1Ch. Ana Input Resistor Bridge, Diff. 16bit </td></tr>
 <tr><td width="30%"><a href="EP3356-0022">EP3356-0022</a></td><td>EP3356-0022 1Ch. Ana. Input Resistor Bridge Terminal, 24bit, High Precision</td></tr>
 <tr><td width="30%"><a href="EP3632-0001">EP3632-0001</a></td><td>EP3632-0001 2Ch. IEPE Sensor</td></tr>
-<tr><td width="30%"><a href="EP3744-0041">EP3744-0041</a></td><td>EP3744-0041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EP3744-0041">EP3744-0041</a></td><td>EP3744-0041 5Ch. Absolute Pressure 1Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
 <tr><td width="30%"><a href="EP3744-1041">EP3744-1041</a></td><td>EP3744-1041 5Ch. Absolute Pressure 7Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
 <tr><td width="30%"><a href="EP3751-0160">EP3751-0160</a></td><td>EP3751-0160 Acceleration Sensor</td></tr>
 <tr><td width="30%"><a href="EP3752-0000">EP3752-0000</a></td><td>EP3752-0000 Acceleration Sensor</td></tr>
@@ -1325,7 +1325,7 @@
 <tr><td width="30%"><a href="EPP3504-0023">EPP3504-0023</a></td><td>EPP3504-0023 4Ch. Bridge Measuring (SG), 24 bit, high precision</td></tr>
 <tr><td width="30%"><a href="EPP3632-0001">EPP3632-0001</a></td><td>EPP3632-0001 2Ch. IEPE Sensor</td></tr>
 <tr><td width="30%"><a href="EPP3744-0041">EPP3744-0041</a></td><td>EPP3744-0041 5Ch. Absolute Pressure 1Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
-<tr><td width="30%"><a href="EPP3744-1041">EPP3744-1041</a></td><td>EPP3744-1041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EPP3744-1041">EPP3744-1041</a></td><td>EPP3744-1041 5Ch. Absolute Pressure 7Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
 <tr><td width="30%"><a href="EPP3752-0000">EPP3752-0000</a></td><td>EPP3752-0000 Acceleration Sensor</td></tr>
 <tr><td width="30%"><a href="EPP4174-0002">EPP4174-0002</a></td><td>EPP4174-0002 4Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</td></tr>
 <tr><td width="30%"><a href="EPP4314-1002">EPP4314-1002</a></td><td>EPP4314-1002 2Ch. Ana. Input -20/0/4-20mA; 2Ch. Ana. Output -20/0/4-20mA configurable</td></tr>

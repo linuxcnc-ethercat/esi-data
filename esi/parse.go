@@ -8,6 +8,20 @@ import (
 	"strconv"
 )
 
+func pickName(names []*ESILangName) string {
+	for _, n := range names {
+		if n.LanguageID == "1033" {
+			return n.Name
+		}
+	}
+
+	if len(names) != 0 {
+		return names[0].Name
+	} else {
+		return "NAME UNKNOWN?"
+	}
+}
+
 func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, error) {
 	f, err := os.Open(filename)
 	if err != nil {
@@ -84,6 +98,7 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 		for _, txpdo := range d.TxPDOs {
 			txpdo.Index = fixHexFormat(txpdo.Index, 4)
 			for _, entry := range txpdo.Entries {
+				entry.PDOName = pickName(entry.LangNames)
 				entry.Index = fixHexFormat(entry.Index, 4)
 				entry.SubIndex = fixHexFormat(entry.SubIndex, 2)
 			}
@@ -91,6 +106,7 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 		for _, rxpdo := range d.RxPDOs {
 			rxpdo.Index = fixHexFormat(rxpdo.Index, 4)
 			for _, entry := range rxpdo.Entries {
+				entry.PDOName = pickName(entry.LangNames)
 				entry.Index = fixHexFormat(entry.Index, 4)
 				entry.SubIndex = fixHexFormat(entry.SubIndex, 2)
 			}
