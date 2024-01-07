@@ -1,12 +1,16 @@
-# Beckhoff CX5010 EtherCAT slave
+#  Beckhoff CX5010 EtherCAT slave
 
-CX5010 EtherCAT slave
-
-Beckhoff Automation GmbH
-
-Documentation: <a href="http://www.beckhoff.com/CX5000">http://www.beckhoff.com/CX5000</a>
-
+<dl>
+  <dt>Type:</dt><dd>CX5010 EtherCAT slave</dd>
+  <dt>Description:</dt><dd>CX5010 EtherCAT slave</dd>
+  <dt>Vendor</dt><dd>Beckhoff Automation GmbH</dd>
+  <dt>Documentation</dt><dd><a href="http://www.beckhoff.com/CX5000">http://www.beckhoff.com/CX5000</a></dd>
+</dl>
 ## Revisions and PDOs
+The ESI data ingested by [github.com/linuxcnc-ethercat/esi-data](http://github.com/linuxcnc-ethercat/esi-data)describes 2 revision(s) of this hardware.  Here are the known revisions and their differences.
+
+This also includes the send and receive PDOs defined for each revision, and a link to other known devices with identical PDOs.
+
 <table>
 <tr >
 <td class="first">Revision</td>

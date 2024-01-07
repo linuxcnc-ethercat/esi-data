@@ -1,12 +1,16 @@
-# Beckhoff EL9800 4Port
+#  Beckhoff EL9800 4Port
 
-EL9800 32 Ch. Dig. Output (4Port, DC)
-
-Beckhoff Automation GmbH & Co. KG
-
-Documentation: <a href=""></a>
-
+<dl>
+  <dt>Type:</dt><dd>EL9800 4Port</dd>
+  <dt>Description:</dt><dd>EL9800 32 Ch. Dig. Output (4Port, DC)</dd>
+  <dt>Vendor</dt><dd>Beckhoff Automation GmbH & Co. KG</dd>
+  <dt>Documentation</dt><dd><a href=""></a></dd>
+</dl>
 ## Revisions and PDOs
+The ESI data ingested by [github.com/linuxcnc-ethercat/esi-data](http://github.com/linuxcnc-ethercat/esi-data)describes 1 revision(s) of this hardware.  Here are the known revisions and their differences.
+
+This also includes the send and receive PDOs defined for each revision, and a link to other known devices with identical PDOs.
+
 <table>
 <tr >
 <td class="first">Revision</td>
