@@ -101,6 +101,11 @@ func main() {
 func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) {
 	vendordevs := map[string][]string{}
 	for dev, revs := range devices {
+		if len(strings.Split(dev, "-")) > 2 {
+			// skip  foo-bar-baz devices for now
+			continue
+		}
+
 		vendor := ""
 		
 		for _, revdevice := range revs {
