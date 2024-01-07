@@ -17,9 +17,6 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">EtherCAT ESI Data for LinuxCNC</a></h1>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
 
       </header>
       <section>
@@ -28,9 +25,7 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub</a></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
