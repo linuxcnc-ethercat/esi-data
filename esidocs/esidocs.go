@@ -136,7 +136,7 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 				}
 			}
 		
-			fmt.Fprintf(f, "<tr><td width=\"30%%\"><a href=%q>%s</a></td><td>%s</td></tr>\n", dev, dev, description)
+			fmt.Fprintf(f, "<tr><td width=\"30%%\"><a href=%q>%s</a></td><td>%s</td></tr>\n", url.QueryEscape(dev), dev, description)
 		}
 		fmt.Fprintf(f, "</table>\n")
 	}
