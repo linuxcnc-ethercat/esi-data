@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+footer section header {
+    width: auto;
+    float: unset;
+    position: unset;
+}
+
 table {
     border: 1px solid #f8f8f8;
 }
