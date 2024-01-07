@@ -14,7 +14,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <table>
 <tr >
 <td class="first">Revision</td>
-<td ><pre>r484</pre></td>
+<td ><pre>r500</pre></td>
 </tr>
 <tr >
 <td class="first">Name</td>
@@ -30,7 +30,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td ><pre><a href="FB1111+Dig.+Out">FB1111 Dig. Out r484</a><br/><a href="FB1111+Dig.+Out">FB1111 Dig. Out r485</a></pre></td>
+<td ><pre><a href="FB1111+Dig.+Out">FB1111 Dig. Out r500</a><br/><a href="FB1111+Dig.+Out">FB1111 Dig. Out r501</a></pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td class="first" rowspan=4 valign=top>RX PDOs</td>

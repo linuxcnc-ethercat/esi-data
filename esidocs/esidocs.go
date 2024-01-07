@@ -32,7 +32,7 @@ func formatRevname(rev string) string {
 	if rev[0:2] == "0x" {
 		r, err := strconv.ParseInt(rev, 0, 64)
 		if err == nil { //&& (r&0xffff == 0) {
-			return fmt.Sprintf("r%d", r>>16-16)
+			return fmt.Sprintf("r%d", r>>16)
 		}
 	}
 	return fmt.Sprintf("rev %s", rev)
