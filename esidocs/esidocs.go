@@ -131,15 +131,13 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 
 		for _, dev := range vendordevs[v] {
 			description := ""
-			vendor := ""
 			
 			for _, revdevice := range devices[dev] {
 				description = revdevice.IDs[0].Name
-				vendor = strings.Split(revdevice.IDs[0].Vendor, " ")[0]
 				break
 			}
 		
-			fmt.Fprintf(f, "<tr><td><a href=%q>%s %s</a></td><td>%s</td></tr>\n", dev, vendor, dev, description)
+			fmt.Fprintf(f, "<tr><td><a href=%q>%s</a></td><td>%s</td></tr>\n", dev, dev, description)
 		}
 		fmt.Fprintf(f, "</table>\n")
 	}
