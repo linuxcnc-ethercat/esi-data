@@ -24,6 +24,15 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 		return nil, fmt.Errorf("unable to parse xml file %q: %v", filename, err)
 	}
 
+	if len(esiData.VendorNames) != 0 {
+		esiData.VendorName = esiData.VendorNames[0].Name
+		for _, v := range esiData.VendorNames {
+			if v.LanguageID == "1033" { // English
+				esiData.VendorName = v.Name
+			}
+		}
+	}
+
 	groupMap := make(map[string]string)
 
 	// Beckhoff's ESI groups have names in DE and EN; we want the English names.
@@ -169,4 +178,3 @@ func fixHexFormat(in string, length int) string {
 
 	return fmt.Sprintf("0x%0*x", length, i)
 }
-
