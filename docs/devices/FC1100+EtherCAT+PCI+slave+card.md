@@ -1,3 +1,4 @@
+<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | FC1100 EtherCAT PCI slave card</div>
 #  Beckhoff FC1100 EtherCAT PCI slave card
 
 <dl>

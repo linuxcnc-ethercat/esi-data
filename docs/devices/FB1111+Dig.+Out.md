@@ -1,3 +1,4 @@
+<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | FB1111 Dig. Out</div>
 #  Beckhoff FB1111 Dig. Out
 
 <dl>

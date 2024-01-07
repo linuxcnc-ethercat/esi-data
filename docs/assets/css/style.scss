@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+div.nav {
+    color: #888;
+}
+
 footer, section, header, div.wrapper {
     width: auto;
     float: none;

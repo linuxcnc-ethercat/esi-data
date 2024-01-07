@@ -382,6 +382,7 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	url := revIDs[sortedRevs[0]].URL
 	brand := strings.Split(vendor, " ")[0]
 
+	fmt.Fprintf(f, "<div class=\"nav\"><a href=\"/esi-data\">ESI data</a> | <a href=\"/esi-data/devices\">devices</a> | %s</div>\n\n", devname)
 	fmt.Fprintf(f, "#  %s %s\n", brand, devname)
 	fmt.Fprintf(f, "\n")
 	fmt.Fprintf(f, "<dl>\n")

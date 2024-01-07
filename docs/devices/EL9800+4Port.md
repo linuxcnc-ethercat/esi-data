@@ -1,3 +1,4 @@
+<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | EL9800 4Port</div>
 #  Beckhoff EL9800 4Port
 
 <dl>
