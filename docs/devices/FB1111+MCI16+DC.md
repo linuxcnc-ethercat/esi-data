@@ -36,10 +36,10 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=2 align="left"><pre>  0x6000:01  Test In1                        UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x6000:01  Test In1                        UINT (16 bits)</pre></td>
 </tr>
 <tr class="txpdo">
-<td  colspan=2 align="left"><pre>  0x6000:02  Test In2                        UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x6000:02  Test In2                        UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td class="first" rowspan=3 valign=top>RX PDOs</td>
@@ -47,9 +47,9 @@ Documentation: <a href="http://www.beckhoff.com/FB1111">http://www.beckhoff.com/
 <td></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=2 align="left"><pre>  0x7000:01  Test Out1                       UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x7000:01  Test Out1                       UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo">
-<td  colspan=2 align="left"><pre>  0x7000:02  Test Out2                       UINT</pre></td>
+<td  colspan=2 align="left"><pre>  0x7000:02  Test Out2                       UINT (16 bits)</pre></td>
 </tr>
 </table>
