@@ -72,11 +72,6 @@ func main() {
 
 	for d, revs := range devs {
 		fmt.Printf("==> %s\n", d)
-		if len(strings.Split(d, "-")) > 2 {
-			// skip  foo-bar-baz devices for now
-			continue
-		}
-
 		for r, rev := range revs {
 			fmt.Printf("    %s = %s, %s\n", r, rev.IDs[0].Type, rev.IDs[0].RevisionNo)
 		}
@@ -101,10 +96,6 @@ func main() {
 func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) {
 	vendordevs := map[string][]string{}
 	for dev, revs := range devices {
-		if len(strings.Split(dev, "-")) > 2 {
-			// skip  foo-bar-baz devices for now
-			continue
-		}
 
 		vendor := ""
 		
