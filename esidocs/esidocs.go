@@ -125,15 +125,30 @@ func printTableRow(f io.Writer, row []string, class string, align string) {
 	if class != "" {
 		class = fmt.Sprintf("class=%q", class)
 	}
+
+	// This is ugly; it'd be better to fix this before we get
+	// here, but we want empty cells to actually stay empty, not
+	// be <pre></pre>
+	for i:=0;i<len(row); i++ {
+		if row[i] == "<pre></pre>" {
+			row[i]=""
+		}
+	}
+	
 	fmt.Fprintf(f, "<tr %s>\n", class)
 	for i := 0; i < len(row); i++ {
 		column := row[i]
 		colspan := checkColspan(row, i)
+		class := ""
+
+		if i==0 {
+			class = "class=\"first\""
+		}
 
 		if colspan > 1 {
-			fmt.Fprintf(f, "<td colspan=%d align=%q>%s</td>\n", colspan, align, column)
+			fmt.Fprintf(f, "<td %s colspan=%d align=%q>%s</td>\n", class, colspan, align, column)
 		} else {
-			fmt.Fprintf(f, "<td>%s</td>\n", column)
+			fmt.Fprintf(f, "<td %s>%s</td>\n", class,column)
 		}
 		i += colspan - 1
 	}
@@ -145,7 +160,7 @@ func printTableRowSpan(f io.Writer, row []string, class string, rowspan int) {
 		class = fmt.Sprintf("class=%q", class)
 	}
 	fmt.Fprintf(f, "<tr %s>\n", class)
-	fmt.Fprintf(f, "<td rowspan=%d valign=top>%s</td>\n", rowspan, row[0])
+	fmt.Fprintf(f, "<td class=\"first\" rowspan=%d valign=top>%s</td>\n", rowspan, row[0])
 
 	for i := 1; i < len(row); i++ {
 		column := row[i]
@@ -200,7 +215,7 @@ func formatTxPDOs(device *esi.ESIDevice) []pdoline {
 			if len(subindex) > 2 {
 				subindex = subindex[2:] // strip leading "0x"
 			}
-			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-20s  %s", index, subindex, entry.Name, entry.DataType)})
+			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s", index, subindex, entry.Name, entry.DataType)})
 		}
 	}
 
@@ -230,7 +245,7 @@ func formatRxPDOs(device *esi.ESIDevice) []pdoline {
 			if len(subindex) > 2 {
 				subindex = subindex[2:] // strip leading "0x"
 			}
-			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-20s  %s", index, subindex, entry.Name, entry.DataType)})
+			lines = append(lines, pdoline{key: fmt.Sprintf("%s %s:%s", pdo.Index, index, subindex), output: fmt.Sprintf("  %s:%s  %-30s  %s", index, subindex, entry.Name, entry.DataType)})
 		}
 	}
 
@@ -313,9 +328,9 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	fmt.Fprintf(f, "\n")
 	fmt.Fprintf(f, "%s\n\n", name)
 	fmt.Fprintf(f, "%s\n\n", vendor)
-	fmt.Fprintf(f, "%s\n\n", url)
+	fmt.Fprintf(f, "Documentation: <a href=%q>%s</a>\n\n", url, url)
 
-	fmt.Fprintf(f, "## Revisions\n")
+	fmt.Fprintf(f, "## Revisions and PDOs\n")
 
 	fmt.Fprintf(f, "<table>\n")
 
