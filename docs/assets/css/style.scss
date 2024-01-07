@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-footer, section, header {
+footer, section, header, div.wrapper {
     width: auto;
     float: none;
     position: static;
