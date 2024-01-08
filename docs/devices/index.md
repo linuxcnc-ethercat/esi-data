@@ -8,39 +8,21 @@
 <tr><td width="30%"><a href="AMI8000-0100">AMI8000-0100</a></td><td>AMI8000-0100 Servo motor 48 V DC, TwinSAFE</td></tr>
 <tr><td width="30%"><a href="AMI8000-0100-0020">AMI8000-0100-0020</a></td><td>AMI8000-0100-0020 Servo motor 48 V DC, TwinSAFE (DS402)</td></tr>
 <tr><td width="30%"><a href="AMI8000-0190">AMI8000-0190</a></td><td>AMI8000-0190 Servo motor 48 V DC, TwinSAFE</td></tr>
-<tr><td width="30%"><a href="AMP8000-0000-0103">AMP8000-0000-0103</a></td><td>AMP8000-0000-0103</td></tr>
-<tr><td width="30%"><a href="AMP8000-0000-0104">AMP8000-0000-0104</a></td><td>AMP8000-0000-0104 (distributed servo drive)</td></tr>
-<tr><td width="30%"><a href="AMP8000-0000-0105">AMP8000-0000-0105</a></td><td>AMP8000-0000-0105 (distributed servo drive)</td></tr>
-<tr><td width="30%"><a href="AMP8000-0010-0103">AMP8000-0010-0103</a></td><td>AMP8000-0010-0103</td></tr>
-<tr><td width="30%"><a href="AMP8000-0010-0104">AMP8000-0010-0104</a></td><td>AMP8000-0010-0104 (distributed servo drive, STO)</td></tr>
-<tr><td width="30%"><a href="AMP8000-0010-0105">AMP8000-0010-0105</a></td><td>AMP8000-0010-0105 (distributed servo drive, STO)</td></tr>
-<tr><td width="30%"><a href="AMP8000-0030-0103">AMP8000-0030-0103</a></td><td>AMP8000-0030-0103</td></tr>
-<tr><td width="30%"><a href="AMP8000-0030-0104">AMP8000-0030-0104</a></td><td>AMP8000-0030-0104 (distributed servo drive, STO, safe motion)</td></tr>
-<tr><td width="30%"><a href="AMP8000-0030-0105">AMP8000-0030-0105</a></td><td>AMP8000-0030-0105 (distributed servo drive, STO, safe motion)</td></tr>
-<tr><td width="30%"><a href="AMP8040-0000-0104">AMP8040-0000-0104</a></td><td>AMP8040-0000-0104 (distributed servo drive, NB)</td></tr>
-<tr><td width="30%"><a href="AMP8040-0000-0105">AMP8040-0000-0105</a></td><td>AMP8040-0000-0105 (distributed servo drive, NB)</td></tr>
-<tr><td width="30%"><a href="AMP8040-0010-0104">AMP8040-0010-0104</a></td><td>AMP8040-0010-0104 (distributed servo drive, NB, STO)</td></tr>
-<tr><td width="30%"><a href="AMP8040-0010-0105">AMP8040-0010-0105</a></td><td>AMP8040-0010-0105 (distributed servo drive, NB, STO)</td></tr>
-<tr><td width="30%"><a href="AMP8040-0030-0104">AMP8040-0030-0104</a></td><td>AMP8040-0030-0104 (distributed servo drive, NB, STO, safe motion)</td></tr>
-<tr><td width="30%"><a href="AMP8040-0030-0105">AMP8040-0030-0105</a></td><td>AMP8040-0030-0105 (distributed servo drive, NB, STO, safe motion)</td></tr>
-<tr><td width="30%"><a href="AMP8620-2005-0200">AMP8620-2005-0200</a></td><td>AMP8620-2005-0200</td></tr>
-<tr><td width="30%"><a href="AMP8620-2005-0201">AMP8620-2005-0201</a></td><td>AMP8620-2005-0201</td></tr>
-<tr><td width="30%"><a href="AMP8620-A000-0200">AMP8620-A000-0200</a></td><td>AMP8620-A000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8620-A000-0201">AMP8620-A000-0201</a></td><td>AMP8620-A000-0201</td></tr>
-<tr><td width="30%"><a href="AMP8620-B000-0200">AMP8620-B000-0200</a></td><td>AMP8620-B000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8620-B000-0201">AMP8620-B000-0201</a></td><td>AMP8620-B000-0201</td></tr>
-<tr><td width="30%"><a href="AMP8805-1000-0200">AMP8805-1000-0200</a></td><td>AMP8805-1000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8805-1000-0201">AMP8805-1000-0201</a></td><td>AMP8805-1000-0201</td></tr>
-<tr><td width="30%"><a href="AMP8805-2000-0200">AMP8805-2000-0200</a></td><td>AMP8805-2000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8805-2000-0201">AMP8805-2000-0201</a></td><td>AMP8805-2000-0201</td></tr>
-<tr><td width="30%"><a href="AMP8805-A000-0200">AMP8805-A000-0200</a></td><td>AMP8805-A000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8805-A000-0201">AMP8805-A000-0201</a></td><td>AMP8805-A000-0201</td></tr>
-<tr><td width="30%"><a href="AMP8805-B000-0200">AMP8805-B000-0200</a></td><td>AMP8805-B000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8805-B000-0201">AMP8805-B000-0201</a></td><td>AMP8805-B000-0201</td></tr>
-<tr><td width="30%"><a href="AMP8805-D000-0200">AMP8805-D000-0200</a></td><td>AMP8805-D000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8805-D000-0201">AMP8805-D000-0201</a></td><td>AMP8805-D000-0201</td></tr>
-<tr><td width="30%"><a href="AMP8805-E000-0200">AMP8805-E000-0200</a></td><td>AMP8805-E000-0200</td></tr>
-<tr><td width="30%"><a href="AMP8805-E000-0201">AMP8805-E000-0201</a></td><td>AMP8805-E000-0201</td></tr>
+<tr><td width="30%"><a href="AMP8000-0000">AMP8000-0000</a></td><td>AMP8000-0000 (distributed servo drive)</td></tr>
+<tr><td width="30%"><a href="AMP8000-0010">AMP8000-0010</a></td><td>AMP8000-0010 (distributed servo drive, STO)</td></tr>
+<tr><td width="30%"><a href="AMP8000-0030">AMP8000-0030</a></td><td>AMP8000-0030 (distributed servo drive, STO, safe motion)</td></tr>
+<tr><td width="30%"><a href="AMP8040-0000">AMP8040-0000</a></td><td>AMP8040-0000 (distributed servo drive, NB)</td></tr>
+<tr><td width="30%"><a href="AMP8040-0010">AMP8040-0010</a></td><td>AMP8040-0010 (distributed servo drive, NB, STO)</td></tr>
+<tr><td width="30%"><a href="AMP8040-0030">AMP8040-0030</a></td><td>AMP8040-0030 (distributed servo drive, NB, STO, safe motion)</td></tr>
+<tr><td width="30%"><a href="AMP8620-2005">AMP8620-2005</a></td><td>AMP8620-2005</td></tr>
+<tr><td width="30%"><a href="AMP8620-A000">AMP8620-A000</a></td><td>AMP8620-A000</td></tr>
+<tr><td width="30%"><a href="AMP8620-B000">AMP8620-B000</a></td><td>AMP8620-B000</td></tr>
+<tr><td width="30%"><a href="AMP8805-1000">AMP8805-1000</a></td><td>AMP8805-1000</td></tr>
+<tr><td width="30%"><a href="AMP8805-2000">AMP8805-2000</a></td><td>AMP8805-2000</td></tr>
+<tr><td width="30%"><a href="AMP8805-A000">AMP8805-A000</a></td><td>AMP8805-A000</td></tr>
+<tr><td width="30%"><a href="AMP8805-B000">AMP8805-B000</a></td><td>AMP8805-B000</td></tr>
+<tr><td width="30%"><a href="AMP8805-D000">AMP8805-D000</a></td><td>AMP8805-D000</td></tr>
+<tr><td width="30%"><a href="AMP8805-E000">AMP8805-E000</a></td><td>AMP8805-E000</td></tr>
 <tr><td width="30%"><a href="APS1003-5000">APS1003-5000</a></td><td>APS1003-5000 Feedback</td></tr>
 <tr><td width="30%"><a href="APS1003-7000">APS1003-7000</a></td><td>APS1003-7000 Drive</td></tr>
 <tr><td width="30%"><a href="APS4322-5000">APS4322-5000</a></td><td>APS4322-5000 Feedback</td></tr>
@@ -57,13 +39,13 @@
 <tr><td width="30%"><a href="AT2002-0250">AT2002-0250</a></td><td>AT2002-0250 Motor module with feed (B23-Connector) 250 mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2002-5249">AT2002-5249</a></td><td>AT2002-5249 Sensor line (Track management) with feed</td></tr>
 <tr><td width="30%"><a href="AT2002-5250">AT2002-5250</a></td><td>AT2002-5250 Sensor line with feed (B23-Connector)</td></tr>
-<tr><td width="30%"><a href="AT2020-0250">AT2020-0250</a></td><td>AT2020-0250 Motor module, +22.5°, 250mm, 48V</td></tr>
+<tr><td width="30%"><a href="AT2020-0250">AT2020-0250</a></td><td>AT2020-0250 Motor module, +22.5°, 250mm, 50V</td></tr>
 <tr><td width="30%"><a href="AT2020-5250">AT2020-5250</a></td><td>AT2020-5250 Sensor line +22.5°</td></tr>
 <tr><td width="30%"><a href="AT2021-0250">AT2021-0250</a></td><td>AT2021-0250 Motor module with feed , +22.5°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2021-5250">AT2021-5250</a></td><td>AT2021-5250 Sensor line with feed, +22.5°</td></tr>
 <tr><td width="30%"><a href="AT2025-0250">AT2025-0250</a></td><td>AT2025-0250 Motor module, -22.5°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2025-5250">AT2025-5250</a></td><td>AT2025-5250 Sensor line -22.5°</td></tr>
-<tr><td width="30%"><a href="AT2026-0250">AT2026-0250</a></td><td>AT2026-0250 Motor module with feed, -22.5°, 250mm, 48V</td></tr>
+<tr><td width="30%"><a href="AT2026-0250">AT2026-0250</a></td><td>AT2026-0250 Motor module with feed, -22.5°, 250mm, 50V</td></tr>
 <tr><td width="30%"><a href="AT2026-5250">AT2026-5250</a></td><td>AT2026-5250 Sensor line with feed, -22.5°</td></tr>
 <tr><td width="30%"><a href="AT2040-0250">AT2040-0250</a></td><td>AT2040-0250 Motor module, +45°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2040-5250">AT2040-5250</a></td><td>AT2040-5250 Sensor line +45°</td></tr>
@@ -71,7 +53,7 @@
 <tr><td width="30%"><a href="AT2041-5250">AT2041-5250</a></td><td>AT2041-5250 Sensor line with feed, +45°</td></tr>
 <tr><td width="30%"><a href="AT2042-0250">AT2042-0250</a></td><td>AT2042-0250 Motor module with feed (B23-Connector), +45°, 250 mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2042-5250">AT2042-5250</a></td><td>AT2042-5250 Sensor line with feed (B23-Connector), +45°</td></tr>
-<tr><td width="30%"><a href="AT2050-0500">AT2050-0500</a></td><td>AT2050-0500 Motor module, 90° clothoid, EtherCAT In, 50V</td></tr>
+<tr><td width="30%"><a href="AT2050-0500">AT2050-0500</a></td><td>AT2050-0500 Motor module, 90° clothoid, EtherCAT In, 48V</td></tr>
 <tr><td width="30%"><a href="AT2050-0501">AT2050-0501</a></td><td>AT2050-0501 Motor module, 90° clothoid, EtherCAT Out, 48V</td></tr>
 <tr><td width="30%"><a href="AT2050-5500">AT2050-5500</a></td><td>AT2050-5500 Sensor line 90° clothoid, EtherCAT In</td></tr>
 <tr><td width="30%"><a href="AT2050-5501">AT2050-5501</a></td><td>AT2050-5501 Sensor line 90° clothoid, EtherCAT Out</td></tr>
@@ -85,330 +67,72 @@
 <tr><td width="30%"><a href="ATH2050-5501">ATH2050-5501</a></td><td>ATH2050-5501 Hygienic Sensor 90° clothoid, EtherCAT Out</td></tr>
 <tr><td width="30%"><a href="AX2000-B110">AX2000-B110</a></td><td>AX2000-B110 EtherCAT Drive (CoE) (obsolete product)</td></tr>
 <tr><td width="30%"><a href="AX2000-B120">AX2000-B120</a></td><td>AX2000-B120 EtherCAT Drive (E-Bus)</td></tr>
-<tr><td width="30%"><a href="AX5021-0000-0001">AX5021-0000-0001</a></td><td>AX5021-0000-0001 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5021-0000-0002">AX5021-0000-0002</a></td><td>AX5021-0000-0002 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0003">AX5101-0000-0003</a></td><td>AX5101-0000-0003 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0004">AX5101-0000-0004</a></td><td>AX5101-0000-0004 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0005">AX5101-0000-0005</a></td><td>AX5101-0000-0005 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0006">AX5101-0000-0006</a></td><td>AX5101-0000-0006 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0007">AX5101-0000-0007</a></td><td>AX5101-0000-0007 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0008">AX5101-0000-0008</a></td><td>AX5101-0000-0008 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0009">AX5101-0000-0009</a></td><td>AX5101-0000-0009 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0010">AX5101-0000-0010</a></td><td>AX5101-0000-0010 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0011">AX5101-0000-0011</a></td><td>AX5101-0000-0011 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0012">AX5101-0000-0012</a></td><td>AX5101-0000-0012 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0200">AX5101-0000-0200</a></td><td>AX5101-0000-0200 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0201">AX5101-0000-0201</a></td><td>AX5101-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0202">AX5101-0000-0202</a></td><td>AX5101-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0203">AX5101-0000-0203</a></td><td>AX5101-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0210">AX5101-0000-0210</a></td><td>AX5101-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0212">AX5101-0000-0212</a></td><td>AX5101-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0213">AX5101-0000-0213</a></td><td>AX5101-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5101-0000-0214">AX5101-0000-0214</a></td><td>AX5101-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0003">AX5103-0000-0003</a></td><td>AX5103-0000-0003 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0004">AX5103-0000-0004</a></td><td>AX5103-0000-0004 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0005">AX5103-0000-0005</a></td><td>AX5103-0000-0005 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0006">AX5103-0000-0006</a></td><td>AX5103-0000-0006 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0007">AX5103-0000-0007</a></td><td>AX5103-0000-0007 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0008">AX5103-0000-0008</a></td><td>AX5103-0000-0008 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0009">AX5103-0000-0009</a></td><td>AX5103-0000-0009 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0010">AX5103-0000-0010</a></td><td>AX5103-0000-0010 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0011">AX5103-0000-0011</a></td><td>AX5103-0000-0011 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0012">AX5103-0000-0012</a></td><td>AX5103-0000-0012 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0200">AX5103-0000-0200</a></td><td>AX5103-0000-0200 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0201">AX5103-0000-0201</a></td><td>AX5103-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0202">AX5103-0000-0202</a></td><td>AX5103-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0203">AX5103-0000-0203</a></td><td>AX5103-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0210">AX5103-0000-0210</a></td><td>AX5103-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0212">AX5103-0000-0212</a></td><td>AX5103-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0213">AX5103-0000-0213</a></td><td>AX5103-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5103-0000-0214">AX5103-0000-0214</a></td><td>AX5103-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0003">AX5106-0000-0003</a></td><td>AX5106-0000-0003 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0004">AX5106-0000-0004</a></td><td>AX5106-0000-0004 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0005">AX5106-0000-0005</a></td><td>AX5106-0000-0005 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0006">AX5106-0000-0006</a></td><td>AX5106-0000-0006 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0007">AX5106-0000-0007</a></td><td>AX5106-0000-0007 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0008">AX5106-0000-0008</a></td><td>AX5106-0000-0008 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0009">AX5106-0000-0009</a></td><td>AX5106-0000-0009 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0010">AX5106-0000-0010</a></td><td>AX5106-0000-0010 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0011">AX5106-0000-0011</a></td><td>AX5106-0000-0011 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0012">AX5106-0000-0012</a></td><td>AX5106-0000-0012 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0200">AX5106-0000-0200</a></td><td>AX5106-0000-0200 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0201">AX5106-0000-0201</a></td><td>AX5106-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0202">AX5106-0000-0202</a></td><td>AX5106-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0203">AX5106-0000-0203</a></td><td>AX5106-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0210">AX5106-0000-0210</a></td><td>AX5106-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0212">AX5106-0000-0212</a></td><td>AX5106-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0213">AX5106-0000-0213</a></td><td>AX5106-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5106-0000-0214">AX5106-0000-0214</a></td><td>AX5106-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0006">AX5112-0000-0006</a></td><td>AX5112-0000-0006 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0007">AX5112-0000-0007</a></td><td>AX5112-0000-0007 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0008">AX5112-0000-0008</a></td><td>AX5112-0000-0008 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0009">AX5112-0000-0009</a></td><td>AX5112-0000-0009 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0010">AX5112-0000-0010</a></td><td>AX5112-0000-0010 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0011">AX5112-0000-0011</a></td><td>AX5112-0000-0011 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0012">AX5112-0000-0012</a></td><td>AX5112-0000-0012 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0200">AX5112-0000-0200</a></td><td>AX5112-0000-0200 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0201">AX5112-0000-0201</a></td><td>AX5112-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0202">AX5112-0000-0202</a></td><td>AX5112-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0203">AX5112-0000-0203</a></td><td>AX5112-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0210">AX5112-0000-0210</a></td><td>AX5112-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0212">AX5112-0000-0212</a></td><td>AX5112-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0213">AX5112-0000-0213</a></td><td>AX5112-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5112-0000-0214">AX5112-0000-0214</a></td><td>AX5112-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0007">AX5118-0000-0007</a></td><td>AX5118-0000-0007 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0008">AX5118-0000-0008</a></td><td>AX5118-0000-0008 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0009">AX5118-0000-0009</a></td><td>AX5118-0000-0009 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0010">AX5118-0000-0010</a></td><td>AX5118-0000-0010 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0011">AX5118-0000-0011</a></td><td>AX5118-0000-0011 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0012">AX5118-0000-0012</a></td><td>AX5118-0000-0012 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0200">AX5118-0000-0200</a></td><td>AX5118-0000-0200 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0201">AX5118-0000-0201</a></td><td>AX5118-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0202">AX5118-0000-0202</a></td><td>AX5118-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0203">AX5118-0000-0203</a></td><td>AX5118-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0210">AX5118-0000-0210</a></td><td>AX5118-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0212">AX5118-0000-0212</a></td><td>AX5118-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0213">AX5118-0000-0213</a></td><td>AX5118-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5118-0000-0214">AX5118-0000-0214</a></td><td>AX5118-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0007">AX5125-0000-0007</a></td><td>AX5125-0000-0007 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0008">AX5125-0000-0008</a></td><td>AX5125-0000-0008 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0009">AX5125-0000-0009</a></td><td>AX5125-0000-0009 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0010">AX5125-0000-0010</a></td><td>AX5125-0000-0010 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0011">AX5125-0000-0011</a></td><td>AX5125-0000-0011 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0012">AX5125-0000-0012</a></td><td>AX5125-0000-0012 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0200">AX5125-0000-0200</a></td><td>AX5125-0000-0200 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0201">AX5125-0000-0201</a></td><td>AX5125-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0202">AX5125-0000-0202</a></td><td>AX5125-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0203">AX5125-0000-0203</a></td><td>AX5125-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0210">AX5125-0000-0210</a></td><td>AX5125-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0212">AX5125-0000-0212</a></td><td>AX5125-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0213">AX5125-0000-0213</a></td><td>AX5125-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5125-0000-0214">AX5125-0000-0214</a></td><td>AX5125-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0200">AX5140-0000-0200</a></td><td>AX5140-0000-0200 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0201">AX5140-0000-0201</a></td><td>AX5140-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0202">AX5140-0000-0202</a></td><td>AX5140-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0203">AX5140-0000-0203</a></td><td>AX5140-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0210">AX5140-0000-0210</a></td><td>AX5140-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0212">AX5140-0000-0212</a></td><td>AX5140-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0213">AX5140-0000-0213</a></td><td>AX5140-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5140-0000-0214">AX5140-0000-0214</a></td><td>AX5140-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5160-0000-0201">AX5160-0000-0201</a></td><td>AX5160-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5160-0000-0202">AX5160-0000-0202</a></td><td>AX5160-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5160-0000-0203">AX5160-0000-0203</a></td><td>AX5160-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5160-0000-0210">AX5160-0000-0210</a></td><td>AX5160-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5160-0000-0212">AX5160-0000-0212</a></td><td>AX5160-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5160-0000-0213">AX5160-0000-0213</a></td><td>AX5160-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5160-0000-0214">AX5160-0000-0214</a></td><td>AX5160-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5172-0000-0201">AX5172-0000-0201</a></td><td>AX5172-0000-0201 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5172-0000-0202">AX5172-0000-0202</a></td><td>AX5172-0000-0202 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5172-0000-0203">AX5172-0000-0203</a></td><td>AX5172-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5172-0000-0210">AX5172-0000-0210</a></td><td>AX5172-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5172-0000-0212">AX5172-0000-0212</a></td><td>AX5172-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5172-0000-0213">AX5172-0000-0213</a></td><td>AX5172-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5172-0000-0214">AX5172-0000-0214</a></td><td>AX5172-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5190-0000-0203">AX5190-0000-0203</a></td><td>AX5190-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5190-0000-0210">AX5190-0000-0210</a></td><td>AX5190-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5190-0000-0212">AX5190-0000-0212</a></td><td>AX5190-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5190-0000-0213">AX5190-0000-0213</a></td><td>AX5190-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5190-0000-0214">AX5190-0000-0214</a></td><td>AX5190-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5191-0000-0203">AX5191-0000-0203</a></td><td>AX5191-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5191-0000-0210">AX5191-0000-0210</a></td><td>AX5191-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5191-0000-0212">AX5191-0000-0212</a></td><td>AX5191-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5191-0000-0213">AX5191-0000-0213</a></td><td>AX5191-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5191-0000-0214">AX5191-0000-0214</a></td><td>AX5191-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5192-0000-0203">AX5192-0000-0203</a></td><td>AX5192-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5192-0000-0210">AX5192-0000-0210</a></td><td>AX5192-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5192-0000-0212">AX5192-0000-0212</a></td><td>AX5192-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5192-0000-0213">AX5192-0000-0213</a></td><td>AX5192-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5192-0000-0214">AX5192-0000-0214</a></td><td>AX5192-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5193-0000-0203">AX5193-0000-0203</a></td><td>AX5193-0000-0203 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5193-0000-0210">AX5193-0000-0210</a></td><td>AX5193-0000-0210 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5193-0000-0212">AX5193-0000-0212</a></td><td>AX5193-0000-0212 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5193-0000-0213">AX5193-0000-0213</a></td><td>AX5193-0000-0213 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5193-0000-0214">AX5193-0000-0214</a></td><td>AX5193-0000-0214 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0003">AX5201-0000-0003</a></td><td>AX5201-0000-0003 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0004">AX5201-0000-0004</a></td><td>AX5201-0000-0004 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0005">AX5201-0000-0005</a></td><td>AX5201-0000-0005 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0006">AX5201-0000-0006</a></td><td>AX5201-0000-0006 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0007">AX5201-0000-0007</a></td><td>AX5201-0000-0007 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0008">AX5201-0000-0008</a></td><td>AX5201-0000-0008 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0009">AX5201-0000-0009</a></td><td>AX5201-0000-0009 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0010">AX5201-0000-0010</a></td><td>AX5201-0000-0010 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0011">AX5201-0000-0011</a></td><td>AX5201-0000-0011 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0012">AX5201-0000-0012</a></td><td>AX5201-0000-0012 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0200">AX5201-0000-0200</a></td><td>AX5201-0000-0200 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0201">AX5201-0000-0201</a></td><td>AX5201-0000-0201 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0202">AX5201-0000-0202</a></td><td>AX5201-0000-0202 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0203">AX5201-0000-0203</a></td><td>AX5201-0000-0203 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0210">AX5201-0000-0210</a></td><td>AX5201-0000-0210 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0212">AX5201-0000-0212</a></td><td>AX5201-0000-0212 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0213">AX5201-0000-0213</a></td><td>AX5201-0000-0213 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5201-0000-0214">AX5201-0000-0214</a></td><td>AX5201-0000-0214 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0003">AX5203-0000-0003</a></td><td>AX5203-0000-0003 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0004">AX5203-0000-0004</a></td><td>AX5203-0000-0004 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0005">AX5203-0000-0005</a></td><td>AX5203-0000-0005 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0006">AX5203-0000-0006</a></td><td>AX5203-0000-0006 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0007">AX5203-0000-0007</a></td><td>AX5203-0000-0007 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0008">AX5203-0000-0008</a></td><td>AX5203-0000-0008 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0009">AX5203-0000-0009</a></td><td>AX5203-0000-0009 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0010">AX5203-0000-0010</a></td><td>AX5203-0000-0010 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0011">AX5203-0000-0011</a></td><td>AX5203-0000-0011 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0012">AX5203-0000-0012</a></td><td>AX5203-0000-0012 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0200">AX5203-0000-0200</a></td><td>AX5203-0000-0200 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0201">AX5203-0000-0201</a></td><td>AX5203-0000-0201 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0202">AX5203-0000-0202</a></td><td>AX5203-0000-0202 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0203">AX5203-0000-0203</a></td><td>AX5203-0000-0203 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0210">AX5203-0000-0210</a></td><td>AX5203-0000-0210 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0212">AX5203-0000-0212</a></td><td>AX5203-0000-0212 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0213">AX5203-0000-0213</a></td><td>AX5203-0000-0213 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5203-0000-0214">AX5203-0000-0214</a></td><td>AX5203-0000-0214 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0003">AX5206-0000-0003</a></td><td>AX5206-0000-0003 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0004">AX5206-0000-0004</a></td><td>AX5206-0000-0004 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0005">AX5206-0000-0005</a></td><td>AX5206-0000-0005 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0006">AX5206-0000-0006</a></td><td>AX5206-0000-0006 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0007">AX5206-0000-0007</a></td><td>AX5206-0000-0007 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0008">AX5206-0000-0008</a></td><td>AX5206-0000-0008 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0009">AX5206-0000-0009</a></td><td>AX5206-0000-0009 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0010">AX5206-0000-0010</a></td><td>AX5206-0000-0010 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0011">AX5206-0000-0011</a></td><td>AX5206-0000-0011 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0012">AX5206-0000-0012</a></td><td>AX5206-0000-0012 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0200">AX5206-0000-0200</a></td><td>AX5206-0000-0200 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0201">AX5206-0000-0201</a></td><td>AX5206-0000-0201 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0202">AX5206-0000-0202</a></td><td>AX5206-0000-0202 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0203">AX5206-0000-0203</a></td><td>AX5206-0000-0203 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0210">AX5206-0000-0210</a></td><td>AX5206-0000-0210 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0212">AX5206-0000-0212</a></td><td>AX5206-0000-0212 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0213">AX5206-0000-0213</a></td><td>AX5206-0000-0213 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
-<tr><td width="30%"><a href="AX5206-0000-0214">AX5206-0000-0214</a></td><td>AX5206-0000-0214 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5021-0000">AX5021-0000</a></td><td>AX5021-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5101-0000">AX5101-0000</a></td><td>AX5101-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5103-0000">AX5103-0000</a></td><td>AX5103-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5106-0000">AX5106-0000</a></td><td>AX5106-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5112-0000">AX5112-0000</a></td><td>AX5112-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5118-0000">AX5118-0000</a></td><td>AX5118-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5125-0000">AX5125-0000</a></td><td>AX5125-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5140-0000">AX5140-0000</a></td><td>AX5140-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5160-0000">AX5160-0000</a></td><td>AX5160-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5172-0000">AX5172-0000</a></td><td>AX5172-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5190-0000">AX5190-0000</a></td><td>AX5190-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5191-0000">AX5191-0000</a></td><td>AX5191-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5192-0000">AX5192-0000</a></td><td>AX5192-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5193-0000">AX5193-0000</a></td><td>AX5193-0000 EtherCAT Drive (SoE, 1 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5201-0000">AX5201-0000</a></td><td>AX5201-0000 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5203-0000">AX5203-0000</a></td><td>AX5203-0000 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
+<tr><td width="30%"><a href="AX5206-0000">AX5206-0000</a></td><td>AX5206-0000 EtherCAT Drive (SoE, 2 Ch.)</td></tr>
 <tr><td width="30%"><a href="AX5805">AX5805</a></td><td>AX5805 (Safety Drive Option)</td></tr>
 <tr><td width="30%"><a href="AX5806">AX5806</a></td><td>AX5806 (Safety Drive Option)</td></tr>
-<tr><td width="30%"><a href="AX8108-0000-0041">AX8108-0000-0041</a></td><td>AX8108-0000-0041</td></tr>
-<tr><td width="30%"><a href="AX8108-0000-0100">AX8108-0000-0100</a></td><td>AX8108-0000-0100</td></tr>
-<tr><td width="30%"><a href="AX8108-0000-0101">AX8108-0000-0101</a></td><td>AX8108-0000-0101</td></tr>
-<tr><td width="30%"><a href="AX8108-0000-0102">AX8108-0000-0102</a></td><td>AX8108-0000-0102</td></tr>
-<tr><td width="30%"><a href="AX8108-0000-0103">AX8108-0000-0103</a></td><td>AX8108-0000-0103</td></tr>
-<tr><td width="30%"><a href="AX8108-0000-0104">AX8108-0000-0104</a></td><td>AX8108-0000-0104 (1Ch. 8A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8108-0000-0105">AX8108-0000-0105</a></td><td>AX8108-0000-0105 (1Ch. 8A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8108-0010-0102">AX8108-0010-0102</a></td><td>AX8108-0010-0102</td></tr>
-<tr><td width="30%"><a href="AX8108-0010-0103">AX8108-0010-0103</a></td><td>AX8108-0010-0103</td></tr>
-<tr><td width="30%"><a href="AX8108-0010-0104">AX8108-0010-0104</a></td><td>AX8108-0010-0104 (1Ch. 8A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0010-0105">AX8108-0010-0105</a></td><td>AX8108-0010-0105 (1Ch. 8A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0020-0105">AX8108-0020-0105</a></td><td>AX8108-0020-0105 (1Ch. 8A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0100-0101">AX8108-0100-0101</a></td><td>AX8108-0100-0101</td></tr>
-<tr><td width="30%"><a href="AX8108-0100-0102">AX8108-0100-0102</a></td><td>AX8108-0100-0102</td></tr>
-<tr><td width="30%"><a href="AX8108-0100-0103">AX8108-0100-0103</a></td><td>AX8108-0100-0103</td></tr>
-<tr><td width="30%"><a href="AX8108-0100-0104">AX8108-0100-0104</a></td><td>AX8108-0100-0104 (1Ch. 8A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8108-0100-0105">AX8108-0100-0105</a></td><td>AX8108-0100-0105 (1Ch. 8A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8108-0110-0102">AX8108-0110-0102</a></td><td>AX8108-0110-0102</td></tr>
-<tr><td width="30%"><a href="AX8108-0110-0103">AX8108-0110-0103</a></td><td>AX8108-0110-0103</td></tr>
-<tr><td width="30%"><a href="AX8108-0110-0104">AX8108-0110-0104</a></td><td>AX8108-0110-0104 (1Ch. 8A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0110-0105">AX8108-0110-0105</a></td><td>AX8108-0110-0105 (1Ch. 8A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0120-0105">AX8108-0120-0105</a></td><td>AX8108-0120-0105 (1Ch. 8A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0200-0103">AX8108-0200-0103</a></td><td>AX8108-0200-0103</td></tr>
-<tr><td width="30%"><a href="AX8108-0200-0104">AX8108-0200-0104</a></td><td>AX8108-0200-0104 (1Ch. 8A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8108-0200-0105">AX8108-0200-0105</a></td><td>AX8108-0200-0105 (1Ch. 8A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8108-0210-0103">AX8108-0210-0103</a></td><td>AX8108-0210-0103</td></tr>
-<tr><td width="30%"><a href="AX8108-0210-0104">AX8108-0210-0104</a></td><td>AX8108-0210-0104 (1Ch. 8A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0210-0105">AX8108-0210-0105</a></td><td>AX8108-0210-0105 (1Ch. 8A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8108-0220-0105">AX8108-0220-0105</a></td><td>AX8108-0220-0105 (1Ch. 8A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0000-0041">AX8118-0000-0041</a></td><td>AX8118-0000-0041</td></tr>
-<tr><td width="30%"><a href="AX8118-0000-0100">AX8118-0000-0100</a></td><td>AX8118-0000-0100</td></tr>
-<tr><td width="30%"><a href="AX8118-0000-0101">AX8118-0000-0101</a></td><td>AX8118-0000-0101</td></tr>
-<tr><td width="30%"><a href="AX8118-0000-0102">AX8118-0000-0102</a></td><td>AX8118-0000-0102</td></tr>
-<tr><td width="30%"><a href="AX8118-0000-0103">AX8118-0000-0103</a></td><td>AX8118-0000-0103</td></tr>
-<tr><td width="30%"><a href="AX8118-0000-0104">AX8118-0000-0104</a></td><td>AX8118-0000-0104 (1Ch. 18A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8118-0000-0105">AX8118-0000-0105</a></td><td>AX8118-0000-0105 (1Ch. 18A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8118-0010-0102">AX8118-0010-0102</a></td><td>AX8118-0010-0102</td></tr>
-<tr><td width="30%"><a href="AX8118-0010-0103">AX8118-0010-0103</a></td><td>AX8118-0010-0103</td></tr>
-<tr><td width="30%"><a href="AX8118-0010-0104">AX8118-0010-0104</a></td><td>AX8118-0010-0104 (1Ch. 18A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0010-0105">AX8118-0010-0105</a></td><td>AX8118-0010-0105 (1Ch. 18A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0020-0105">AX8118-0020-0105</a></td><td>AX8118-0020-0105 (1Ch. 18A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0100-0101">AX8118-0100-0101</a></td><td>AX8118-0100-0101</td></tr>
-<tr><td width="30%"><a href="AX8118-0100-0102">AX8118-0100-0102</a></td><td>AX8118-0100-0102</td></tr>
-<tr><td width="30%"><a href="AX8118-0100-0103">AX8118-0100-0103</a></td><td>AX8118-0100-0103</td></tr>
-<tr><td width="30%"><a href="AX8118-0100-0104">AX8118-0100-0104</a></td><td>AX8118-0100-0104 (1Ch. 18A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8118-0100-0105">AX8118-0100-0105</a></td><td>AX8118-0100-0105 (1Ch. 18A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8118-0110-0102">AX8118-0110-0102</a></td><td>AX8118-0110-0102</td></tr>
-<tr><td width="30%"><a href="AX8118-0110-0103">AX8118-0110-0103</a></td><td>AX8118-0110-0103</td></tr>
-<tr><td width="30%"><a href="AX8118-0110-0104">AX8118-0110-0104</a></td><td>AX8118-0110-0104 (1Ch. 18A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0110-0105">AX8118-0110-0105</a></td><td>AX8118-0110-0105 (1Ch. 18A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0120-0105">AX8118-0120-0105</a></td><td>AX8118-0120-0105 (1Ch. 18A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0200-0103">AX8118-0200-0103</a></td><td>AX8118-0200-0103</td></tr>
-<tr><td width="30%"><a href="AX8118-0200-0104">AX8118-0200-0104</a></td><td>AX8118-0200-0104 (1Ch. 18A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8118-0200-0105">AX8118-0200-0105</a></td><td>AX8118-0200-0105 (1Ch. 18A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8118-0210-0103">AX8118-0210-0103</a></td><td>AX8118-0210-0103</td></tr>
-<tr><td width="30%"><a href="AX8118-0210-0104">AX8118-0210-0104</a></td><td>AX8118-0210-0104 (1Ch. 18A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0210-0105">AX8118-0210-0105</a></td><td>AX8118-0210-0105 (1Ch. 18A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8118-0220-0105">AX8118-0220-0105</a></td><td>AX8118-0220-0105 (1Ch. 18A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8125-0000-0105">AX8125-0000-0105</a></td><td>AX8125-0000-0105 (1Ch. 25A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8125-0020-0105">AX8125-0020-0105</a></td><td>AX8125-0020-0105 (1Ch. 25A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8125-0100-0105">AX8125-0100-0105</a></td><td>AX8125-0100-0105 (1Ch. 25A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8125-0120-0105">AX8125-0120-0105</a></td><td>AX8125-0120-0105 (1Ch. 25A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8125-0200-0105">AX8125-0200-0105</a></td><td>AX8125-0200-0105 (1Ch. 25A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8125-0220-0105">AX8125-0220-0105</a></td><td>AX8125-0220-0105 (1Ch. 25A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8140-0000-0105">AX8140-0000-0105</a></td><td>AX8140-0000-0105 (1Ch. 40A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8140-0020-0105">AX8140-0020-0105</a></td><td>AX8140-0020-0105 (1Ch. 40A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8140-0100-0105">AX8140-0100-0105</a></td><td>AX8140-0100-0105 (1Ch. 40A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8140-0120-0105">AX8140-0120-0105</a></td><td>AX8140-0120-0105 (1Ch. 40A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8140-0200-0105">AX8140-0200-0105</a></td><td>AX8140-0200-0105 (1Ch. 40A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8140-0220-0105">AX8140-0220-0105</a></td><td>AX8140-0220-0105 (1Ch. 40A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8206-0000-0041">AX8206-0000-0041</a></td><td>AX8206-0000-0041</td></tr>
-<tr><td width="30%"><a href="AX8206-0000-0100">AX8206-0000-0100</a></td><td>AX8206-0000-0100</td></tr>
-<tr><td width="30%"><a href="AX8206-0000-0101">AX8206-0000-0101</a></td><td>AX8206-0000-0101</td></tr>
-<tr><td width="30%"><a href="AX8206-0000-0102">AX8206-0000-0102</a></td><td>AX8206-0000-0102</td></tr>
-<tr><td width="30%"><a href="AX8206-0000-0103">AX8206-0000-0103</a></td><td>AX8206-0000-0103</td></tr>
-<tr><td width="30%"><a href="AX8206-0000-0104">AX8206-0000-0104</a></td><td>AX8206-0000-0104 (2Ch. 6A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8206-0000-0105">AX8206-0000-0105</a></td><td>AX8206-0000-0105 (2Ch. 6A servo axis)</td></tr>
-<tr><td width="30%"><a href="AX8206-0010-0102">AX8206-0010-0102</a></td><td>AX8206-0010-0102</td></tr>
-<tr><td width="30%"><a href="AX8206-0010-0103">AX8206-0010-0103</a></td><td>AX8206-0010-0103</td></tr>
-<tr><td width="30%"><a href="AX8206-0010-0104">AX8206-0010-0104</a></td><td>AX8206-0010-0104 (2Ch. 6A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8206-0010-0105">AX8206-0010-0105</a></td><td>AX8206-0010-0105 (2Ch. 6A servo axis, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8206-0100-0101">AX8206-0100-0101</a></td><td>AX8206-0100-0101</td></tr>
-<tr><td width="30%"><a href="AX8206-0100-0102">AX8206-0100-0102</a></td><td>AX8206-0100-0102</td></tr>
-<tr><td width="30%"><a href="AX8206-0100-0103">AX8206-0100-0103</a></td><td>AX8206-0100-0103</td></tr>
-<tr><td width="30%"><a href="AX8206-0100-0104">AX8206-0100-0104</a></td><td>AX8206-0100-0104 (2Ch. 6A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8206-0100-0105">AX8206-0100-0105</a></td><td>AX8206-0100-0105 (2Ch. 6A servo axis, STO)</td></tr>
-<tr><td width="30%"><a href="AX8206-0110-0102">AX8206-0110-0102</a></td><td>AX8206-0110-0102</td></tr>
-<tr><td width="30%"><a href="AX8206-0110-0103">AX8206-0110-0103</a></td><td>AX8206-0110-0103</td></tr>
-<tr><td width="30%"><a href="AX8206-0110-0104">AX8206-0110-0104</a></td><td>AX8206-0110-0104 (2Ch. 6A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8206-0110-0105">AX8206-0110-0105</a></td><td>AX8206-0110-0105 (2Ch. 6A servo axis, STO, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8206-0200-0103">AX8206-0200-0103</a></td><td>AX8206-0200-0103</td></tr>
-<tr><td width="30%"><a href="AX8206-0200-0104">AX8206-0200-0104</a></td><td>AX8206-0200-0104 (2Ch. 6A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8206-0200-0105">AX8206-0200-0105</a></td><td>AX8206-0200-0105 (2Ch. 6A servo axis, safe-motion)</td></tr>
-<tr><td width="30%"><a href="AX8206-0210-0103">AX8206-0210-0103</a></td><td>AX8206-0210-0103</td></tr>
-<tr><td width="30%"><a href="AX8206-0210-0104">AX8206-0210-0104</a></td><td>AX8206-0210-0104 (2Ch. 6A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8206-0210-0105">AX8206-0210-0105</a></td><td>AX8206-0210-0105 (2Ch. 6A servo axis, safe-motion, multi-FB)</td></tr>
-<tr><td width="30%"><a href="AX8525-0000-0105">AX8525-0000-0105</a></td><td>AX8525-0000-0105</td></tr>
-<tr><td width="30%"><a href="AX8540-0000-0104">AX8540-0000-0104</a></td><td>AX8540-0000-0104</td></tr>
-<tr><td width="30%"><a href="AX8540-0000-0105">AX8540-0000-0105</a></td><td>AX8540-0000-0105</td></tr>
-<tr><td width="30%"><a href="AX8600-0000-0101">AX8600-0000-0101</a></td><td>AX8600-0000-0101</td></tr>
+<tr><td width="30%"><a href="AX8108-0000">AX8108-0000</a></td><td>AX8108-0000 (1Ch. 8A servo axis)</td></tr>
+<tr><td width="30%"><a href="AX8108-0010">AX8108-0010</a></td><td>AX8108-0010 (1Ch. 8A servo axis, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8108-0020">AX8108-0020</a></td><td>AX8108-0020 (1Ch. 8A servo axis, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8108-0100">AX8108-0100</a></td><td>AX8108-0100 (1Ch. 8A servo axis, STO)</td></tr>
+<tr><td width="30%"><a href="AX8108-0110">AX8108-0110</a></td><td>AX8108-0110 (1Ch. 8A servo axis, STO, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8108-0120">AX8108-0120</a></td><td>AX8108-0120 (1Ch. 8A servo axis, STO, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8108-0200">AX8108-0200</a></td><td>AX8108-0200 (1Ch. 8A servo axis, safe-motion)</td></tr>
+<tr><td width="30%"><a href="AX8108-0210">AX8108-0210</a></td><td>AX8108-0210 (1Ch. 8A servo axis, safe-motion, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8108-0220">AX8108-0220</a></td><td>AX8108-0220 (1Ch. 8A servo axis, safe-motion, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8118-0000">AX8118-0000</a></td><td>AX8118-0000 (1Ch. 18A servo axis)</td></tr>
+<tr><td width="30%"><a href="AX8118-0010">AX8118-0010</a></td><td>AX8118-0010 (1Ch. 18A servo axis, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8118-0020">AX8118-0020</a></td><td>AX8118-0020 (1Ch. 18A servo axis, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8118-0100">AX8118-0100</a></td><td>AX8118-0100 (1Ch. 18A servo axis, STO)</td></tr>
+<tr><td width="30%"><a href="AX8118-0110">AX8118-0110</a></td><td>AX8118-0110 (1Ch. 18A servo axis, STO, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8118-0120">AX8118-0120</a></td><td>AX8118-0120 (1Ch. 18A servo axis, STO, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8118-0200">AX8118-0200</a></td><td>AX8118-0200 (1Ch. 18A servo axis, safe-motion)</td></tr>
+<tr><td width="30%"><a href="AX8118-0210">AX8118-0210</a></td><td>AX8118-0210 (1Ch. 18A servo axis, safe-motion, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8118-0220">AX8118-0220</a></td><td>AX8118-0220 (1Ch. 18A servo axis, safe-motion, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8125-0000">AX8125-0000</a></td><td>AX8125-0000 (1Ch. 25A servo axis)</td></tr>
+<tr><td width="30%"><a href="AX8125-0020">AX8125-0020</a></td><td>AX8125-0020 (1Ch. 25A servo axis, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8125-0100">AX8125-0100</a></td><td>AX8125-0100 (1Ch. 25A servo axis, STO)</td></tr>
+<tr><td width="30%"><a href="AX8125-0120">AX8125-0120</a></td><td>AX8125-0120 (1Ch. 25A servo axis, STO, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8125-0200">AX8125-0200</a></td><td>AX8125-0200 (1Ch. 25A servo axis, safe-motion)</td></tr>
+<tr><td width="30%"><a href="AX8125-0220">AX8125-0220</a></td><td>AX8125-0220 (1Ch. 25A servo axis, safe-motion, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8140-0000">AX8140-0000</a></td><td>AX8140-0000 (1Ch. 40A servo axis)</td></tr>
+<tr><td width="30%"><a href="AX8140-0020">AX8140-0020</a></td><td>AX8140-0020 (1Ch. 40A servo axis, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8140-0100">AX8140-0100</a></td><td>AX8140-0100 (1Ch. 40A servo axis, STO)</td></tr>
+<tr><td width="30%"><a href="AX8140-0120">AX8140-0120</a></td><td>AX8140-0120 (1Ch. 40A servo axis, STO, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8140-0200">AX8140-0200</a></td><td>AX8140-0200 (1Ch. 40A servo axis, safe-motion)</td></tr>
+<tr><td width="30%"><a href="AX8140-0220">AX8140-0220</a></td><td>AX8140-0220 (1Ch. 40A servo axis, safe-motion, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8206-0000">AX8206-0000</a></td><td>AX8206-0000 (2Ch. 6A servo axis)</td></tr>
+<tr><td width="30%"><a href="AX8206-0010">AX8206-0010</a></td><td>AX8206-0010 (2Ch. 6A servo axis, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8206-0100">AX8206-0100</a></td><td>AX8206-0100 (2Ch. 6A servo axis, STO)</td></tr>
+<tr><td width="30%"><a href="AX8206-0110">AX8206-0110</a></td><td>AX8206-0110 (2Ch. 6A servo axis, STO, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8206-0200">AX8206-0200</a></td><td>AX8206-0200 (2Ch. 6A servo axis, safe-motion)</td></tr>
+<tr><td width="30%"><a href="AX8206-0210">AX8206-0210</a></td><td>AX8206-0210 (2Ch. 6A servo axis, safe-motion, multi-FB)</td></tr>
+<tr><td width="30%"><a href="AX8525-0000">AX8525-0000</a></td><td>AX8525-0000</td></tr>
+<tr><td width="30%"><a href="AX8540-0000">AX8540-0000</a></td><td>AX8540-0000</td></tr>
+<tr><td width="30%"><a href="AX8600-0000">AX8600-0000</a></td><td>AX8600-0000</td></tr>
 <tr><td width="30%"><a href="AX8620">AX8620</a></td><td>AX8620-0000-0029</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0030">AX8620-0000-0030</a></td><td>AX8620-0000-0030</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0031">AX8620-0000-0031</a></td><td>AX8620-0000-0031</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0032">AX8620-0000-0032</a></td><td>AX8620-0000-0032</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0100">AX8620-0000-0100</a></td><td>AX8620-0000-0100</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0101">AX8620-0000-0101</a></td><td>AX8620-0000-0101</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0102">AX8620-0000-0102</a></td><td>AX8620-0000-0102</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0103">AX8620-0000-0103</a></td><td>AX8620-0000-0103</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0104">AX8620-0000-0104</a></td><td>AX8620-0000-0104</td></tr>
-<tr><td width="30%"><a href="AX8620-0000-0105">AX8620-0000-0105</a></td><td>AX8620-0000-0105</td></tr>
+<tr><td width="30%"><a href="AX8620-0000">AX8620-0000</a></td><td>AX8620-0000</td></tr>
 <tr><td width="30%"><a href="AX8640">AX8640</a></td><td>AX8640-0000-0027</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0030">AX8640-0000-0030</a></td><td>AX8640-0000-0030</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0031">AX8640-0000-0031</a></td><td>AX8640-0000-0031</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0032">AX8640-0000-0032</a></td><td>AX8640-0000-0032</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0100">AX8640-0000-0100</a></td><td>AX8640-0000-0100</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0101">AX8640-0000-0101</a></td><td>AX8640-0000-0101</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0102">AX8640-0000-0102</a></td><td>AX8640-0000-0102</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0103">AX8640-0000-0103</a></td><td>AX8640-0000-0103</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0104">AX8640-0000-0104</a></td><td>AX8640-0000-0104</td></tr>
-<tr><td width="30%"><a href="AX8640-0000-0105">AX8640-0000-0105</a></td><td>AX8640-0000-0105</td></tr>
+<tr><td width="30%"><a href="AX8640-0000">AX8640-0000</a></td><td>AX8640-0000</td></tr>
 <tr><td width="30%"><a href="AX8810">AX8810</a></td><td>AX8810-0000-0017</td></tr>
-<tr><td width="30%"><a href="AX8810-0000-0024">AX8810-0000-0024</a></td><td>AX8810-0000-0024</td></tr>
-<tr><td width="30%"><a href="AX8810-0000-0100">AX8810-0000-0100</a></td><td>AX8810-0000-0100</td></tr>
-<tr><td width="30%"><a href="AX8831-0000-0200">AX8831-0000-0200</a></td><td>AX8831-0000-0200</td></tr>
-<tr><td width="30%"><a href="AX8831-0000-0201">AX8831-0000-0201</a></td><td>AX8831-0000-0201</td></tr>
-<tr><td width="30%"><a href="AX8832-0000-0200">AX8832-0000-0200</a></td><td>AX8832-0000-0200</td></tr>
-<tr><td width="30%"><a href="AX8832-0000-0201">AX8832-0000-0201</a></td><td>AX8832-0000-0201</td></tr>
+<tr><td width="30%"><a href="AX8810-0000">AX8810-0000</a></td><td>AX8810-0000</td></tr>
+<tr><td width="30%"><a href="AX8831-0000">AX8831-0000</a></td><td>AX8831-0000</td></tr>
+<tr><td width="30%"><a href="AX8832-0000">AX8832-0000</a></td><td>AX8832-0000</td></tr>
 <tr><td width="30%"><a href="BK1120">BK1120</a></td><td>BK1120 EtherCAT Fieldbus coupler</td></tr>
 <tr><td width="30%"><a href="BK1150">BK1150</a></td><td>BK1150 EtherCAT Fieldbus coupler</td></tr>
 <tr><td width="30%"><a href="BK1250">BK1250</a></td><td>BK1250 Coupler between E-bus and K-bus Terminals</td></tr>
@@ -502,7 +226,7 @@
 <tr><td width="30%"><a href="EJ7031">EJ7031</a></td><td>EJ7031 1Ch. Stepper motor output stage (24V, 1.5A)</td></tr>
 <tr><td width="30%"><a href="EJ7037">EJ7037</a></td><td>EJ7037 1Ch. Stepper motor output stage (24V, 1.5A)</td></tr>
 <tr><td width="30%"><a href="EJ7041-0052">EJ7041-0052</a></td><td>EJ7041-0052 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
-<tr><td width="30%"><a href="EJ7047">EJ7047</a></td><td>EJ7047 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
+<tr><td width="30%"><a href="EJ7047">EJ7047</a></td><td>EJ7047 1Ch. Stepper motor output stage (48V, 5A)</td></tr>
 <tr><td width="30%"><a href="EJ7211-0010">EJ7211-0010</a></td><td>EJ7211-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 4.5A RMS)</td></tr>
 <tr><td width="30%"><a href="EJ7211-0011">EJ7211-0011</a></td><td>EJ7211-0011 1Ch. DS402 Servo motor output stage with OCT (50V, 4.5A RMS)</td></tr>
 <tr><td width="30%"><a href="EJ7211-9414">EJ7211-9414</a></td><td>EJ7211-9414 1Ch. MDP742 Servo motor output stage with OCT (50V, 4.5A RMS) , TwinSAFE SC</td></tr>
@@ -612,7 +336,7 @@
 <tr><td width="30%"><a href="EL1899">EL1899</a></td><td>EL1899 16Ch. Dig. Input 24V, 10µs, negative</td></tr>
 <tr><td width="30%"><a href="EL1904">EL1904</a></td><td>EL1904, 4 Ch. Safety Input 24V, TwinSAFE</td></tr>
 <tr><td width="30%"><a href="EL1918">EL1918</a></td><td>EL1918, 8Ch. Safety Input 24V, TwinSAFE</td></tr>
-<tr><td width="30%"><a href="EL2002">EL2002</a></td><td>EL2002 2Ch. Dig. Output 24V, 0.5A</td></tr>
+<tr><td width="30%"><a href="EL2002">EL2002</a></td><td>EL2002 2Ch. Dig. Output 24V, 0,5A</td></tr>
 <tr><td width="30%"><a href="EL2004">EL2004</a></td><td>EL2004 4Ch. Dig. Output 24V, 0,5A</td></tr>
 <tr><td width="30%"><a href="EL2008">EL2008</a></td><td>EL2008 8Ch. Dig. Output 24V, 0.5A</td></tr>
 <tr><td width="30%"><a href="EL2008-0015">EL2008-0015</a></td><td>EL2008-0015 8Ch. Dig. Output 24V DC, 0.35A, not short-circuit proof</td></tr>
@@ -634,7 +358,7 @@
 <tr><td width="30%"><a href="EL2252">EL2252</a></td><td>EL2252 2Ch. Dig. Output 24V, 0.5A, DC Time Stamp</td></tr>
 <tr><td width="30%"><a href="EL2258">EL2258</a></td><td>EL2258 8Ch. Dig Output 24V with Multi-Time-Stamp</td></tr>
 <tr><td width="30%"><a href="EL2262">EL2262</a></td><td>EL2262 2Ch. Dig. Output 24V, 0.5A, DC Over Sampling</td></tr>
-<tr><td width="30%"><a href="EL2502">EL2502</a></td><td>EL2502 2Ch. PWM Output, 24V</td></tr>
+<tr><td width="30%"><a href="EL2502">EL2502</a></td><td>EL2502 2Ch. PWM output, 24V</td></tr>
 <tr><td width="30%"><a href="EL2502-0005">EL2502-0005</a></td><td>EL2502-0005 2Ch. PWM, optical output</td></tr>
 <tr><td width="30%"><a href="EL2502-0010">EL2502-0010</a></td><td>EL2502-0010 2 Ch. PWM output, 24V, 2 Ch DC Time Stamp</td></tr>
 <tr><td width="30%"><a href="EL2521">EL2521</a></td><td>EL2521 1Ch. Pulse Train Output</td></tr>
@@ -693,7 +417,7 @@
 <tr><td width="30%"><a href="EL3012">EL3012</a></td><td>EL3012 2Ch. Ana. Input 0-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3014">EL3014</a></td><td>EL3014 4Ch. Ana. Input 0-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3021">EL3021</a></td><td>EL3021 1Ch. Ana. Input 4-20mA DIFF</td></tr>
-<tr><td width="30%"><a href="EL3022">EL3022</a></td><td>EL3022 2Ch. Ana. Input 4-20mA DIFF</td></tr>
+<tr><td width="30%"><a href="EL3022">EL3022</a></td><td>EL3022 4Ch. Ana. Input 4-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3024">EL3024</a></td><td>EL3024 4Ch. Ana. Input 4-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3024-0018">EL3024-0018</a></td><td>EL3024-0018 4Ch. Ana. Input 4-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3041">EL3041</a></td><td>EL3041 1Ch. Ana. Input 0-20mA</td></tr>
@@ -708,7 +432,7 @@
 <tr><td width="30%"><a href="EL3061">EL3061</a></td><td>EL3061 1Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3062">EL3062</a></td><td>EL3062 2Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3062-0015">EL3062-0015</a></td><td>EL3062-0015 2Ch. Ana. Input 0-15V</td></tr>
-<tr><td width="30%"><a href="EL3062-0030">EL3062-0030</a></td><td>EL3062-0030 2Ch. Ana. Input 0-30 V</td></tr>
+<tr><td width="30%"><a href="EL3062-0030">EL3062-0030</a></td><td>EL3062-0030 2Ch. Ana. Input 0-30V</td></tr>
 <tr><td width="30%"><a href="EL3064">EL3064</a></td><td>EL3064 4Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3068">EL3068</a></td><td>EL3068 8Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3072">EL3072</a></td><td>EL3072 2Ch. Ana. Input +/-10V, +/-20mA</td></tr>
@@ -716,20 +440,20 @@
 <tr><td width="30%"><a href="EL3101">EL3101</a></td><td>EL3101 1Ch. Ana. Input +/-10V Diff.</td></tr>
 <tr><td width="30%"><a href="EL3102">EL3102</a></td><td>EL3102 2Ch. Ana. Input +/-10V, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3104">EL3104</a></td><td>EL3104 4Ch. Ana. Input +/-10V Diff.</td></tr>
-<tr><td width="30%"><a href="EL3111">EL3111</a></td><td>EL3111 1Ch. Ana. Input 0-20mA, Diff.</td></tr>
+<tr><td width="30%"><a href="EL3111">EL3111</a></td><td>EL3111 1Ch. Ana. Input 0-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3112">EL3112</a></td><td>EL3112 2Ch. Ana. Input 0-20mA, DIFF</td></tr>
 <tr><td width="30%"><a href="EL3112-0011">EL3112-0011</a></td><td>EL3112-0011 2Ch. Ana Input +/-20mA, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3114">EL3114</a></td><td>EL3114 4Ch. Ana. Input 0-20mA Diff.</td></tr>
 <tr><td width="30%"><a href="EL3121">EL3121</a></td><td>EL3121 1Ch. Ana. Input 4-20mA Diff.</td></tr>
-<tr><td width="30%"><a href="EL3122">EL3122</a></td><td>EL3122 2Ch. Ana Input 4-20mA, Diff.</td></tr>
+<tr><td width="30%"><a href="EL3122">EL3122</a></td><td>EL3122 2Ch. Ana. Input 4-20mA, DIFF</td></tr>
 <tr><td width="30%"><a href="EL3124">EL3124</a></td><td>EL3124 4Ch. Ana. Input 4-20mA Diff.</td></tr>
 <tr><td width="30%"><a href="EL3124-0090">EL3124-0090</a></td><td>EL3124-0090 4Ch. Ana. Input 4-20mA, Diff., TwinSAFE SC</td></tr>
 <tr><td width="30%"><a href="EL3141">EL3141</a></td><td>EL3141 1Ch. Ana. Input 0-20mA</td></tr>
-<tr><td width="30%"><a href="EL3142">EL3142</a></td><td>EL3142 2Ch. Ana Input 0-20mA</td></tr>
+<tr><td width="30%"><a href="EL3142">EL3142</a></td><td>EL3142 2Ch. Ana. Input 0-20mA</td></tr>
 <tr><td width="30%"><a href="EL3142-0010">EL3142-0010</a></td><td>EL3142-0010 2Ch. Ana Input +/-10mA</td></tr>
 <tr><td width="30%"><a href="EL3144">EL3144</a></td><td>EL3144 4Ch. Ana. Input 0-20mA</td></tr>
 <tr><td width="30%"><a href="EL3151">EL3151</a></td><td>EL3151 1Ch. Ana. Input 4-20mA</td></tr>
-<tr><td width="30%"><a href="EL3152">EL3152</a></td><td>EL3152 2Ch. Ana Input 4-20mA</td></tr>
+<tr><td width="30%"><a href="EL3152">EL3152</a></td><td>EL3152 2Ch. Ana. Input 4-20mA</td></tr>
 <tr><td width="30%"><a href="EL3154">EL3154</a></td><td>EL3154 4Ch. Ana. Input 4-20mA</td></tr>
 <tr><td width="30%"><a href="EL3161">EL3161</a></td><td>EL3161 1Ch. Ana. Input 0-10V</td></tr>
 <tr><td width="30%"><a href="EL3162">EL3162</a></td><td>EL3162 2Ch. Ana. Input 0-10V</td></tr>
@@ -743,7 +467,7 @@
 <tr><td width="30%"><a href="EL3174-0090">EL3174-0090</a></td><td>EL3174-0090 4Ch. Ana. Input +/-10V DIFF, +/-20mA SE, 16 Bit, TwinSAFE SC</td></tr>
 <tr><td width="30%"><a href="EL3182">EL3182</a></td><td>EL3182 2Ch. Ana. Input 4-20mA, HART</td></tr>
 <tr><td width="30%"><a href="EL3201">EL3201</a></td><td>EL3201 1Ch. Ana. Input PT100 (RTD)</td></tr>
-<tr><td width="30%"><a href="EL3201-0010">EL3201-0010</a></td><td>EL3201-0010 1Ch. Ana. Input PT100 (RTD), High Precision	</td></tr>
+<tr><td width="30%"><a href="EL3201-0010">EL3201-0010</a></td><td>EL3201-0010 1Ch. Ana. Input PT100 (RTD), High Precision</td></tr>
 <tr><td width="30%"><a href="EL3201-0020">EL3201-0020</a></td><td>EL3201-0020 1Ch. Ana. Input PT100 (RTD), High Precision, calibrated</td></tr>
 <tr><td width="30%"><a href="EL3201-0030">EL3201-0030</a></td><td>EL3201-0030 1Ch. Ana. Input PT100 (RTD), High Precision, external calibrated</td></tr>
 <tr><td width="30%"><a href="EL3202">EL3202</a></td><td>EL3202 2Ch. Ana. Input PT100 (RTD)</td></tr>
@@ -769,7 +493,7 @@
 <tr><td width="30%"><a href="EL3314-0090">EL3314-0090</a></td><td>EL3314-0090 4Ch. Ana Input Thermocouple (TC), TwinSAFE SC</td></tr>
 <tr><td width="30%"><a href="EL3314-0092">EL3314-0092</a></td><td>EL3314-0092 4Ch. Ana Input Thermocouple (TC), TwinSAFE SC</td></tr>
 <tr><td width="30%"><a href="EL3318">EL3318</a></td><td>EL3318 8Ch. Ana Input Thermocouple (TC)</td></tr>
-<tr><td width="30%"><a href="EL3351">EL3351</a></td><td>EL3351 1Ch. Ana. Input Resistor Bridge Terminal, Diff. 16bit</td></tr>
+<tr><td width="30%"><a href="EL3351">EL3351</a></td><td>EL3351 1Ch. Ana. Input Resistor Bridge Terminal, Diff. 16bit </td></tr>
 <tr><td width="30%"><a href="EL3356">EL3356</a></td><td>EL3356 1Ch. Ana. Input Resistor Bridge Terminal, 16bit, High Precision</td></tr>
 <tr><td width="30%"><a href="EL3356-0010">EL3356-0010</a></td><td>EL3356-0010 1Ch. Ana. Input Resistor Bridge Terminal, 24bit, High Precision</td></tr>
 <tr><td width="30%"><a href="EL3356-0020">EL3356-0020</a></td><td>EL3356-0020 1Ch. Ana. Input Resistor Bridge Terminal, 24bit, High Precision, with calibration certificate</td></tr>
@@ -788,7 +512,7 @@
 <tr><td width="30%"><a href="EL3423">EL3423</a></td><td>EL3423 3Ch. Eco Energy Measurement</td></tr>
 <tr><td width="30%"><a href="EL3433">EL3433</a></td><td>EL3433 3Ch. Power Measuring</td></tr>
 <tr><td width="30%"><a href="EL3443">EL3443</a></td><td>EL3443 3Ch. Power Measuring</td></tr>
-<tr><td width="30%"><a href="EL3443-0010">EL3443-0010</a></td><td>EL3443-0010 3Ch. Power Measuring</td></tr>
+<tr><td width="30%"><a href="EL3443-0010">EL3443-0010</a></td><td>EL3443-0010 3Ch. Power Measuring 10A</td></tr>
 <tr><td width="30%"><a href="EL3443-0011">EL3443-0011</a></td><td>EL3443-0011 3Ch. Power Measuring 100mA</td></tr>
 <tr><td width="30%"><a href="EL3443-0013">EL3443-0013</a></td><td>EL3443-0013 3Ch. Power Measuring 333 mV</td></tr>
 <tr><td width="30%"><a href="EL3443-0020">EL3443-0020</a></td><td>EL3443-0020 3Ch. Power Measuring calibrated</td></tr>
@@ -833,18 +557,18 @@
 <tr><td width="30%"><a href="EL4022">EL4022</a></td><td>EL4022 2Ch. Ana. Output 4-20mA, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4024">EL4024</a></td><td>EL4024 4Ch. Ana. Output 4-20mA, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4028">EL4028</a></td><td>EL4028 8Ch. Ana. Output 4-20mA, 12bit</td></tr>
-<tr><td width="30%"><a href="EL4031">EL4031</a></td><td>EL4031 1Ch. Ana. Output -10/+10V, 12bit</td></tr>
+<tr><td width="30%"><a href="EL4031">EL4031</a></td><td>EL4031 1Ch. Ana. Output +/-10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4032">EL4032</a></td><td>EL4032 2Ch. Ana. Output +/-10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4034">EL4034</a></td><td>EL4034 4Ch. Ana. Output +/-10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4038">EL4038</a></td><td>EL4038 8Ch. Ana. Output +/-10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4102">EL4102</a></td><td>EL4102 2Ch. Ana. Output  0-10V, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4104">EL4104</a></td><td>EL4104 4Ch. Ana. Output 0-10V, 16bit</td></tr>
-<tr><td width="30%"><a href="EL4112">EL4112</a></td><td>EL4112 2Ch. Ana. Output  0-20mA, 16bit</td></tr>
-<tr><td width="30%"><a href="EL4112-0010">EL4112-0010</a></td><td>EL4112-0010 2Ch. Ana. Output +/-10mA, 16bit</td></tr>
+<tr><td width="30%"><a href="EL4112">EL4112</a></td><td>EL4112 2Ch. Ana. Output 0-20mA</td></tr>
+<tr><td width="30%"><a href="EL4112-0010">EL4112-0010</a></td><td>EL4112-0010 2Ch. Ana. Output +/-10mA</td></tr>
 <tr><td width="30%"><a href="EL4114">EL4114</a></td><td>EL4114 4Ch. Ana. Output 0-20mA, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4122">EL4122</a></td><td>EL4122 2Ch. Ana. Output  4-20mA, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4124">EL4124</a></td><td>EL4124 4Ch. Ana. Output 4-20mA, 16bit</td></tr>
-<tr><td width="30%"><a href="EL4132">EL4132</a></td><td>EL4132 2Ch. Ana. Output +/-10V, 16bit</td></tr>
+<tr><td width="30%"><a href="EL4132">EL4132</a></td><td>EL4132 2Ch. Ana. Output +/-10V</td></tr>
 <tr><td width="30%"><a href="EL4134">EL4134</a></td><td>EL4134 4Ch. Ana. Output -10/+10V, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4134-0030">EL4134-0030</a></td><td>EL4134-0030 4Ch. Ana. Output -10/+10V, 16bit, external calibrated</td></tr>
 <tr><td width="30%"><a href="EL4712">EL4712</a></td><td>EL4712 2Ch. Ana. Output 0-20mA, Oversample</td></tr>
@@ -861,7 +585,7 @@
 <tr><td width="30%"><a href="EL5032-0090">EL5032-0090</a></td><td>EL5032-0090 2Ch. EnDat Encoder, TwinSAFE SC</td></tr>
 <tr><td width="30%"><a href="EL5042">EL5042</a></td><td>EL5042 2Ch. BiSS-C Encoder</td></tr>
 <tr><td width="30%"><a href="EL5072">EL5072</a></td><td>EL5072 2Ch. Inductive sensor interface (LVDT, Half Bridge)</td></tr>
-<tr><td width="30%"><a href="EL5101">EL5101</a></td><td>EL5101-1001 1Ch. Encoder 5V</td></tr>
+<tr><td width="30%"><a href="EL5101">EL5101</a></td><td>EL5101 1Ch. Encoder 5V</td></tr>
 <tr><td width="30%"><a href="EL5101-0010">EL5101-0010</a></td><td>EL5101-0010 1Ch. Inc. Encoder 5V (20 million increments/s)</td></tr>
 <tr><td width="30%"><a href="EL5101-0011">EL5101-0011</a></td><td>EL5101-0011 1Ch. Inc. Encoder 5V (20 million increments/s, oversampling)</td></tr>
 <tr><td width="30%"><a href="EL5101-0090">EL5101-0090</a></td><td>EL5101-0090 1Ch. Inc. Encoder 5V, TwinSAFE SC</td></tr>
@@ -925,12 +649,12 @@
 <tr><td width="30%"><a href="EL7041-0001">EL7041-0001</a></td><td>EL7041-0001 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7041-0052">EL7041-0052</a></td><td>EL7041-0052 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7041-1000">EL7041-1000</a></td><td>EL7041-1000 1Ch. Stepper motor output stage (50V, 5A, standard)</td></tr>
-<tr><td width="30%"><a href="EL7047">EL7047</a></td><td>EL7047 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
+<tr><td width="30%"><a href="EL7047">EL7047</a></td><td>EL7047-0000 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7047-0052">EL7047-0052</a></td><td>EL7047-0052 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7047-9014">EL7047-9014</a></td><td>EL7047-9014 1Ch. Stepper motor output stage with STO (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7201">EL7201</a></td><td>EL7201 1Ch. MDP742 Servo motor output stage (50V, 4A)</td></tr>
-<tr><td width="30%"><a href="EL7201-0001">EL7201-0001</a></td><td>EL7201 1Ch. DS402 Servo motor output stage (50V, 4A)</td></tr>
-<tr><td width="30%"><a href="EL7201-0010">EL7201-0010</a></td><td>EL7201-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 4A)</td></tr>
+<tr><td width="30%"><a href="EL7201-0001">EL7201-0001</a></td><td>EL7201-0001 1Ch. DS402 Servo motor output stage (50V, 4A)</td></tr>
+<tr><td width="30%"><a href="EL7201-0010">EL7201-0010</a></td><td>EL7201-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 2.8A RMS)</td></tr>
 <tr><td width="30%"><a href="EL7201-0011">EL7201-0011</a></td><td>EL7201-0011 1Ch. DS402 Servo motor output stage with OCT (50V, 4A)</td></tr>
 <tr><td width="30%"><a href="EL7201-9014">EL7201-9014</a></td><td>EL7201-9014 1Ch. MDP742 Servo motor output stage with OCT (50V, 2.8A RMS) and STO input</td></tr>
 <tr><td width="30%"><a href="EL7201-9015">EL7201-9015</a></td><td>EL7201-9015 1Ch. DS402 Servo motor output stage with OCT (50V, 2.8A RMS) and STO input</td></tr>
@@ -1197,8 +921,8 @@
 <tr><td width="30%"><a href="EP3351-2022">EP3351-2022</a></td><td>EP3351-2022 1Ch. Ana Input Resistor Bridge, Diff. 16bit </td></tr>
 <tr><td width="30%"><a href="EP3356-0022">EP3356-0022</a></td><td>EP3356-0022 1Ch. Ana. Input Resistor Bridge Terminal, 24bit, High Precision</td></tr>
 <tr><td width="30%"><a href="EP3632-0001">EP3632-0001</a></td><td>EP3632-0001 2Ch. IEPE Sensor</td></tr>
-<tr><td width="30%"><a href="EP3744-0041">EP3744-0041</a></td><td>EP3744-0041 5Ch. Absolute Pressure 1Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
-<tr><td width="30%"><a href="EP3744-1041">EP3744-1041</a></td><td>EP3744-1041 5Ch. Absolute Pressure 7Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EP3744-0041">EP3744-0041</a></td><td>EP3744-0041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EP3744-1041">EP3744-1041</a></td><td>EP3744-1041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
 <tr><td width="30%"><a href="EP3751-0160">EP3751-0160</a></td><td>EP3751-0160 Acceleration Sensor</td></tr>
 <tr><td width="30%"><a href="EP3752-0000">EP3752-0000</a></td><td>EP3752-0000 Acceleration Sensor</td></tr>
 <tr><td width="30%"><a href="EP4174-0002">EP4174-0002</a></td><td>EP4174-0002 4Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</td></tr>
@@ -1324,8 +1048,8 @@
 <tr><td width="30%"><a href="EPP3356-0022">EPP3356-0022</a></td><td>EPP3356-0022 1Ch. Ana. Input Resistor Bridge Terminal, 24bit, High Precision</td></tr>
 <tr><td width="30%"><a href="EPP3504-0023">EPP3504-0023</a></td><td>EPP3504-0023 4Ch. Bridge Measuring (SG), 24 bit, high precision</td></tr>
 <tr><td width="30%"><a href="EPP3632-0001">EPP3632-0001</a></td><td>EPP3632-0001 2Ch. IEPE Sensor</td></tr>
-<tr><td width="30%"><a href="EPP3744-0041">EPP3744-0041</a></td><td>EPP3744-0041 5Ch. Absolute Pressure 1Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
-<tr><td width="30%"><a href="EPP3744-1041">EPP3744-1041</a></td><td>EPP3744-1041 5Ch. Absolute Pressure 7Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EPP3744-0041">EPP3744-0041</a></td><td>EPP3744-0041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EPP3744-1041">EPP3744-1041</a></td><td>EPP3744-1041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
 <tr><td width="30%"><a href="EPP3752-0000">EPP3752-0000</a></td><td>EPP3752-0000 Acceleration Sensor</td></tr>
 <tr><td width="30%"><a href="EPP4174-0002">EPP4174-0002</a></td><td>EPP4174-0002 4Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</td></tr>
 <tr><td width="30%"><a href="EPP4314-1002">EPP4314-1002</a></td><td>EPP4314-1002 2Ch. Ana. Input -20/0/4-20mA; 2Ch. Ana. Output -20/0/4-20mA configurable</td></tr>
@@ -1390,7 +1114,7 @@
 <tr><td width="30%"><a href="IL2302-B110">IL2302-B110</a></td><td>IL2302-B110 EtherCAT IP link coupler</td></tr>
 <tr><td width="30%"><a href="PS2001-2410">PS2001-2410</a></td><td>PS2001-2410-1001 Power supply (24V, 10A, 1-phase)</td></tr>
 <tr><td width="30%"><a href="PS2001-2420">PS2001-2420</a></td><td>PS2001-2420-1001 Power supply (24V, 20A, 1-phase)</td></tr>
-<tr><td width="30%"><a href="PS2001-4810-0016">PS2001-4810-0016</a></td><td>PS2001-4810-1001 Power supply (48V, 10A, 1-phase)</td></tr>
+<tr><td width="30%"><a href="PS2001-4810">PS2001-4810</a></td><td>PS2001-4810-1001 Power supply (48V, 10A, 1-phase)</td></tr>
 </table>
 
 ## OMRON
