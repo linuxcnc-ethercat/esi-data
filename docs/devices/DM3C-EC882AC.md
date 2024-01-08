@@ -1,4 +1,4 @@
-<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | DM3C-EC882AC</div>
+<div class="nav"><a href="/esi-data">Home</a> | <a href="/esi-data/devices">Device List</a> | DM3C-EC882AC</div>
 
 #  Leadshine DM3C-EC882AC
 

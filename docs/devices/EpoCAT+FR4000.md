@@ -1,4 +1,4 @@
-<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | EpoCAT FR4000</div>
+<div class="nav"><a href="/esi-data">Home</a> | <a href="/esi-data/devices">Device List</a> | EpoCAT FR4000</div>
 
 #  AB&T EpoCAT FR4000
 

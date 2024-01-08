@@ -1,4 +1,4 @@
-<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | FC1121 EtherCAT PCIe slave card</div>
+<div class="nav"><a href="/esi-data">Home</a> | <a href="/esi-data/devices">Device List</a> | FC1121 EtherCAT PCIe slave card</div>
 
 #  Beckhoff FC1121 EtherCAT PCIe slave card
 

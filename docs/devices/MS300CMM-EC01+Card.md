@@ -1,4 +1,4 @@
-<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | MS300(CMM-EC01 Card)</div>
+<div class="nav"><a href="/esi-data">Home</a> | <a href="/esi-data/devices">Device List</a> | MS300(CMM-EC01 Card)</div>
 
 #  Delta MS300(CMM-EC01 Card)
 
@@ -32,7 +32,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td ><pre><a href="MS300%28CMM-EC02+Card%29">MS300(CMM-EC02 Card) r2</a><br/><a href="MS300%28CMM-EC02+Card%29">MS300(CMM-EC02 Card) r2</a></pre></td>
+<td ><pre><a href="MS300CMM-EC02+Card">MS300(CMM-EC02 Card) r2</a><br/><a href="MS300CMM-EC02+Card">MS300(CMM-EC02 Card) r2</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=7 valign=top>TX PDOs</td>

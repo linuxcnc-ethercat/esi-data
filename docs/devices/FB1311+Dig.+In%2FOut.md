@@ -1,4 +1,4 @@
-<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | FB1311 Dig. In/Out</div>
+<div class="nav"><a href="/esi-data">Home</a> | <a href="/esi-data/devices">Device List</a> | FB1311 Dig. In/Out</div>
 
 #  Beckhoff FB1311 Dig. In/Out
 
