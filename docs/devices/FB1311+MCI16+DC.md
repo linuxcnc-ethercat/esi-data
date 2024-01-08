@@ -1,4 +1,4 @@
-<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | FB1311 MCI16 DC</div>
+<div class="nav"><a href="/esi-data">Home</a> | <a href="/esi-data/devices">Device List</a> | FB1311 MCI16 DC</div>
 
 #  Beckhoff FB1311 MCI16 DC
 

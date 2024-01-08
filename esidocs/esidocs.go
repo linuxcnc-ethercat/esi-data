@@ -19,6 +19,12 @@ var (
 	outputDirFlag = flag.String("output_dir", "devices", "Output directory")
 )
 
+func formatFilename(typename string) string {
+	typename =  strings.ReplaceAll(typename, "(", "")
+	typename = strings.ReplaceAll(typename, ")", "")
+	return url.QueryEscape(typename)
+}
+
 func formatRevname(rev string) string {
 	// If the revision is a hex number like 0x00020000, with the
 	// lower 16 bits clear, then drop the lower 16 bits, convert
@@ -75,7 +81,7 @@ func main() {
 		for r, rev := range revs {
 			fmt.Printf("    %s = %s, %s\n", r, rev.IDs[0].Type, rev.IDs[0].RevisionNo)
 		}
-		f, err := os.Create(filepath.Join(*outputDirFlag, fmt.Sprintf("%s.md", url.QueryEscape(d))))
+		f, err := os.Create(filepath.Join(*outputDirFlag, fmt.Sprintf("%s.md", formatFilename(d))))
 		if err != nil {
 			panic(err)
 		}
@@ -136,7 +142,7 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 				}
 			}
 		
-			fmt.Fprintf(f, "<tr><td width=\"30%%\"><a href=%q>%s</a></td><td>%s</td></tr>\n", url.QueryEscape(dev), dev, description)
+			fmt.Fprintf(f, "<tr><td width=\"30%%\"><a href=%q>%s</a></td><td>%s</td></tr>\n", formatFilename(dev), dev, description)
 		}
 		fmt.Fprintf(f, "</table>\n")
 	}
@@ -231,7 +237,7 @@ func formatEquivDevices(device *esi.ESIDevice, devname string) string {
 	devs := []string{}
 	for _, id := range device.IDs {
 		if id.Type != devname {
-			devs = append(devs, fmt.Sprintf("<a href=\"%s\">%s %s</a>", url.QueryEscape(id.Type), id.Type, formatRevname(id.RevisionNo)))
+			devs = append(devs, fmt.Sprintf("<a href=\"%s\">%s %s</a>", formatFilename(id.Type), id.Type, formatRevname(id.RevisionNo)))
 		}
 	}
 

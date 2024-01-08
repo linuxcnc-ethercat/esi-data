@@ -1,4 +1,4 @@
-<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | DM3C-EC556</div>
+<div class="nav"><a href="/esi-data">Home</a> | <a href="/esi-data/devices">Device List</a> | DM3C-EC556</div>
 
 #  Leadshine DM3C-EC556
 
