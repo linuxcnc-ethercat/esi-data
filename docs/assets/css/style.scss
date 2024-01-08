@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+h2 {
+    margin-top: 1.5em;
+}
+
 div.nav {
     color: #888;
 }
