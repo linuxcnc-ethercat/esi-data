@@ -112,13 +112,14 @@ type ESIDevice struct {
 }
 
 type ESIPDO struct {
-	Index   string         `xml:"Index" yaml:"Index,omitempty"`
-	Name    string         `xml:"Name" yaml:"Name,omitempty"`
-	Ref     string         `xml:"Ref,attr" yaml:"Ref,omitempty"`
-	Chn     string         `xml:"Chn,attr" yaml:"Chn,omitempty"`
-	Fixed   string         `xml:"Fixed,attr" yaml:"Fixed,omitempty"`
-	Sm      string         `xml:"Sm,attr" yaml:"Sm,omitempty"`
-	Entries []*ESIPDOEntry `xml:"Entry" yaml:"Entry,omitempty"`
+	Index     string         `xml:"Index" yaml:"Index,omitempty"`
+	PDOName   string         `yaml:"Name,omitempty"`
+	LangNames []*ESILangName  `xml:"Name"`
+	Ref       string         `xml:"Ref,attr" yaml:"Ref,omitempty"`
+	Chn       string         `xml:"Chn,attr" yaml:"Chn,omitempty"`
+	Fixed     string         `xml:"Fixed,attr" yaml:"Fixed,omitempty"`
+	Sm        string         `xml:"Sm,attr" yaml:"Sm,omitempty"`
+	Entries   []*ESIPDOEntry `xml:"Entry" yaml:"Entry,omitempty"`
 }
 
 type ESIPDOEntry struct {

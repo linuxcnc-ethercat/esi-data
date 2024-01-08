@@ -39,7 +39,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=54 valign=top>TX PDOs</td>
-<td colspan=4 align="left"><pre>0x1a00: 1st 送信 PDO マッピング</pre></td>
+<td colspan=4 align="left"><pre>0x1a00: 1st transmit PDO Mapping</pre></td>
 <td></td>
 </tr>
 <tr class="txpdo">
@@ -64,7 +64,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1b01: 258th 送信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1b01: 258th transmit PDO Mapping</pre></td>
 </tr>
 <tr class="txpdo">
 <td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
@@ -94,7 +94,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1b02: 259th 送信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1b02: 259th transmit PDO Mapping</pre></td>
 </tr>
 <tr class="txpdo">
 <td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
@@ -124,7 +124,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1b03: 260th 送信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1b03: 260th transmit PDO Mapping</pre></td>
 </tr>
 <tr class="txpdo">
 <td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
@@ -157,7 +157,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60fd:00  Digital inputs                  UDINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1b04: 261th 送信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1b04: 261th transmit PDO Mapping</pre></td>
 </tr>
 <tr class="txpdo">
 <td  colspan=4 align="left"><pre>  0x603f:00  Error code                      UINT (16 bits)</pre></td>
@@ -190,7 +190,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x606c:00  Velocity actual value           DINT (32 bits)</pre></td>
 </tr>
 <tr class="txpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1b10: 273th 送信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1b10: 273th transmit PDO Mapping</pre></td>
 </tr>
 <tr class="txpdo">
 <td  colspan=4 align="left"><pre>  0x6640:00  STO command                     BOOL</pre></td>
@@ -199,11 +199,11 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x6632:00  error acknowledge               BOOL</pre></td>
 </tr>
 <tr class="txpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1bff: 512th 送信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1bff: 512th transmit PDO Mapping</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td class="first" rowspan=47 valign=top>RX PDOs</td>
-<td colspan=4 align="left"><pre>0x1600: 1st 受信 PDO マッピング</pre></td>
+<td colspan=4 align="left"><pre>0x1600: 1st receive PDO Mapping</pre></td>
 <td></td>
 </tr>
 <tr class="rxpdo">
@@ -216,7 +216,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60b8:00  Touch probe function            UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1701: 258th 受信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1701: 258th receive PDO Mapping</pre></td>
 </tr>
 <tr class="rxpdo">
 <td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
@@ -231,7 +231,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60fe:01  Physical outputs                UDINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1702: 259th 受信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1702: 259th receive PDO Mapping</pre></td>
 </tr>
 <tr class="rxpdo">
 <td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
@@ -255,7 +255,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x607f:00  Max profile velocity            UDINT (32 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1703: 260th 受信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1703: 260th receive PDO Mapping</pre></td>
 </tr>
 <tr class="rxpdo">
 <td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
@@ -279,7 +279,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60e1:00  Negative torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1704: 261th 受信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1704: 261th receive PDO Mapping</pre></td>
 </tr>
 <tr class="rxpdo">
 <td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
@@ -309,7 +309,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60e1:00  Negative torque limit value     UINT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1705: 262th 受信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1705: 262th receive PDO Mapping</pre></td>
 </tr>
 <tr class="rxpdo">
 <td  colspan=4 align="left"><pre>  0x6040:00  Controlword                     UINT (16 bits)</pre></td>
@@ -336,7 +336,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x60b2:00  Torque offset                   INT (16 bits)</pre></td>
 </tr>
 <tr class="rxpdo pdosection">
-<td  colspan=4 align="left"><pre>0x1710: 273th 受信 PDO マッピング</pre></td>
+<td  colspan=4 align="left"><pre>0x1710: 273th receive PDO Mapping</pre></td>
 </tr>
 <tr class="rxpdo">
 <td  colspan=4 align="left"><pre>  0x6640:00  STO command                     BOOL</pre></td>

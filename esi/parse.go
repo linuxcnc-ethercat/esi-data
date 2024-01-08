@@ -18,7 +18,7 @@ func pickName(names []*ESILangName) string {
 	if len(names) != 0 {
 		return names[0].Name
 	} else {
-		return "NAME UNKNOWN?"
+		return ""
 	}
 }
 
@@ -97,6 +97,7 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 
 		for _, txpdo := range d.TxPDOs {
 			txpdo.Index = fixHexFormat(txpdo.Index, 4)
+			txpdo.PDOName = pickName(txpdo.LangNames)
 			for _, entry := range txpdo.Entries {
 				entry.PDOName = pickName(entry.LangNames)
 				entry.Index = fixHexFormat(entry.Index, 4)
@@ -105,6 +106,7 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 		}
 		for _, rxpdo := range d.RxPDOs {
 			rxpdo.Index = fixHexFormat(rxpdo.Index, 4)
+			rxpdo.PDOName = pickName(rxpdo.LangNames)
 			for _, entry := range rxpdo.Entries {
 				entry.PDOName = pickName(entry.LangNames)
 				entry.Index = fixHexFormat(entry.Index, 4)
