@@ -29,10 +29,19 @@ td {
 tr.txpdo > td, tr.rxpdo > td {
     padding: 2px;
 };
+
+tr.pdosection {
+    height: 50px;
+    vertical-align: bottom;
+}
  
 tr.pdosection > td {
     font-weight: bold;
     margin-top: 10px;
+}
+
+tr.pdosection > td > pre {
+    background-color: "#eee";
 }
 
 table, pre {
