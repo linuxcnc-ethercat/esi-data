@@ -254,7 +254,7 @@ func formatTxPDOs(device *esi.ESIDevice) []*pdoline {
 	lines := []*pdoline{}
 
 	for _, pdo := range device.TxPDOs {
-		lines = append(lines, &pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
+		lines = append(lines, &pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.PDOName)})
 		lines = append(lines, formatPDOEntries(pdo.Index, pdo.Entries)...)
 	}
 
@@ -271,7 +271,7 @@ func formatRxPDOs(device *esi.ESIDevice) []*pdoline {
 	lines := []*pdoline{}
 
 	for _, pdo := range device.RxPDOs {
-		lines = append(lines, &pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.Name)})
+		lines = append(lines, &pdoline{key: pdo.Index, output: fmt.Sprintf("%s: %s", pdo.Index, pdo.PDOName)})
 		lines = append(lines, formatPDOEntries(pdo.Index, pdo.Entries)...)
 	}
 
