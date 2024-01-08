@@ -6,6 +6,7 @@ import (
 	"golang.org/x/net/html/charset"
 	"os"
 	"strconv"
+	"strings"
 )
 
 func pickName(names []*ESILangName) string {
@@ -16,7 +17,7 @@ func pickName(names []*ESILangName) string {
 	}
 
 	if len(names) != 0 {
-		return names[0].Name
+		return strings.TrimSpace(names[0].Name)
 	} else {
 		return ""
 	}
@@ -42,7 +43,7 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 		esiData.VendorName = esiData.VendorNames[0].Name
 		for _, v := range esiData.VendorNames {
 			if v.LanguageID == "1033" { // English
-				esiData.VendorName = v.Name
+				esiData.VendorName = strings.TrimSpace(v.Name)
 			}
 		}
 	}
@@ -53,7 +54,7 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 	for _, g := range esiData.Groups {
 		for _, n := range g.Names {
 			if n.LanguageID == "1033" { // English
-				g.EnglishName = n.Name
+				g.EnglishName = strings.TrimSpace(n.Name)
 				groupMap[g.Type] = g.EnglishName
 			}
 		}
@@ -72,12 +73,12 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 
 		for _, n := range d.Names {
 			if n.LanguageID == "1033" { // English
-				d.EnglishName = n.Name
+				d.EnglishName = strings.TrimSpace(n.Name)
 			}
 		}
 		for _, u := range d.URLs {
 			if u.LanguageID == "1033" { // English
-				d.EnglishURL = u.URL
+				d.EnglishURL = strings.TrimSpace(u.URL)
 			}
 		}
 

@@ -1,0 +1,143 @@
+<div class="nav"><a href="/esi-data">ESI data</a> | <a href="/esi-data/devices">devices</a> | DM3C-EC870</div>
+
+#  Leadshine DM3C-EC870
+
+<dl>
+  <dt>Type:</dt><dd>DM3C-EC870</dd>
+  <dt>Description:</dt><dd>DM3C-EC870(COE)</dd>
+  <dt>Vendor</dt><dd>Leadshine Technology Co.,Ltd.</dd>
+  <dt>Documentation</dt><dd><a href="http://www.leadshine.com">http://www.leadshine.com</a></dd>
+</dl>
+## Revisions and PDOs
+The ESI data ingested by [github.com/linuxcnc-ethercat/esi-data](http://github.com/linuxcnc-ethercat/esi-data) describes 1 revision(s) of this hardware.  Here are the known revisions and their differences.
+
+This also includes the send and receive PDOs defined for each revision, and a link to other known devices with identical PDOs.
+
+<table>
+<tr >
+<td class="first">Revision</td>
+<td ><pre>r0</pre></td>
+</tr>
+<tr >
+<td class="first">Name</td>
+<td ><pre>DM3C-EC870(COE)</pre></td>
+</tr>
+<tr >
+<td class="first">PID</td>
+<td ><pre>0x00008700</pre></td>
+</tr>
+<tr >
+<td class="first">Revision Code</td>
+<td ><pre>0x00000001</pre></td>
+</tr>
+<tr >
+<td class="first">Equivalant Devices</td>
+<td ><pre><a href="DM3C-EC522">DM3C-EC522 r0</a><br/><a href="DM3C-EC556">DM3C-EC556 r0</a><br/><a href="DM3C-EC882AC">DM3C-EC882AC r0</a></pre></td>
+</tr>
+<tr class="txpdo pdosection">
+<td class="first" rowspan=9 valign=top>TX PDOs</td>
+<td><pre>0x1a00: Transmit PDO 1</pre></td>
+<td></td>
+</tr>
+<tr class="txpdo">
+<td ><pre>  0x603f:00  Last Error Code                 UINT (16 bits)</pre></td>
+</tr>
+<tr class="txpdo">
+<td ><pre>  0x6041:00  Status Word                     UINT (16 bits)</pre></td>
+</tr>
+<tr class="txpdo">
+<td ><pre>  0x6061:00  Modes of Operation display      SINT (8 bits)</pre></td>
+</tr>
+<tr class="txpdo">
+<td ><pre>  0x6064:00  Position Actual Value           DINT (32 bits)</pre></td>
+</tr>
+<tr class="txpdo">
+<td ><pre>  0x60b9:00  Touch Probe Status              UINT (16 bits)</pre></td>
+</tr>
+<tr class="txpdo">
+<td ><pre>  0x60ba:00  Touch Probe 1 Positive Value    DINT (32 bits)</pre></td>
+</tr>
+<tr class="txpdo">
+<td ><pre>  0x60fd:00  Digital Inputs                  UDINT (32 bits)</pre></td>
+</tr>
+<tr class="txpdo pdosection">
+<td ><pre>0x1a01: Transmit PDO 2</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td class="first" rowspan=25 valign=top>RX PDOs</td>
+<td><pre>0x1600: Receive PDO 1</pre></td>
+<td></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6040:00  Control Word                    UINT (16 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x607a:00  Profile Target Position         DINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x60b8:00  Touch Probe Function            UINT (16 bits)</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td ><pre>0x1601: Receive PDO 2</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6040:00  Control word                    UINT (16 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x607a:00  Profile Target Position         DINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6081:00  Profile Velocity                UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6083:00  Profile Target Acceleration     UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6084:00  Profile Target Deceleration     UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6060:00  Modes of Operation              USINT (8 bits)</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td ><pre>0x1602: Receive PDO 3</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6040:00  Control Word                    UINT (16 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x60ff:00  Target Velocity                 DINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6083:00  Profile Acceleration            UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6084:00  Profile Deceleration            UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6060:00  Modes of Operation              USINT (8 bits)</pre></td>
+</tr>
+<tr class="rxpdo pdosection">
+<td ><pre>0x1603: Receive PDO 4</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6040:00  Control Word                    UINT (16 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6098:00  Homing Method                   SINT (8 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6099:01  Homing Velocity (fast)          UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6099:02  Homing Velocity (slow)          UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x609a:00  Homing Acceleration             UDINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x607c:00  Homing Offset                   DINT (32 bits)</pre></td>
+</tr>
+<tr class="rxpdo">
+<td ><pre>  0x6060:00  Modes of Operation              USINT (8 bits)</pre></td>
+</tr>
+</table>
