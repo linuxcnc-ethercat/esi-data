@@ -114,7 +114,7 @@ type ESIDevice struct {
 type ESIPDO struct {
 	Index     string         `xml:"Index" yaml:"Index,omitempty"`
 	PDOName   string         `yaml:"Name,omitempty"`
-	LangNames []*ESILangName  `xml:"Name"`
+	LangNames []*ESILangName `xml:"Name"`
 	Ref       string         `xml:"Ref,attr" yaml:"Ref,omitempty"`
 	Chn       string         `xml:"Chn,attr" yaml:"Chn,omitempty"`
 	Fixed     string         `xml:"Fixed,attr" yaml:"Fixed,omitempty"`
@@ -123,12 +123,20 @@ type ESIPDO struct {
 }
 
 type ESIPDOEntry struct {
-	PDOName   string         `yaml:"Name,omitempty"`
-	LangNames []*ESILangName `xml:"Name" yaml:"Names,omitempty"`
-	Index     string         `xml:"Index" yaml:"Index,omitempty"`
-	SubIndex  string         `xml:"SubIndex" yaml:"SubIndex,omitempty"`
-	BitLen    int            `xml:"BitLen" yaml:"BitLen,omitempty"`
-	DataType  string         `xml:"DataType" yaml:"DataType,omitempty"`
+	PDOName   string           `yaml:"Name,omitempty"`
+	LangNames []*ESILangName   `xml:"Name" yaml:"Names,omitempty"`
+	Index     string           `xml:"Index" yaml:"Index,omitempty"`
+	SubIndex  string           `xml:"SubIndex" yaml:"SubIndex,omitempty"`
+	BitLen    int              `xml:"BitLen" yaml:"BitLen,omitempty"`
+	Dtype     ESIPDOEntryData `xml:"DataType" yaml:",omitempty"`
+	DataType  string           `xml:"-" yaml:"DataType,omitempty"`
+	DataScale string           `xml:"-" yaml:"DataScale,omitempty"`
+	Comment   string           `xml:"Comment" yaml:"Comment,omitempty"`
+}
+
+type ESIPDOEntryData struct {
+	DataType  string `xml:",chardata"`
+	DataScale string `xml:"DScale,attr"`
 }
 
 type ESIGroup struct {

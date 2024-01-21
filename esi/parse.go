@@ -103,6 +103,9 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 				entry.PDOName = pickName(entry.LangNames)
 				entry.Index = fixHexFormat(entry.Index, 4)
 				entry.SubIndex = fixHexFormat(entry.SubIndex, 2)
+				entry.DataType = entry.Dtype.DataType
+				entry.DataScale = entry.Dtype.DataScale
+				entry.Dtype=ESIPDOEntryData{}
 			}
 		}
 		for _, rxpdo := range d.RxPDOs {
@@ -112,6 +115,9 @@ func ParseESIFile(filename string, emitPDOs, emitObjects bool) ([]*ESIDevice, er
 				entry.PDOName = pickName(entry.LangNames)
 				entry.Index = fixHexFormat(entry.Index, 4)
 				entry.SubIndex = fixHexFormat(entry.SubIndex, 2)
+				entry.DataType = entry.Dtype.DataType
+				entry.DataScale = entry.Dtype.DataScale
+				entry.Dtype=ESIPDOEntryData{}
 			}
 		}
 
