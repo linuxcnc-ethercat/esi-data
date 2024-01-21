@@ -32,6 +32,11 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td ><pre><a href="BK1150">BK1150 r16</a><br/><a href="BK1150">BK1150 r17</a><br/><a href="BK1150">BK1150 r18</a><br/><a href="BK1150">BK1150 r19</a><br/><a href="EL6751">EL6751 r21</a><br/><a href="EL6751">EL6751 r22</a><br/><a href="EL6751-0005">EL6751-0005 r22</a></pre></td>
+<td ><pre><a href="BK1150">BK1150 r16,r17,r18,r19</a><br/><a href="EL6751">EL6751 r21,r22</a><br/><a href="EL6751-0005">EL6751-0005 r22</a></pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000024" pid="0x00242a29" configPdos="true"&gt;
+&lt;/slave&gt;
+</pre>

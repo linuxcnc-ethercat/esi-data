@@ -33,7 +33,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td  colspan=2 align="center"><pre><a href="R88D-KN01H-ECT-L">R88D-KN01H-ECT-L r1</a><br/><a href="R88D-KN01H-ECT-L">R88D-KN01H-ECT-L r1</a><br/><a href="R88D-KN01L-ECT-L">R88D-KN01L-ECT-L r1</a><br/><a href="R88D-KN01L-ECT-L">R88D-KN01L-ECT-L r1</a><br/><a href="R88D-KN02H-ECT-L">R88D-KN02H-ECT-L r1</a><br/><a href="R88D-KN02H-ECT-L">R88D-KN02H-ECT-L r1</a><br/><a href="R88D-KN02L-ECT-L">R88D-KN02L-ECT-L r1</a><br/><a href="R88D-KN02L-ECT-L">R88D-KN02L-ECT-L r1</a><br/><a href="R88D-KN04H-ECT-L">R88D-KN04H-ECT-L r1</a><br/><a href="R88D-KN04H-ECT-L">R88D-KN04H-ECT-L r1</a><br/><a href="R88D-KN04L-ECT-L">R88D-KN04L-ECT-L r1</a><br/><a href="R88D-KN04L-ECT-L">R88D-KN04L-ECT-L r1</a><br/><a href="R88D-KN06F-ECT-L">R88D-KN06F-ECT-L r1</a><br/><a href="R88D-KN06F-ECT-L">R88D-KN06F-ECT-L r1</a><br/><a href="R88D-KN08H-ECT-L">R88D-KN08H-ECT-L r1</a><br/><a href="R88D-KN08H-ECT-L">R88D-KN08H-ECT-L r1</a><br/><a href="R88D-KN10F-ECT-L">R88D-KN10F-ECT-L r1</a><br/><a href="R88D-KN10F-ECT-L">R88D-KN10F-ECT-L r1</a><br/><a href="R88D-KN10H-ECT-L">R88D-KN10H-ECT-L r1</a><br/><a href="R88D-KN10H-ECT-L">R88D-KN10H-ECT-L r1</a><br/><a href="R88D-KN150F-ECT-L">R88D-KN150F-ECT-L r1</a><br/><a href="R88D-KN150F-ECT-L">R88D-KN150F-ECT-L r1</a><br/><a href="R88D-KN150H-ECT-L">R88D-KN150H-ECT-L r1</a><br/><a href="R88D-KN150H-ECT-L">R88D-KN150H-ECT-L r1</a><br/><a href="R88D-KN15F-ECT-L">R88D-KN15F-ECT-L r1</a><br/><a href="R88D-KN15F-ECT-L">R88D-KN15F-ECT-L r1</a><br/><a href="R88D-KN15H-ECT-L">R88D-KN15H-ECT-L r1</a><br/><a href="R88D-KN15H-ECT-L">R88D-KN15H-ECT-L r1</a><br/><a href="R88D-KN20H-ECT-L">R88D-KN20H-ECT-L r1</a><br/><a href="R88D-KN20H-ECT-L">R88D-KN20H-ECT-L r1</a><br/><a href="R88D-KN30F-ECT-L">R88D-KN30F-ECT-L r1</a><br/><a href="R88D-KN30F-ECT-L">R88D-KN30F-ECT-L r1</a><br/><a href="R88D-KN30H-ECT-L">R88D-KN30H-ECT-L r1</a><br/><a href="R88D-KN30H-ECT-L">R88D-KN30H-ECT-L r1</a><br/><a href="R88D-KN50F-ECT-L">R88D-KN50F-ECT-L r1</a><br/><a href="R88D-KN50F-ECT-L">R88D-KN50F-ECT-L r1</a><br/><a href="R88D-KN50H-ECT-L">R88D-KN50H-ECT-L r1</a><br/><a href="R88D-KN50H-ECT-L">R88D-KN50H-ECT-L r1</a><br/><a href="R88D-KN75F-ECT-L">R88D-KN75F-ECT-L r1</a><br/><a href="R88D-KN75F-ECT-L">R88D-KN75F-ECT-L r1</a><br/><a href="R88D-KN75H-ECT-L">R88D-KN75H-ECT-L r1</a><br/><a href="R88D-KN75H-ECT-L">R88D-KN75H-ECT-L r1</a></pre></td>
+<td  colspan=2 align="center"><pre><a href="R88D-KN01H-ECT-L">R88D-KN01H-ECT-L r1</a><br/><a href="R88D-KN01L-ECT-L">R88D-KN01L-ECT-L r1</a><br/><a href="R88D-KN02H-ECT-L">R88D-KN02H-ECT-L r1</a><br/><a href="R88D-KN02L-ECT-L">R88D-KN02L-ECT-L r1</a><br/><a href="R88D-KN04H-ECT-L">R88D-KN04H-ECT-L r1</a><br/><a href="R88D-KN04L-ECT-L">R88D-KN04L-ECT-L r1</a><br/><a href="R88D-KN06F-ECT-L">R88D-KN06F-ECT-L r1</a><br/><a href="R88D-KN08H-ECT-L">R88D-KN08H-ECT-L r1</a><br/><a href="R88D-KN10F-ECT-L">R88D-KN10F-ECT-L r1</a><br/><a href="R88D-KN10H-ECT-L">R88D-KN10H-ECT-L r1</a><br/><a href="R88D-KN150F-ECT-L">R88D-KN150F-ECT-L r1</a><br/><a href="R88D-KN150H-ECT-L">R88D-KN150H-ECT-L r1</a><br/><a href="R88D-KN15F-ECT-L">R88D-KN15F-ECT-L r1</a><br/><a href="R88D-KN15H-ECT-L">R88D-KN15H-ECT-L r1</a><br/><a href="R88D-KN20H-ECT-L">R88D-KN20H-ECT-L r1</a><br/><a href="R88D-KN30F-ECT-L">R88D-KN30F-ECT-L r1</a><br/><a href="R88D-KN30H-ECT-L">R88D-KN30H-ECT-L r1</a><br/><a href="R88D-KN50F-ECT-L">R88D-KN50F-ECT-L r1</a><br/><a href="R88D-KN50H-ECT-L">R88D-KN50H-ECT-L r1</a><br/><a href="R88D-KN75F-ECT-L">R88D-KN75F-ECT-L r1</a><br/><a href="R88D-KN75H-ECT-L">R88D-KN75H-ECT-L r1</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=51 valign=top>TX PDOs</td>
@@ -325,3 +325,20 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=2 align="left"><pre>  0x60b2:00  Torque offset                   INT (16 bits)</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000083" pid="0x00000077" configPdos="true"&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

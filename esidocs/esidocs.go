@@ -20,7 +20,7 @@ var (
 )
 
 func formatFilename(typename string) string {
-	typename =  strings.ReplaceAll(typename, "(", "")
+	typename = strings.ReplaceAll(typename, "(", "")
 	typename = strings.ReplaceAll(typename, ")", "")
 	return url.QueryEscape(typename)
 }
@@ -98,18 +98,17 @@ func main() {
 	createIndexPage(f, devs)
 }
 
-
 func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) {
 	vendordevs := map[string][]string{}
 	for dev, revs := range devices {
 
 		vendor := ""
-		
+
 		for _, revdevice := range revs {
 			vendor = strings.Split(revdevice.IDs[0].Vendor, " ")[0]
 			break
 		}
-		if vendordevs[vendor]==nil {
+		if vendordevs[vendor] == nil {
 			vendordevs[vendor] = []string{}
 		}
 		vendordevs[vendor] = append(vendordevs[vendor], dev)
@@ -121,7 +120,7 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 	}
 
 	slices.Sort(vendors)
-	
+
 	fmt.Fprintf(f, "# Devices\n")
 
 	for _, v := range vendors {
@@ -133,7 +132,7 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 
 		for _, dev := range vendordevs[v] {
 			description := ""
-			
+
 			for _, revdevice := range devices[dev] {
 				for _, id := range revdevice.IDs {
 					if id.Type == dev {
@@ -141,7 +140,7 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 					}
 				}
 			}
-		
+
 			fmt.Fprintf(f, "<tr><td width=\"30%%\"><a href=%q>%s</a></td><td>%s</td></tr>\n", formatFilename(dev), dev, description)
 		}
 		fmt.Fprintf(f, "</table>\n")
@@ -233,16 +232,66 @@ func printTableRowSpan(f io.Writer, row []string, class string, rowspan int) {
 	fmt.Fprintf(f, "</tr>\n")
 }
 
+type devequiv struct {
+	name     string
+	filename string
+}
+
+// In an ideal world, this would turn a list of []{"r16", "r17",
+// "r18", "r20", "r21", "r30"} into "r16-18,r20-21,r30", but I don't
+// want to write this today.
+//
+// It might also be good to recognize when we're specifying all
+// revisions and just drop the revs entirely, although that might be
+// better upstream.
+func joinRevs(revs []string) string {
+	return strings.Join(revs, ",")
+}
+
+// Format a list of devices that have identical PDOs to the named device.
 func formatEquivDevices(device *esi.ESIDevice, devname string) string {
-	devs := []string{}
+	devs := map[string]map[string]bool{}
+
 	for _, id := range device.IDs {
 		if id.Type != devname {
-			devs = append(devs, fmt.Sprintf("<a href=\"%s\">%s %s</a>", formatFilename(id.Type), id.Type, formatRevname(id.RevisionNo)))
+			if devs[id.Type] == nil {
+				devs[id.Type] = map[string]bool{}
+			}
+			devs[id.Type][formatRevname(id.RevisionNo)] = true
 		}
 	}
 
-	slices.Sort(devs)
-	return strings.Join(devs, "<br/>")
+	// So, now we have a map[type]map[revision]bool.  We want to
+	// turn this into []devequiv with all revisions together.
+	// Ideally grouped, with 'r16 r17 r18' -> 'r16-18', but we'll
+	// get to that later.
+
+	devtypes := []string{}
+	for d := range devs {
+		devtypes = append(devtypes, d)
+	}
+	slices.Sort(devtypes)
+
+	devequivs := []devequiv{}
+	for _, d := range devtypes {
+		revs := []string{}
+		for r := range devs[d] {
+			revs = append(revs, r)
+		}
+		slices.Sort(revs)
+		e := devequiv{
+			name:     d + " " + joinRevs(revs),
+			filename: formatFilename(d),
+		}
+		devequivs = append(devequivs, e)
+	}
+
+	devsHTML := []string{}
+	for _, d := range devequivs {
+		devsHTML = append(devsHTML, fmt.Sprintf("<a href=\"%s\">%s</a>", d.filename, d.name))
+	}
+
+	return strings.Join(devsHTML, "<br/>")
 }
 
 type pdoline struct {
@@ -539,6 +588,19 @@ func createPageFor(f io.Writer, devname string, revs map[string]*esi.ESIDevice) 
 	}
 
 	fmt.Fprintf(f, "</table>\n")
+
+	id := revIDs[sortedRevs[0]]
+	rev := revs[sortedRevs[0]]
+
+	fmt.Fprintf(f, "## Generic XML Example\n")
+	fmt.Fprintf(f, "<pre class=\"xml\">\n")
+	fmt.Fprintf(f, "&lt;slave idx=\"ADDRESS\" type=\"generic\" vid=%q pid=%q configPdos=\"true\"&gt;\n", id.VendorID, id.ProductCode)
+	for _, pdo := range rev.TxPDOs {
+		fmt.Fprintf(f, "  &lt;syncManager idx=%q dir=%q&gt;\n", pdo.Sm, "Dunno")
+		fmt.Fprintf(f, "  &lt;/syncManager&gt;\n")
+	}
+	fmt.Fprintf(f, "&lt;/slave&gt;\n")
+	fmt.Fprintf(f, "</pre>\n")
 
 	return nil
 }

@@ -46,3 +46,10 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x0000051d" pid="0x02010010" configPdos="true"&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

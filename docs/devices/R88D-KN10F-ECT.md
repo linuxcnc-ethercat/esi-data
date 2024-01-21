@@ -408,3 +408,10 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=2 align="left"><pre>  0x60b2:00  Torque offset                   INT (16 bits)</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000083" pid="0x0000000c" configPdos="true"&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

@@ -15,7 +15,8 @@ var (
 	esiDirFlag  = flag.String("esi_directory", "/tmp/esi", "Directory that contains ESI XML files")
 	pdosFlag    = flag.Bool("pdos", false, "Include PDO data in output")
 	objectsFlag = flag.Bool("objects", false, "Include object data in output")
-	output      = flag.String("output", "", "Output file, defaults to stdout")
+	output      = flag.String("output", "", "Output file for un-merged ESI data")
+	outputMerged      = flag.String("output_merged", "", "Output file for merged ESI data")
 )
 
 func rewriteBeckhoffNumbers(devices []*esi.ESIDevice) {
@@ -50,6 +51,11 @@ func rewriteBeckhoffNumbers(devices []*esi.ESIDevice) {
 func main() {
 	flag.Parse()
 
+	if *output == "" && *outputMerged == "" {
+		fmt.Fprintf(os.Stderr, "Must specify at least one of --output or --output_merged!\n")
+		os.Exit(1);
+	}
+
 	devices := []*esi.ESIDevice{}
 
 	files, err := os.ReadDir(*esiDirFlag)
@@ -74,21 +80,35 @@ func main() {
 
 	rewriteBeckhoffNumbers(devices)
 
-	devices2, err := esi.MergeDevices(devices)
-
-	y, err := yaml.Marshal(devices2)
-	if err != nil {
-		panic(err)
-	}
-
-	fmt.Fprintf(os.Stderr, "Writing %d bytes to output file\n", len(y))
 
 	if *output != "" {
+		y, err := yaml.Marshal(devices)
+		if err != nil {
+			panic(err)
+		}
+		
+		fmt.Fprintf(os.Stderr, "Writing %d bytes to unmerged output file\n", len(y))
 		err = os.WriteFile(*output, y, 0644)
 		if err != nil {
 			panic(err)
 		}
-	} else {
-		fmt.Println(string(y))
+	}
+
+	if *outputMerged != "" {
+		devices2, err := esi.MergeDevices(devices)
+		if err != nil {
+			panic(err)
+		}
+
+		y, err := yaml.Marshal(devices2)
+		if err != nil {
+			panic(err)
+		}
+		
+		fmt.Fprintf(os.Stderr, "Writing %d bytes to merged output file\n", len(y))
+		err = os.WriteFile(*outputMerged, y, 0644)
+		if err != nil {
+			panic(err)
+		}
 	}
 }

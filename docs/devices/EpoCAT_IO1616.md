@@ -51,3 +51,12 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td ><pre>0x1601: Digital outputs byte 1</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x0000079a" pid="0x0000fede" configPdos="true"&gt;
+  &lt;syncManager idx="2" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="2" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

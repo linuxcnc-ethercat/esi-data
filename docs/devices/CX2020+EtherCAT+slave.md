@@ -36,7 +36,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td  colspan=3 align="center"><pre><a href="CX2030+EtherCAT+slave">CX2030 EtherCAT slave r16</a><br/><a href="CX2030+EtherCAT+slave">CX2030 EtherCAT slave r17</a><br/><a href="CX2030+EtherCAT+slave">CX2030 EtherCAT slave r18</a><br/><a href="CX2033+EtherCAT+slave">CX2033 EtherCAT slave r16</a><br/><a href="CX2040+EtherCAT+slave">CX2040 EtherCAT slave r16</a><br/><a href="CX2040+EtherCAT+slave">CX2040 EtherCAT slave r17</a><br/><a href="CX2040+EtherCAT+slave">CX2040 EtherCAT slave r18</a><br/><a href="CX2042+EtherCAT+slave">CX2042 EtherCAT slave r16</a><br/><a href="CX2043+EtherCAT+slave">CX2043 EtherCAT slave r16</a><br/><a href="CX2062+EtherCAT+slave">CX2062 EtherCAT slave r16</a><br/><a href="CX2072+EtherCAT+slave">CX2072 EtherCAT slave r16</a><br/><a href="CX5010+EtherCAT+slave">CX5010 EtherCAT slave r16</a><br/><a href="CX5010+EtherCAT+slave">CX5010 EtherCAT slave r17</a><br/><a href="CX5020+EtherCAT+slave">CX5020 EtherCAT slave r16</a><br/><a href="CX5020+EtherCAT+slave">CX5020 EtherCAT slave r17</a><br/><a href="CX5110+EtherCAT+slave">CX5110 EtherCAT slave r16</a><br/><a href="CX5120+EtherCAT+slave">CX5120 EtherCAT slave r16</a><br/><a href="CX5130+EtherCAT+slave">CX5130 EtherCAT slave r16</a><br/><a href="CX5140+EtherCAT+slave">CX5140 EtherCAT slave r16</a><br/><a href="CX5230+EtherCAT+slave">CX5230 EtherCAT slave r16</a><br/><a href="CX5240+EtherCAT+slave">CX5240 EtherCAT slave r16</a><br/><a href="CX8010+EtherCAT+slave">CX8010 EtherCAT slave r16</a><br/><a href="CX8010+EtherCAT+slave">CX8010 EtherCAT slave r17</a><br/><a href="CX8110+EtherCAT+slave">CX8110 EtherCAT slave r16</a><br/><a href="CX9020+EtherCAT+slave">CX9020 EtherCAT slave r16</a><br/><a href="CX9020+EtherCAT+slave">CX9020 EtherCAT slave r17</a><br/><a href="FC1100+EtherCAT+PCI+slave+card">FC1100 EtherCAT PCI slave card r17</a><br/><a href="FC1121+EtherCAT+PCIe+slave+card">FC1121 EtherCAT PCIe slave card r17</a></pre></td>
+<td  colspan=3 align="center"><pre><a href="CX2030+EtherCAT+slave">CX2030 EtherCAT slave r16,r17,r18</a><br/><a href="CX2033+EtherCAT+slave">CX2033 EtherCAT slave r16</a><br/><a href="CX2040+EtherCAT+slave">CX2040 EtherCAT slave r16,r17,r18</a><br/><a href="CX2042+EtherCAT+slave">CX2042 EtherCAT slave r16</a><br/><a href="CX2043+EtherCAT+slave">CX2043 EtherCAT slave r16</a><br/><a href="CX2062+EtherCAT+slave">CX2062 EtherCAT slave r16</a><br/><a href="CX2072+EtherCAT+slave">CX2072 EtherCAT slave r16</a><br/><a href="CX5010+EtherCAT+slave">CX5010 EtherCAT slave r16,r17</a><br/><a href="CX5020+EtherCAT+slave">CX5020 EtherCAT slave r16,r17</a><br/><a href="CX5110+EtherCAT+slave">CX5110 EtherCAT slave r16</a><br/><a href="CX5120+EtherCAT+slave">CX5120 EtherCAT slave r16</a><br/><a href="CX5130+EtherCAT+slave">CX5130 EtherCAT slave r16</a><br/><a href="CX5140+EtherCAT+slave">CX5140 EtherCAT slave r16</a><br/><a href="CX5230+EtherCAT+slave">CX5230 EtherCAT slave r16</a><br/><a href="CX5240+EtherCAT+slave">CX5240 EtherCAT slave r16</a><br/><a href="CX8010+EtherCAT+slave">CX8010 EtherCAT slave r16,r17</a><br/><a href="CX8110+EtherCAT+slave">CX8110 EtherCAT slave r16</a><br/><a href="CX9020+EtherCAT+slave">CX9020 EtherCAT slave r16,r17</a><br/><a href="FC1100+EtherCAT+PCI+slave+card">FC1100 EtherCAT PCI slave card r17</a><br/><a href="FC1121+EtherCAT+PCIe+slave+card">FC1121 EtherCAT PCIe slave card r17</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=2 valign=top>TX PDOs</td>
@@ -52,3 +52,12 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000002" pid="0x07e46034" configPdos="true"&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

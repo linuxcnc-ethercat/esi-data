@@ -43,3 +43,8 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td ><pre>0x1601: Byte 1</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000114" pid="0x01000004" configPdos="true"&gt;
+&lt;/slave&gt;
+</pre>

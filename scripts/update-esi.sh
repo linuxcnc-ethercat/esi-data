@@ -25,6 +25,8 @@ fetch() {
 }
 
 esiyml=$dir/esi.yml
+esiunmergedyml=$dir/esi-unmerged.yml
+
 fetch $dir/beckhoff.zip "https://www.beckhoff.com/en-en/download/128205835"
 fetch $dir/omron1.zip "https://assets.omron.eu/downloads/ddf/en/v1/r88d-knxxx-ect(-l)_ethercat_esi_file_en.zip"
 fetch $dir/omron2.zip "https://assets.omron.eu/downloads/ddf/en/v3/r88d-1snxxx-ect_ethercat_esi_file_en.zip"
@@ -65,4 +67,4 @@ cd esidecoder
 go build esidecoder.go
 cd $dir
 
-esidecoder/esidecoder --esi_directory=$dir/tmpesi --output=$esiyml --pdos --objects
+esidecoder/esidecoder --esi_directory=$dir/tmpesi --output=$esiunmergedyml --output_merged=$esiyml --pdos --objects
