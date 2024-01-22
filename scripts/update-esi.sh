@@ -33,6 +33,7 @@ fetch $dir/leadshine1.zip "https://www.leadshine.com/upfiles/downloads/bc4d3fde5
 fetch $xmldir/EpoCAT_FR.xml "https://www.bausano.net/images/epocat/EpoCAT_FR1000.xml"
 fetch $xmldir/easyio.xml "https://www.bausano.net/images/arduino-easyio/EasyIO_ESI_V1_0.xml"
 fetch $xmldir/epocat-io1616.xml "https://www.bausano.net/images/epocat-io1616/EpoCAT_IO1616_Esi_V1_1.xml"
+fetch $xmldir/yaskawa_sgd7s.xml "https://www.yaskawa.com/delegate/getAttachment?documentId=Yaskawa_Sigma-7_CoE_ESI_Files&cmd=documents&documentName=Yaskawa_SGD7S-xxxxA0x.xml"
 
 # Unzip, but don't overwrite files.
 unzip -nj $dir/beckhoff.zip -d $xmldir
