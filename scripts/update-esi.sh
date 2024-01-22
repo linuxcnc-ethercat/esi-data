@@ -38,6 +38,10 @@ fetch $xmldir/yaskawa_sgd7s-400v.xml "https://www.yaskawa.com/delegate/getAttach
 fetch $xmldir/yaskawa_sgd7w-400v.xml "https://www.yaskawa.com/delegate/getAttachment?documentId=SW.Sigma-7.02&cmd=documents&documentName=Yaskawa_SGD7W-xxxDA0x.xml"
 fetch $xmldir/yaskawa_sies3.xml "https://www.yaskawa.com/delegate/getAttachment?documentId=ESI_SIES3_OPT_V_1_03_01&cmd=documents&documentName=ESI_SIES3_OPT_V_1_03_01.xml"
 fetch $dir/yaskawa-sigma5.zip "https://mobile.yaskawa.com/delegate/getAttachment?documentId=Yaskawa_CoE_ESI_Files&cmd=documents&documentName=Yaskawa_CoE_ESI_Files.zip"
+fetch $dir/hitachi-eh-ioca.zip "https://automation.hitachi-industrial.eu/_Resources/Persistent/4/3/9/4/439459d98d2a33cf4dc4637537182d45999d30e4/EH-IOCA.zip"
+fetch $dir/hitachi-p1-ect.zip 'https://automation.hitachi-industrial.eu/_Resources/Static/Packages/Moon.HitachiEurope/Downloads/automation/%5B2%5D%20Software/%5B5%5D%20Configuration%20Files/%5B3%5D%20ESI%20Files/P1-ECT/P1-ECT_ESI.zip'
+fetch $dir/hitachi-rio2-eca.zip 'https://automation.hitachi-industrial.eu/_Resources/Static/Packages/Moon.HitachiEurope/Downloads/automation/%5B2%5D%20Software/%5B5%5D%20Configuration%20Files/%5B3%5D%20ESI%20Files/RIO2-ECA/20180115.zip'
+fetch $dir/hitachi-wj-ect.zip 'https://automation.hitachi-industrial.eu/_Resources/Static/Packages/Moon.HitachiEurope/Downloads/automation/%5B2%5D%20Software/%5B5%5D%20Configuration%20Files/%5B3%5D%20ESI%20Files/WJ-ECT/WJ-ECT_ESI%20V1.03.xml.zip'
 
 # Unzip, but don't overwrite files.
 unzip -nj $dir/beckhoff.zip -d $xmldir
@@ -47,6 +51,10 @@ unzip -nj $dir/smc-ex260.zip -d $xmldir '*EtherCAT*.xml'
 unzip -nj $dir/delta1.zip -d $xmldir
 unzip -nj $dir/leadshine1.zip -d $xmldir
 unzip -nj $dir/yaskawa-sigma5.zip -d $xmldir
+unzip -nj $dir/hitachi-eh-ioca.zip -d $xmldir
+unzip -nj $dir/hitachi-p1-ect.zip -d $xmldir
+unzip -nj $dir/hitachi-rio2-eca.zip -d $xmldir
+unzip -nj $dir/hitachi-wj-ect.zip -d $xmldir
 
 
 cd esidecoder
