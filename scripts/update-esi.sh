@@ -34,6 +34,10 @@ fetch $xmldir/EpoCAT_FR.xml "https://www.bausano.net/images/epocat/EpoCAT_FR1000
 fetch $xmldir/easyio.xml "https://www.bausano.net/images/arduino-easyio/EasyIO_ESI_V1_0.xml"
 fetch $xmldir/epocat-io1616.xml "https://www.bausano.net/images/epocat-io1616/EpoCAT_IO1616_Esi_V1_1.xml"
 fetch $xmldir/yaskawa_sgd7s.xml "https://www.yaskawa.com/delegate/getAttachment?documentId=Yaskawa_Sigma-7_CoE_ESI_Files&cmd=documents&documentName=Yaskawa_SGD7S-xxxxA0x.xml"
+fetch $xmldir/yaskawa_sgd7s-400v.xml "https://www.yaskawa.com/delegate/getAttachment?documentId=SW.Sigma-7.01&cmd=documents&documentName=Yaskawa_SGD7S-xxxDA0xxxxF64.xml"
+fetch $xmldir/yaskawa_sgd7w-400v.xml "https://www.yaskawa.com/delegate/getAttachment?documentId=SW.Sigma-7.02&cmd=documents&documentName=Yaskawa_SGD7W-xxxDA0x.xml"
+fetch $xmldir/yaskawa_sies3.xml "https://www.yaskawa.com/delegate/getAttachment?documentId=ESI_SIES3_OPT_V_1_03_01&cmd=documents&documentName=ESI_SIES3_OPT_V_1_03_01.xml"
+fetch $dir/yaskawa-sigma5.zip "https://mobile.yaskawa.com/delegate/getAttachment?documentId=Yaskawa_CoE_ESI_Files&cmd=documents&documentName=Yaskawa_CoE_ESI_Files.zip"
 
 # Unzip, but don't overwrite files.
 unzip -nj $dir/beckhoff.zip -d $xmldir
@@ -42,6 +46,7 @@ unzip -nj $dir/omron2.zip -d $xmldir
 unzip -nj $dir/smc-ex260.zip -d $xmldir '*EtherCAT*.xml'
 unzip -nj $dir/delta1.zip -d $xmldir
 unzip -nj $dir/leadshine1.zip -d $xmldir
+unzip -nj $dir/yaskawa-sigma5.zip -d $xmldir
 
 
 cd esidecoder
