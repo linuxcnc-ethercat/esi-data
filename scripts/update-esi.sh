@@ -19,6 +19,7 @@ fetch() {
     useragent="User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
 
     if [ ! -e $file ]; then
+	echo "Fetching into $(basename $file)..."
 	curl -H "$useragent" -L $url -o $file
     fi
 }
@@ -43,6 +44,7 @@ fetch $dir/hitachi-p1-ect.zip 'https://automation.hitachi-industrial.eu/_Resourc
 fetch $dir/hitachi-rio2-eca.zip 'https://automation.hitachi-industrial.eu/_Resources/Static/Packages/Moon.HitachiEurope/Downloads/automation/%5B2%5D%20Software/%5B5%5D%20Configuration%20Files/%5B3%5D%20ESI%20Files/RIO2-ECA/20180115.zip'
 fetch $dir/hitachi-wj-ect.zip 'https://automation.hitachi-industrial.eu/_Resources/Static/Packages/Moon.HitachiEurope/Downloads/automation/%5B2%5D%20Software/%5B5%5D%20Configuration%20Files/%5B3%5D%20ESI%20Files/WJ-ECT/WJ-ECT_ESI%20V1.03.xml.zip'
 fetch $dir/boschrexroth1.zip 'https://www.boschrexroth.com/media/e043994b-0459-420e-9a3e-8a5e6ffb375c'
+fetch $dir/rtelligent.zip 'http://www.rtelligent.net/upload/wenjian/XML.zip'
 
 # Unzip, but don't overwrite files.
 unzip -nj $dir/beckhoff.zip -d $xmldir
@@ -57,6 +59,7 @@ unzip -nj $dir/hitachi-p1-ect.zip -d $xmldir
 unzip -nj $dir/hitachi-rio2-eca.zip -d $xmldir
 unzip -nj $dir/hitachi-wj-ect.zip -d $xmldir
 unzip -nj $dir/boschrexroth1.zip -d $xmldir
+unzip -nj $dir/rtelligent.zip -d $xmldir
 
 cd esidecoder
 go build esidecoder.go
