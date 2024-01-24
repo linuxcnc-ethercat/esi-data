@@ -34,7 +34,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td  colspan=2 align="center"><pre><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="EL9800">EL9800 r1</a><br/><a href="FB1311+SPI-Slave">FB1311 SPI-Slave r600</a></pre></td>
+<td  colspan=2 align="center"><pre><a href="EL9800">EL9800 r1</a><br/><a href="FB1311+SPI-Slave">FB1311 SPI-Slave r600</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=1 valign=top>TX PDOs</td>
@@ -47,3 +47,10 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000002" pid="0x04570862" configPdos="true"&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

@@ -32,7 +32,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td ><pre><a href="FB1111+Dig.+Out">FB1111 Dig. Out r500</a><br/><a href="FB1111+Dig.+Out">FB1111 Dig. Out r501</a></pre></td>
+<td ><pre><a href="FB1111+Dig.+Out">FB1111 Dig. Out r500,r501</a></pre></td>
 </tr>
 <tr class="rxpdo pdosection">
 <td class="first" rowspan=4 valign=top>RX PDOs</td>
@@ -49,3 +49,8 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td ><pre>0x1a03: Byte 3</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000002" pid="0x051f0862" configPdos="true"&gt;
+&lt;/slave&gt;
+</pre>

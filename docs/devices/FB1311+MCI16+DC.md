@@ -32,7 +32,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td ><pre><a href="FB1111+MCI16+DC">FB1111 MCI16 DC r1000</a><br/><a href="FB1111+MCI16+DC">FB1111 MCI16 DC r1001</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r800</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r801</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r800</a></pre></td>
+<td ><pre><a href="FB1111+MCI16+DC">FB1111 MCI16 DC r1000,r1001</a><br/><a href="FB1111+MCI8+DC">FB1111 MCI8 DC r800,r801</a><br/><a href="FB1311+MCI8+DC">FB1311 MCI8 DC r800</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=3 valign=top>TX PDOs</td>
@@ -57,3 +57,10 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td ><pre>  0x7000:02  Test Out2                       UINT (16 bits)</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000002" pid="0x051f0862" configPdos="true"&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

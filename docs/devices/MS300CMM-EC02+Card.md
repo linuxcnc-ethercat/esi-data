@@ -82,3 +82,16 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=2 align="left"><pre>0x1603: 4nd Receive PDO mapping</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x000001dd" pid="0x10400200" configPdos="true"&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

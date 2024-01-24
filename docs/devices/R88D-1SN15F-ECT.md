@@ -35,7 +35,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td  colspan=4 align="center"><pre><a href="R88D-1SN01H-ECT">R88D-1SN01H-ECT r1</a><br/><a href="R88D-1SN01H-ECT">R88D-1SN01H-ECT r1</a><br/><a href="R88D-1SN01H-ECT">R88D-1SN01H-ECT r1</a><br/><a href="R88D-1SN01H-ECT">R88D-1SN01H-ECT r1</a><br/><a href="R88D-1SN01L-ECT">R88D-1SN01L-ECT r1</a><br/><a href="R88D-1SN01L-ECT">R88D-1SN01L-ECT r1</a><br/><a href="R88D-1SN01L-ECT">R88D-1SN01L-ECT r1</a><br/><a href="R88D-1SN01L-ECT">R88D-1SN01L-ECT r1</a><br/><a href="R88D-1SN02H-ECT">R88D-1SN02H-ECT r1</a><br/><a href="R88D-1SN02H-ECT">R88D-1SN02H-ECT r1</a><br/><a href="R88D-1SN02H-ECT">R88D-1SN02H-ECT r1</a><br/><a href="R88D-1SN02H-ECT">R88D-1SN02H-ECT r1</a><br/><a href="R88D-1SN02L-ECT">R88D-1SN02L-ECT r1</a><br/><a href="R88D-1SN02L-ECT">R88D-1SN02L-ECT r1</a><br/><a href="R88D-1SN02L-ECT">R88D-1SN02L-ECT r1</a><br/><a href="R88D-1SN02L-ECT">R88D-1SN02L-ECT r1</a><br/><a href="R88D-1SN04H-ECT">R88D-1SN04H-ECT r1</a><br/><a href="R88D-1SN04H-ECT">R88D-1SN04H-ECT r1</a><br/><a href="R88D-1SN04H-ECT">R88D-1SN04H-ECT r1</a><br/><a href="R88D-1SN04H-ECT">R88D-1SN04H-ECT r1</a><br/><a href="R88D-1SN04L-ECT">R88D-1SN04L-ECT r1</a><br/><a href="R88D-1SN04L-ECT">R88D-1SN04L-ECT r1</a><br/><a href="R88D-1SN04L-ECT">R88D-1SN04L-ECT r1</a><br/><a href="R88D-1SN04L-ECT">R88D-1SN04L-ECT r1</a><br/><a href="R88D-1SN06F-ECT">R88D-1SN06F-ECT r1</a><br/><a href="R88D-1SN06F-ECT">R88D-1SN06F-ECT r1</a><br/><a href="R88D-1SN06F-ECT">R88D-1SN06F-ECT r1</a><br/><a href="R88D-1SN06F-ECT">R88D-1SN06F-ECT r1</a><br/><a href="R88D-1SN08H-ECT">R88D-1SN08H-ECT r1</a><br/><a href="R88D-1SN08H-ECT">R88D-1SN08H-ECT r1</a><br/><a href="R88D-1SN08H-ECT">R88D-1SN08H-ECT r1</a><br/><a href="R88D-1SN08H-ECT">R88D-1SN08H-ECT r1</a><br/><a href="R88D-1SN10F-ECT">R88D-1SN10F-ECT r1</a><br/><a href="R88D-1SN10F-ECT">R88D-1SN10F-ECT r1</a><br/><a href="R88D-1SN10F-ECT">R88D-1SN10F-ECT r1</a><br/><a href="R88D-1SN10F-ECT">R88D-1SN10F-ECT r1</a><br/><a href="R88D-1SN10H-ECT">R88D-1SN10H-ECT r1</a><br/><a href="R88D-1SN10H-ECT">R88D-1SN10H-ECT r1</a><br/><a href="R88D-1SN10H-ECT">R88D-1SN10H-ECT r1</a><br/><a href="R88D-1SN10H-ECT">R88D-1SN10H-ECT r1</a><br/><a href="R88D-1SN150F-ECT">R88D-1SN150F-ECT r1</a><br/><a href="R88D-1SN150F-ECT">R88D-1SN150F-ECT r1</a><br/><a href="R88D-1SN150H-ECT">R88D-1SN150H-ECT r1</a><br/><a href="R88D-1SN150H-ECT">R88D-1SN150H-ECT r1</a><br/><a href="R88D-1SN15H-ECT">R88D-1SN15H-ECT r1</a><br/><a href="R88D-1SN15H-ECT">R88D-1SN15H-ECT r1</a><br/><a href="R88D-1SN15H-ECT">R88D-1SN15H-ECT r1</a><br/><a href="R88D-1SN15H-ECT">R88D-1SN15H-ECT r1</a><br/><a href="R88D-1SN20F-ECT">R88D-1SN20F-ECT r1</a><br/><a href="R88D-1SN20F-ECT">R88D-1SN20F-ECT r1</a><br/><a href="R88D-1SN20F-ECT">R88D-1SN20F-ECT r1</a><br/><a href="R88D-1SN20F-ECT">R88D-1SN20F-ECT r1</a><br/><a href="R88D-1SN20H-ECT">R88D-1SN20H-ECT r1</a><br/><a href="R88D-1SN20H-ECT">R88D-1SN20H-ECT r1</a><br/><a href="R88D-1SN20H-ECT">R88D-1SN20H-ECT r1</a><br/><a href="R88D-1SN20H-ECT">R88D-1SN20H-ECT r1</a><br/><a href="R88D-1SN30F-ECT">R88D-1SN30F-ECT r1</a><br/><a href="R88D-1SN30F-ECT">R88D-1SN30F-ECT r1</a><br/><a href="R88D-1SN30F-ECT">R88D-1SN30F-ECT r1</a><br/><a href="R88D-1SN30F-ECT">R88D-1SN30F-ECT r1</a><br/><a href="R88D-1SN30H-ECT">R88D-1SN30H-ECT r1</a><br/><a href="R88D-1SN30H-ECT">R88D-1SN30H-ECT r1</a><br/><a href="R88D-1SN30H-ECT">R88D-1SN30H-ECT r1</a><br/><a href="R88D-1SN30H-ECT">R88D-1SN30H-ECT r1</a><br/><a href="R88D-1SN55F-ECT">R88D-1SN55F-ECT r1</a><br/><a href="R88D-1SN55F-ECT">R88D-1SN55F-ECT r1</a><br/><a href="R88D-1SN55H-ECT">R88D-1SN55H-ECT r1</a><br/><a href="R88D-1SN55H-ECT">R88D-1SN55H-ECT r1</a><br/><a href="R88D-1SN75F-ECT">R88D-1SN75F-ECT r1</a><br/><a href="R88D-1SN75F-ECT">R88D-1SN75F-ECT r1</a><br/><a href="R88D-1SN75H-ECT">R88D-1SN75H-ECT r1</a><br/><a href="R88D-1SN75H-ECT">R88D-1SN75H-ECT r1</a></pre></td>
+<td  colspan=4 align="center"><pre><a href="R88D-1SN01H-ECT">R88D-1SN01H-ECT r1</a><br/><a href="R88D-1SN01L-ECT">R88D-1SN01L-ECT r1</a><br/><a href="R88D-1SN02H-ECT">R88D-1SN02H-ECT r1</a><br/><a href="R88D-1SN02L-ECT">R88D-1SN02L-ECT r1</a><br/><a href="R88D-1SN04H-ECT">R88D-1SN04H-ECT r1</a><br/><a href="R88D-1SN04L-ECT">R88D-1SN04L-ECT r1</a><br/><a href="R88D-1SN06F-ECT">R88D-1SN06F-ECT r1</a><br/><a href="R88D-1SN08H-ECT">R88D-1SN08H-ECT r1</a><br/><a href="R88D-1SN10F-ECT">R88D-1SN10F-ECT r1</a><br/><a href="R88D-1SN10H-ECT">R88D-1SN10H-ECT r1</a><br/><a href="R88D-1SN150F-ECT">R88D-1SN150F-ECT r1</a><br/><a href="R88D-1SN150H-ECT">R88D-1SN150H-ECT r1</a><br/><a href="R88D-1SN15H-ECT">R88D-1SN15H-ECT r1</a><br/><a href="R88D-1SN20F-ECT">R88D-1SN20F-ECT r1</a><br/><a href="R88D-1SN20H-ECT">R88D-1SN20H-ECT r1</a><br/><a href="R88D-1SN30F-ECT">R88D-1SN30F-ECT r1</a><br/><a href="R88D-1SN30H-ECT">R88D-1SN30H-ECT r1</a><br/><a href="R88D-1SN55F-ECT">R88D-1SN55F-ECT r1</a><br/><a href="R88D-1SN55H-ECT">R88D-1SN55H-ECT r1</a><br/><a href="R88D-1SN75F-ECT">R88D-1SN75F-ECT r1</a><br/><a href="R88D-1SN75H-ECT">R88D-1SN75H-ECT r1</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=54 valign=top>TX PDOs</td>
@@ -345,3 +345,22 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=4 align="left"><pre>  0x6632:00  error acknowledge               BOOL</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000083" pid="0x000000b7" configPdos="true"&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

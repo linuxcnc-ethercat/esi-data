@@ -32,7 +32,7 @@ This also includes the send and receive PDOs defined for each revision, and a li
 </tr>
 <tr >
 <td class="first">Equivalant Devices</td>
-<td ><pre><a href="MS300CMM-EC02+Card">MS300(CMM-EC02 Card) r2</a><br/><a href="MS300CMM-EC02+Card">MS300(CMM-EC02 Card) r2</a></pre></td>
+<td ><pre><a href="MS300CMM-EC02+Card">MS300(CMM-EC02 Card) r2</a></pre></td>
 </tr>
 <tr class="txpdo pdosection">
 <td class="first" rowspan=7 valign=top>TX PDOs</td>
@@ -81,3 +81,16 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td ><pre>0x1603: 4nd Receive PDO mapping</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x000001dd" pid="0x10400200" configPdos="true"&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>

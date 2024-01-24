@@ -157,3 +157,16 @@ This also includes the send and receive PDOs defined for each revision, and a li
 <td  colspan=7 align="left"><pre>  0x6071:00  Target torque                   INT (16 bits)</pre></td>
 </tr>
 </table>
+## Generic XML Example
+<pre class="xml">
+&lt;slave idx="ADDRESS" type="generic" vid="0x00000539" pid="0x02200301" configPdos="true"&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="3" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+  &lt;syncManager idx="" dir="Dunno"&gt;
+  &lt;/syncManager&gt;
+&lt;/slave&gt;
+</pre>
