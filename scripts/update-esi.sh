@@ -31,6 +31,7 @@ fetch $dir/omron2.zip "https://assets.omron.eu/downloads/ddf/en/v3/r88d-1snxxx-e
 fetch $dir/smc-ex260.zip "https://content2.smcetech.com/files/si/SMC_EX260_Serial_Interface_Configuration_Files.zip"
 fetch $dir/delta1.zip "https://downloadcenter.deltaww.com/downloadCenterCounter.aspx?DID=19032&DocPath=1&hl=en-US"
 fetch $dir/delta2.zip "https://downloadcenter.deltaww.com/downloadCenterCounter.aspx?DID=21858&DocPath=1&hl=en-US"
+fetch $dir/delta3.zip "https://downloadcenter.deltaww.com/downloadCenterCounter.aspx?DID=4796&DocPath=1&hl=en-US"
 fetch $dir/leadshine1.zip "https://www.leadshine.com/upfiles/downloads/bc4d3fde51ab7b2d92d478956ca4aa9e_1650879535067.zip"
 fetch $xmldir/EpoCAT_FR.xml "https://www.bausano.net/images/epocat/EpoCAT_FR1000.xml"
 fetch $xmldir/easyio.xml "https://www.bausano.net/images/arduino-easyio/EasyIO_ESI_V1_0.xml"
@@ -54,6 +55,7 @@ unzip -nj $dir/omron2.zip -d $xmldir
 unzip -nj $dir/smc-ex260.zip -d $xmldir '*EtherCAT*.xml'
 unzip -nj $dir/delta1.zip -d $xmldir
 unzip -nj $dir/delta2.zip -d $xmldir
+unzip -nj $dir/delta3.zip -d $xmldir
 unzip -nj $dir/leadshine1.zip -d $xmldir
 unzip -nj $dir/yaskawa-sigma5.zip -d $xmldir
 unzip -nj $dir/hitachi-eh-ioca.zip -d $xmldir
