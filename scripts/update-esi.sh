@@ -47,6 +47,7 @@ fetch $dir/hitachi-rio2-eca.zip 'https://automation.hitachi-industrial.eu/_Resou
 fetch $dir/hitachi-wj-ect.zip 'https://automation.hitachi-industrial.eu/_Resources/Static/Packages/Moon.HitachiEurope/Downloads/automation/%5B2%5D%20Software/%5B5%5D%20Configuration%20Files/%5B3%5D%20ESI%20Files/WJ-ECT/WJ-ECT_ESI%20V1.03.xml.zip'
 fetch $dir/boschrexroth1.zip 'https://www.boschrexroth.com/media/e043994b-0459-420e-9a3e-8a5e6ffb375c'
 fetch $dir/rtelligent.zip 'http://www.rtelligent.net/upload/wenjian/XML.zip'
+fetch $dir/nidec.zip 'https://apps.controltechniques.com/Downloads/SharePoint/Download.aspx?SiteID=4&ProductID=252&DownloadID=6413&VersionID=9291&Email=scott@sigkill.org'
 
 # Unzip, but don't overwrite files.
 unzip -nj $dir/beckhoff.zip -d $xmldir
@@ -64,6 +65,7 @@ unzip -nj $dir/hitachi-rio2-eca.zip -d $xmldir
 unzip -nj $dir/hitachi-wj-ect.zip -d $xmldir
 unzip -nj $dir/boschrexroth1.zip -d $xmldir
 unzip -nj $dir/rtelligent.zip -d $xmldir
+unzip -nj $dir/nidec.zip -d $xmldir
 
 cd esidecoder
 go build esidecoder.go
