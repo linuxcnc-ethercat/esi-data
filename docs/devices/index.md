@@ -37,11 +37,11 @@
 <tr><td width="30%"><a href="APS4322-7000">APS4322-7000</a></td><td>APS4322-7000 Drive</td></tr>
 <tr><td width="30%"><a href="AT2000-0233">AT2000-0233</a></td><td>AT2000-0233 Motor module 233 mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2000-0249">AT2000-0249</a></td><td>AT2000-0249 Motor module 249 mm, 48V</td></tr>
-<tr><td width="30%"><a href="AT2000-0250">AT2000-0250</a></td><td>AT2000-0250 Motor module 250 mm, 48V</td></tr>
+<tr><td width="30%"><a href="AT2000-0250">AT2000-0250</a></td><td>AT2000-0250 Motor module 250 mm, 50V</td></tr>
 <tr><td width="30%"><a href="AT2000-5233">AT2000-5233</a></td><td>AT2000-5233 Sensor line 233 mm</td></tr>
 <tr><td width="30%"><a href="AT2000-5249">AT2000-5249</a></td><td>AT2000-5249 Sensor line</td></tr>
 <tr><td width="30%"><a href="AT2000-5250">AT2000-5250</a></td><td>AT2000-5250 Sensor line</td></tr>
-<tr><td width="30%"><a href="AT2001-0250">AT2001-0250</a></td><td>AT2001-0250 Motor module with feed 250 mm, 48V</td></tr>
+<tr><td width="30%"><a href="AT2001-0250">AT2001-0250</a></td><td>AT2001-0250 Motor module with feed 250 mm, 50V</td></tr>
 <tr><td width="30%"><a href="AT2001-5250">AT2001-5250</a></td><td>AT2001-5250 Sensor line with feed</td></tr>
 <tr><td width="30%"><a href="AT2002-0249">AT2002-0249</a></td><td>AT2002-0249 Motor module (Track management) with feed 249 mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2002-0250">AT2002-0250</a></td><td>AT2002-0250 Motor module with feed (B23-Connector) 250 mm, 48V</td></tr>
@@ -49,7 +49,7 @@
 <tr><td width="30%"><a href="AT2002-5250">AT2002-5250</a></td><td>AT2002-5250 Sensor line with feed (B23-Connector)</td></tr>
 <tr><td width="30%"><a href="AT2020-0250">AT2020-0250</a></td><td>AT2020-0250 Motor module, +22.5°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2020-5250">AT2020-5250</a></td><td>AT2020-5250 Sensor line +22.5°</td></tr>
-<tr><td width="30%"><a href="AT2021-0250">AT2021-0250</a></td><td>AT2021-0250 Motor module with feed , +22.5°, 250mm, 50V</td></tr>
+<tr><td width="30%"><a href="AT2021-0250">AT2021-0250</a></td><td>AT2021-0250 Motor module with feed , +22.5°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2021-5250">AT2021-5250</a></td><td>AT2021-5250 Sensor line with feed, +22.5°</td></tr>
 <tr><td width="30%"><a href="AT2025-0250">AT2025-0250</a></td><td>AT2025-0250 Motor module, -22.5°, 250mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2025-5250">AT2025-5250</a></td><td>AT2025-5250 Sensor line -22.5°</td></tr>
@@ -62,7 +62,7 @@
 <tr><td width="30%"><a href="AT2042-0250">AT2042-0250</a></td><td>AT2042-0250 Motor module with feed (B23-Connector), +45°, 250 mm, 48V</td></tr>
 <tr><td width="30%"><a href="AT2042-5250">AT2042-5250</a></td><td>AT2042-5250 Sensor line with feed (B23-Connector), +45°</td></tr>
 <tr><td width="30%"><a href="AT2050-0500">AT2050-0500</a></td><td>AT2050-0500 Motor module, 90° clothoid, EtherCAT In, 48V</td></tr>
-<tr><td width="30%"><a href="AT2050-0501">AT2050-0501</a></td><td>AT2050-0501 Motor module, 90° clothoid, EtherCAT Out, 50V</td></tr>
+<tr><td width="30%"><a href="AT2050-0501">AT2050-0501</a></td><td>AT2050-0501 Motor module, 90° clothoid, EtherCAT Out, 48V</td></tr>
 <tr><td width="30%"><a href="AT2050-5500">AT2050-5500</a></td><td>AT2050-5500 Sensor line 90° clothoid, EtherCAT In</td></tr>
 <tr><td width="30%"><a href="AT2050-5501">AT2050-5501</a></td><td>AT2050-5501 Sensor line 90° clothoid, EtherCAT Out</td></tr>
 <tr><td width="30%"><a href="ATH2000-0250">ATH2000-0250</a></td><td>ATH2000-0250 Hygienic Motor module 250 mm, 48V</td></tr>
@@ -135,7 +135,7 @@
 <tr><td width="30%"><a href="AX8600-0000">AX8600-0000</a></td><td>AX8600-0000</td></tr>
 <tr><td width="30%"><a href="AX8620">AX8620</a></td><td>AX8620-0000-0029</td></tr>
 <tr><td width="30%"><a href="AX8620-0000">AX8620-0000</a></td><td>AX8620-0000</td></tr>
-<tr><td width="30%"><a href="AX8640">AX8640</a></td><td>AX8640-0000-0029</td></tr>
+<tr><td width="30%"><a href="AX8640">AX8640</a></td><td>AX8640-0000-0027</td></tr>
 <tr><td width="30%"><a href="AX8640-0000">AX8640-0000</a></td><td>AX8640-0000</td></tr>
 <tr><td width="30%"><a href="AX8810">AX8810</a></td><td>AX8810-0000-0017</td></tr>
 <tr><td width="30%"><a href="AX8810-0000">AX8810-0000</a></td><td>AX8810-0000</td></tr>
@@ -234,7 +234,7 @@
 <tr><td width="30%"><a href="EJ7031">EJ7031</a></td><td>EJ7031 1Ch. Stepper motor output stage (24V, 1.5A)</td></tr>
 <tr><td width="30%"><a href="EJ7037">EJ7037</a></td><td>EJ7037 1Ch. Stepper motor output stage (24V, 1.5A)</td></tr>
 <tr><td width="30%"><a href="EJ7041-0052">EJ7041-0052</a></td><td>EJ7041-0052 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
-<tr><td width="30%"><a href="EJ7047">EJ7047</a></td><td>EJ7047 1Ch. Stepper motor output stage (50V, 5A)</td></tr>
+<tr><td width="30%"><a href="EJ7047">EJ7047</a></td><td>EJ7047 1Ch. Stepper motor output stage (48V, 5A)</td></tr>
 <tr><td width="30%"><a href="EJ7211-0010">EJ7211-0010</a></td><td>EJ7211-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 4.5A RMS)</td></tr>
 <tr><td width="30%"><a href="EJ7211-0011">EJ7211-0011</a></td><td>EJ7211-0011 1Ch. DS402 Servo motor output stage with OCT (50V, 4.5A RMS)</td></tr>
 <tr><td width="30%"><a href="EJ7211-9414">EJ7211-9414</a></td><td>EJ7211-9414 1Ch. MDP742 Servo motor output stage with OCT (50V, 4.5A RMS) , TwinSAFE SC</td></tr>
@@ -344,15 +344,15 @@
 <tr><td width="30%"><a href="EL1899">EL1899</a></td><td>EL1899 16Ch. Dig. Input 24V, 10µs, negative</td></tr>
 <tr><td width="30%"><a href="EL1904">EL1904</a></td><td>EL1904, 4 Ch. Safety Input 24V, TwinSAFE</td></tr>
 <tr><td width="30%"><a href="EL1918">EL1918</a></td><td>EL1918, 8Ch. Safety Input 24V, TwinSAFE</td></tr>
-<tr><td width="30%"><a href="EL2002">EL2002</a></td><td>EL2002 2Ch. Dig. Output 24V, 0.5A</td></tr>
-<tr><td width="30%"><a href="EL2004">EL2004</a></td><td>EL2004 4Ch. Dig. Output 24V, 0.5A</td></tr>
+<tr><td width="30%"><a href="EL2002">EL2002</a></td><td>EL2002 2Ch. Dig. Output 24V, 0,5A</td></tr>
+<tr><td width="30%"><a href="EL2004">EL2004</a></td><td>EL2004 4Ch. Dig. Output 24V, 0,5A</td></tr>
 <tr><td width="30%"><a href="EL2008">EL2008</a></td><td>EL2008 8Ch. Dig. Output 24V, 0.5A</td></tr>
 <tr><td width="30%"><a href="EL2008-0015">EL2008-0015</a></td><td>EL2008-0015 8Ch. Dig. Output 24V DC, 0.35A, not short-circuit proof</td></tr>
 <tr><td width="30%"><a href="EL2014">EL2014</a></td><td>EL2014 4Ch. Dig. Output 24V, 0,5A, Diagnostic</td></tr>
 <tr><td width="30%"><a href="EL2022">EL2022</a></td><td>EL2022 2Ch. Dig. Output 24V, 2A</td></tr>
 <tr><td width="30%"><a href="EL2024">EL2024</a></td><td>EL2024 4Ch. Dig. Output 24V, 2A</td></tr>
 <tr><td width="30%"><a href="EL2024-0010">EL2024-0010</a></td><td>EL2024-0010 4Ch. Dig. Output 12V, 2A</td></tr>
-<tr><td width="30%"><a href="EL2032">EL2032</a></td><td>EL2032 2Ch. Dig. Output 24V, 2A, Diagnostic</td></tr>
+<tr><td width="30%"><a href="EL2032">EL2032</a></td><td>EL2032 2Ch. Dig. Output 24V, 2A Diag</td></tr>
 <tr><td width="30%"><a href="EL2034">EL2034</a></td><td>EL2034 4Ch. Dig. Output 24V, 2A, Diagnostic</td></tr>
 <tr><td width="30%"><a href="EL2042">EL2042</a></td><td>EL2042 2Ch. Dig. Output 24V, 4A</td></tr>
 <tr><td width="30%"><a href="EL2044">EL2044</a></td><td>EL2044 4Ch. Dig. Output 24V, 2A, Diagnostic</td></tr>
@@ -360,7 +360,7 @@
 <tr><td width="30%"><a href="EL2084">EL2084</a></td><td>EL2084 4Ch. Dig. Output 24V, 0.5A, switching to negative</td></tr>
 <tr><td width="30%"><a href="EL2088">EL2088</a></td><td>EL2088 8Ch. Dig. Output 24V, 0.5A, switching to negative</td></tr>
 <tr><td width="30%"><a href="EL2124">EL2124</a></td><td>EL2124 4Ch. Dig. Output 5V, 20mA</td></tr>
-<tr><td width="30%"><a href="EL2202">EL2202</a></td><td>EL2202 2Ch. Dig. Output 24V, 0.5A</td></tr>
+<tr><td width="30%"><a href="EL2202">EL2202</a></td><td>EL2202 2Ch. Dig. Output 24V, 0.5A, DC Sync</td></tr>
 <tr><td width="30%"><a href="EL2202-0100">EL2202-0100</a></td><td>EL2202-0100 2Ch. Dig. Output 24V, 0.5A, DC Sync</td></tr>
 <tr><td width="30%"><a href="EL2212">EL2212</a></td><td>EL2212 2Ch. dig. output with overexcitation (24V DC, 2.5A, 10A Peak)</td></tr>
 <tr><td width="30%"><a href="EL2252">EL2252</a></td><td>EL2252 2Ch. Dig. Output 24V, 0.5A, DC Time Stamp</td></tr>
@@ -375,13 +375,13 @@
 <tr><td width="30%"><a href="EL2521-0124">EL2521-0124</a></td><td>EL2521-0124 1Ch. Pulse Train 24V DC Output Capture/Compare</td></tr>
 <tr><td width="30%"><a href="EL2521-1001">EL2521-1001</a></td><td>EL2521-1001 1Ch. Pulse Train Output</td></tr>
 <tr><td width="30%"><a href="EL2522">EL2522</a></td><td>EL2522 2Ch. Pulse Train Output</td></tr>
-<tr><td width="30%"><a href="EL2535">EL2535</a></td><td>EL2535 2Ch. Pulse Width Current Output (24V, 1 A)</td></tr>
+<tr><td width="30%"><a href="EL2535">EL2535</a></td><td>EL2535 2Ch. Pulse Width Current Output (24V, 1A)</td></tr>
 <tr><td width="30%"><a href="EL2535-0002">EL2535-0002</a></td><td>EL2535-0002 2Ch. Pulse Width Current Output (24V, 2 A)</td></tr>
 <tr><td width="30%"><a href="EL2535-0005">EL2535-0005</a></td><td>EL2535-0005 2Ch. Pulse Width Current Output (24V, 5 A)</td></tr>
 <tr><td width="30%"><a href="EL2535-0050">EL2535-0050</a></td><td>EL2535-0050 2Ch. Pulse Width Current Output (24V, 50 mA)</td></tr>
 <tr><td width="30%"><a href="EL2535-0100">EL2535-0100</a></td><td>EL2535-0100 2Ch. Pulse Width Current Output (24V, 100 mA)</td></tr>
 <tr><td width="30%"><a href="EL2535-0103">EL2535-0103</a></td><td>EL2535-0103 2Ch. Pulse Width Current Output (48 V, 3.5 A)</td></tr>
-<tr><td width="30%"><a href="EL2564">EL2564</a></td><td>EL2564 4Ch. LED output, 5...48 V DC, 4 A, RGBW</td></tr>
+<tr><td width="30%"><a href="EL2564">EL2564</a></td><td>EL2564 4Ch.LED output, 5...48 V DC, 4 A, RGBW</td></tr>
 <tr><td width="30%"><a href="EL2564-0010">EL2564-0010</a></td><td>EL2564-0010 4Ch. LED output, 8...48 V DC, 3 A, RGBW, Common Cathode</td></tr>
 <tr><td width="30%"><a href="EL2574">EL2574</a></td><td>EL2574 4 Ch. Pixel LED Controller</td></tr>
 <tr><td width="30%"><a href="EL2595">EL2595</a></td><td>EL2595 1Ch. LED constant current terminal</td></tr>
@@ -422,9 +422,9 @@
 <tr><td width="30%"><a href="EL3004">EL3004</a></td><td>EL3004 4Ch. Ana. Input +/-10V</td></tr>
 <tr><td width="30%"><a href="EL3008">EL3008</a></td><td>EL3008 8Ch. Ana. Input +/-10V</td></tr>
 <tr><td width="30%"><a href="EL3011">EL3011</a></td><td>EL3011 1Ch. Ana. Input 0-20mA DIFF</td></tr>
-<tr><td width="30%"><a href="EL3012">EL3012</a></td><td>EL3012 2Ch. Ana. Input 0-20mA DIFF</td></tr>
+<tr><td width="30%"><a href="EL3012">EL3012</a></td><td>EL3012 4Ch. Ana. Input 0-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3014">EL3014</a></td><td>EL3014 4Ch. Ana. Input 0-20mA DIFF</td></tr>
-<tr><td width="30%"><a href="EL3021">EL3021</a></td><td>EL3021 4Ch. Ana. Input 4-20mA DIFF</td></tr>
+<tr><td width="30%"><a href="EL3021">EL3021</a></td><td>EL3021 1Ch. Ana. Input 4-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3022">EL3022</a></td><td>EL3022 2Ch. Ana. Input 4-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3024">EL3024</a></td><td>EL3024 4Ch. Ana. Input 4-20mA DIFF</td></tr>
 <tr><td width="30%"><a href="EL3024-0018">EL3024-0018</a></td><td>EL3024-0018 4Ch. Ana. Input 4-20mA DIFF</td></tr>
@@ -449,15 +449,15 @@
 <tr><td width="30%"><a href="EL3102">EL3102</a></td><td>EL3102 2Ch. Ana. Input +/-10V, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3104">EL3104</a></td><td>EL3104 4Ch. Ana. Input +/-10V Diff.</td></tr>
 <tr><td width="30%"><a href="EL3111">EL3111</a></td><td>EL3111 1Ch. Ana. Input 0-20mA DIFF</td></tr>
-<tr><td width="30%"><a href="EL3112">EL3112</a></td><td>EL3112 2Ch. Ana Input 0-20mA, Diff.</td></tr>
+<tr><td width="30%"><a href="EL3112">EL3112</a></td><td>EL3112 2Ch. Ana. Input 0-20mA, DIFF</td></tr>
 <tr><td width="30%"><a href="EL3112-0011">EL3112-0011</a></td><td>EL3112-0011 2Ch. Ana Input +/-20mA, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3114">EL3114</a></td><td>EL3114 4Ch. Ana. Input 0-20mA Diff.</td></tr>
 <tr><td width="30%"><a href="EL3121">EL3121</a></td><td>EL3121 1Ch. Ana. Input 4-20mA Diff.</td></tr>
-<tr><td width="30%"><a href="EL3122">EL3122</a></td><td>EL3122 2Ch. Ana. Input 4-20mA, Diff.</td></tr>
+<tr><td width="30%"><a href="EL3122">EL3122</a></td><td>EL3122 2Ch. Ana Input 4-20mA, Diff.</td></tr>
 <tr><td width="30%"><a href="EL3124">EL3124</a></td><td>EL3124 4Ch. Ana. Input 4-20mA Diff.</td></tr>
 <tr><td width="30%"><a href="EL3124-0090">EL3124-0090</a></td><td>EL3124-0090 4Ch. Ana. Input 4-20mA, Diff., TwinSAFE SC</td></tr>
 <tr><td width="30%"><a href="EL3141">EL3141</a></td><td>EL3141 1Ch. Ana. Input 0-20mA</td></tr>
-<tr><td width="30%"><a href="EL3142">EL3142</a></td><td>EL3142 2Ch. Ana. Input 0-20mA</td></tr>
+<tr><td width="30%"><a href="EL3142">EL3142</a></td><td>EL3142 2Ch. Ana Input 0-20mA</td></tr>
 <tr><td width="30%"><a href="EL3142-0010">EL3142-0010</a></td><td>EL3142-0010 2Ch. Ana Input +/-10mA</td></tr>
 <tr><td width="30%"><a href="EL3144">EL3144</a></td><td>EL3144 4Ch. Ana. Input 0-20mA</td></tr>
 <tr><td width="30%"><a href="EL3151">EL3151</a></td><td>EL3151 1Ch. Ana. Input 4-20mA</td></tr>
@@ -565,16 +565,16 @@
 <tr><td width="30%"><a href="EL4022">EL4022</a></td><td>EL4022 2Ch. Ana. Output 4-20mA, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4024">EL4024</a></td><td>EL4024 4Ch. Ana. Output 4-20mA, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4028">EL4028</a></td><td>EL4028 8Ch. Ana. Output 4-20mA, 12bit</td></tr>
-<tr><td width="30%"><a href="EL4031">EL4031</a></td><td>EL4031 1Ch. Ana. Output +/-10V, 12bit</td></tr>
+<tr><td width="30%"><a href="EL4031">EL4031</a></td><td>EL4031 1Ch. Ana. Output -10/+10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4032">EL4032</a></td><td>EL4032 2Ch. Ana. Output +/-10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4034">EL4034</a></td><td>EL4034 4Ch. Ana. Output +/-10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4038">EL4038</a></td><td>EL4038 8Ch. Ana. Output +/-10V, 12bit</td></tr>
 <tr><td width="30%"><a href="EL4102">EL4102</a></td><td>EL4102 2Ch. Ana. Output  0-10V, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4104">EL4104</a></td><td>EL4104 4Ch. Ana. Output 0-10V, 16bit</td></tr>
-<tr><td width="30%"><a href="EL4112">EL4112</a></td><td>EL4112 2Ch. Ana. Output 0-20mA</td></tr>
+<tr><td width="30%"><a href="EL4112">EL4112</a></td><td>EL4112 2Ch. Ana. Output  0-20mA, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4112-0010">EL4112-0010</a></td><td>EL4112-0010 2Ch. Ana. Output +/-10mA, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4114">EL4114</a></td><td>EL4114 4Ch. Ana. Output 0-20mA, 16bit</td></tr>
-<tr><td width="30%"><a href="EL4122">EL4122</a></td><td>EL4122 2Ch. Ana. Output  4-20mA, 16bit</td></tr>
+<tr><td width="30%"><a href="EL4122">EL4122</a></td><td>EL4122 2Ch. Ana. Output 4-20mA</td></tr>
 <tr><td width="30%"><a href="EL4124">EL4124</a></td><td>EL4124 4Ch. Ana. Output 4-20mA, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4132">EL4132</a></td><td>EL4132 2Ch. Ana. Output +/-10V, 16bit</td></tr>
 <tr><td width="30%"><a href="EL4134">EL4134</a></td><td>EL4134 4Ch. Ana. Output -10/+10V, 16bit</td></tr>
@@ -626,13 +626,13 @@
 <tr><td width="30%"><a href="EL6652">EL6652</a></td><td>EL6652 EtherNet/IP Scanner (Master)</td></tr>
 <tr><td width="30%"><a href="EL6652-0010">EL6652-0010</a></td><td>EL6652-0010 EtherNet/IP Adapter (Slave)</td></tr>
 <tr><td width="30%"><a href="EL6688">EL6688</a></td><td>EL6688 - External Synchronisation Interface (IEEE1588)</td></tr>
-<tr><td width="30%"><a href="EL6690">EL6690</a></td><td>EL6690 EtherCAT Bridge (Primary)</td></tr>
+<tr><td width="30%"><a href="EL6690">EL6690</a></td><td>EL6690 EtherCAT Bridge terminal (Secondary)</td></tr>
 <tr><td width="30%"><a href="EL6692">EL6692</a></td><td>EL6692 EtherCAT Bridge terminal (Secondary)</td></tr>
 <tr><td width="30%"><a href="EL6695">EL6695</a></td><td>EL6695 EtherCAT Bridge terminal (Primary)</td></tr>
 <tr><td width="30%"><a href="EL6695-0002">EL6695-0002</a></td><td>EL6695 EtherCAT Bridge terminal (Secondary)</td></tr>
 <tr><td width="30%"><a href="EL6711-0010">EL6711-0010</a></td><td>EL6711-0010 CC-Link gateway</td></tr>
 <tr><td width="30%"><a href="EL6720">EL6720</a></td><td>EL6720 Lightbus Master</td></tr>
-<tr><td width="30%"><a href="EL6731">EL6731</a></td><td>EL6731 Profibus Master (12 MBaud)</td></tr>
+<tr><td width="30%"><a href="EL6731">EL6731</a></td><td>EL6731 PROFIBUS DP Master</td></tr>
 <tr><td width="30%"><a href="EL6731-0010">EL6731-0010</a></td><td>EL6731-0010 PROFIBUS DP Slave</td></tr>
 <tr><td width="30%"><a href="EL6731-0100">EL6731-0100</a></td><td>EL6731 PROFIBUS DP Master (Free Run)</td></tr>
 <tr><td width="30%"><a href="EL6731-1003">EL6731-1003</a></td><td>EL6731-1003 PROFIBUS Master</td></tr>
@@ -662,10 +662,10 @@
 <tr><td width="30%"><a href="EL7047-9014">EL7047-9014</a></td><td>EL7047-9014 1Ch. Stepper motor output stage with STO (50V, 5A)</td></tr>
 <tr><td width="30%"><a href="EL7201">EL7201</a></td><td>EL7201 1Ch. MDP742 Servo motor output stage (50V, 4A)</td></tr>
 <tr><td width="30%"><a href="EL7201-0001">EL7201-0001</a></td><td>EL7201-0001 1Ch. DS402 Servo motor output stage (50V, 4A)</td></tr>
-<tr><td width="30%"><a href="EL7201-0010">EL7201-0010</a></td><td>EL7201-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 2.8A RMS)</td></tr>
-<tr><td width="30%"><a href="EL7201-0011">EL7201-0011</a></td><td>EL7201-0011 1Ch. DS402 Servo motor output stage with OCT (50V, 2.8A RMS)</td></tr>
+<tr><td width="30%"><a href="EL7201-0010">EL7201-0010</a></td><td>EL7201-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 4A)</td></tr>
+<tr><td width="30%"><a href="EL7201-0011">EL7201-0011</a></td><td>EL7201-0011 1Ch. DS402 Servo motor output stage with OCT (50V, 4A)</td></tr>
 <tr><td width="30%"><a href="EL7201-9014">EL7201-9014</a></td><td>EL7201-9014 1Ch. MDP742 Servo motor output stage with OCT (50V, 2.8A RMS) and STO input</td></tr>
-<tr><td width="30%"><a href="EL7201-9015">EL7201-9015</a></td><td>EL7201-9015 1Ch. DS402 Servo motor output stage with OCT (50V, 4A) and STO input</td></tr>
+<tr><td width="30%"><a href="EL7201-9015">EL7201-9015</a></td><td>EL7201-9015 1Ch. DS402 Servo motor output stage with OCT (50V, 2.8A RMS) and STO input</td></tr>
 <tr><td width="30%"><a href="EL7211">EL7211</a></td><td>EL7211 1Ch. MDP742 Servo motor output stage (50V, 4.5A RMS)</td></tr>
 <tr><td width="30%"><a href="EL7211-0001">EL7211-0001</a></td><td>EL7211-0001 1Ch. DS402 Servo motor output stage (50V, 4.5A RMS)</td></tr>
 <tr><td width="30%"><a href="EL7211-0010">EL7211-0010</a></td><td>EL7211-0010 1Ch. MDP742 Servo motor output stage with OCT (50V, 4.5A RMS)</td></tr>
@@ -742,7 +742,7 @@
 <tr><td width="30%"><a href="EL9560">EL9560</a></td><td>EL9560 Power supply terminal 24V DC/DC (0.1A, isolated)</td></tr>
 <tr><td width="30%"><a href="EL9570">EL9570</a></td><td>EL9570 Buffer capacitor terminal</td></tr>
 <tr><td width="30%"><a href="EL9576">EL9576</a></td><td>EL9576 Brake chopper terminal</td></tr>
-<tr><td width="30%"><a href="EL9800">EL9800</a></td><td>EL9800 8Bit µC (Busy:HA Int:HA)</td></tr>
+<tr><td width="30%"><a href="EL9800">EL9800</a></td><td>EL9800 8 Bit MCI-Demo with DC</td></tr>
 <tr><td width="30%"><a href="EL9800+4Port">EL9800 4Port</a></td><td>EL9800 32 Ch. Dig. Output (4Port, DC)</td></tr>
 <tr><td width="30%"><a href="EL9930">EL9930</a></td><td>EL9930-0000, PROFIsafe-Segment-Abschlussklemme Primary</td></tr>
 <tr><td width="30%"><a href="EL9930-0001">EL9930-0001</a></td><td>EL9930-0001, PROFIsafe-Segment-Abschlussklemme Secondary</td></tr>
@@ -909,7 +909,7 @@
 <tr><td width="30%"><a href="EP2809-0022">EP2809-0022</a></td><td>EP2809-0022 16 Ch. Dig. Output 24V, 0,5A, M12</td></tr>
 <tr><td width="30%"><a href="EP2809-0042">EP2809-0042</a></td><td>EP2809-0042 16 Ch. Dig. Output 24V, 0,5A, M12</td></tr>
 <tr><td width="30%"><a href="EP2816-0003">EP2816-0003</a></td><td>EP2816-0003 16CH. Dig. Output, Diagnostic, 10-Pole Plug Connector</td></tr>
-<tr><td width="30%"><a href="EP2816-0004">EP2816-0004</a></td><td>EP2816-0004 16 Ch. Dig. Output 24V, 0,5A, M16</td></tr>
+<tr><td width="30%"><a href="EP2816-0004">EP2816-0004</a></td><td>EP2816-0004 16CH. Dig. Output, Diagnostic, M16</td></tr>
 <tr><td width="30%"><a href="EP2816-0008">EP2816-0008</a></td><td>EP2816-0008 16 Ch. Dig. Output 24V, 0,5A, Diagnostic, D-SUB25</td></tr>
 <tr><td width="30%"><a href="EP2816-0010">EP2816-0010</a></td><td>EP2816-0010 16 Ch. Dig. Output 24V, 0,5A, Diagnostic, D-SUB9</td></tr>
 <tr><td width="30%"><a href="EP2817-0008">EP2817-0008</a></td><td>EP2817-0008 24Ch. Dig. Output 24V 0,5A, Diagnostics, DSUB-25</td></tr>
@@ -1056,8 +1056,8 @@
 <tr><td width="30%"><a href="EPP3356-0022">EPP3356-0022</a></td><td>EPP3356-0022 1Ch. Ana. Input Resistor Bridge Terminal, 24bit, High Precision</td></tr>
 <tr><td width="30%"><a href="EPP3504-0023">EPP3504-0023</a></td><td>EPP3504-0023 4Ch. Bridge Measuring (SG), 24 bit, high precision</td></tr>
 <tr><td width="30%"><a href="EPP3632-0001">EPP3632-0001</a></td><td>EPP3632-0001 2Ch. IEPE Sensor</td></tr>
-<tr><td width="30%"><a href="EPP3744-0041">EPP3744-0041</a></td><td>EPP3744-0041 5Ch. Absolute Pressure 1Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
-<tr><td width="30%"><a href="EPP3744-1041">EPP3744-1041</a></td><td>EPP3744-1041 5Ch. Absolute Pressure 7Bar 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EPP3744-0041">EPP3744-0041</a></td><td>EPP3744-0041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
+<tr><td width="30%"><a href="EPP3744-1041">EPP3744-1041</a></td><td>EPP3744-1041 5Ch. Absolute Pressure 6Ch. Dig. Input 10us 2Ch. Dig. Output 24V 0,5A M8</td></tr>
 <tr><td width="30%"><a href="EPP3752-0000">EPP3752-0000</a></td><td>EPP3752-0000 Acceleration Sensor</td></tr>
 <tr><td width="30%"><a href="EPP4174-0002">EPP4174-0002</a></td><td>EPP4174-0002 4Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</td></tr>
 <tr><td width="30%"><a href="EPP4314-1002">EPP4314-1002</a></td><td>EPP4314-1002 2Ch. Ana. Input -20/0/4-20mA; 2Ch. Ana. Output -20/0/4-20mA configurable</td></tr>
@@ -1167,6 +1167,107 @@
 <tr><td width="30%"><a href="XI442202">XI442202</a></td><td>XI442202 2Ch. Ana. Output 4-20mA 16Bit BIPOLAR</td></tr>
 <tr><td width="30%"><a href="XI442204">XI442204</a></td><td>XI442204 4Ch. Ana. Output 4-20mA 16Bit BIPOLAR</td></tr>
 <tr><td width="30%"><a href="XI812101">XI812101</a></td><td>XI812101 Power feeder UP</td></tr>
+</table>
+
+## Control
+<table>
+<tr><td width="30%"><a href="Commander+C200+Open+Loop">Commander C200 Open Loop</a></td><td>Commander C200 Open Loop</td></tr>
+<tr><td width="30%"><a href="Commander+C200+RFC-A">Commander C200 RFC-A</a></td><td>Commander C200 RFC-A</td></tr>
+<tr><td width="30%"><a href="Commander+C300+Open+Loop">Commander C300 Open Loop</a></td><td>Commander C300 Open Loop</td></tr>
+<tr><td width="30%"><a href="Commander+C300+PM">Commander C300 PM</a></td><td>Commander C300 PM</td></tr>
+<tr><td width="30%"><a href="Commander+C300+RFC-A">Commander C300 RFC-A</a></td><td>Commander C300 RFC-A</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M750+Open+Loop">Digitax HD M750 Open Loop</a></td><td>Digitax HD M750 Open Loop</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M750+RFC-A">Digitax HD M750 RFC-A</a></td><td>Digitax HD M750 RFC-A</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M750+RFC-S">Digitax HD M750 RFC-S</a></td><td>Digitax HD M750 RFC-S</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M750+Regen">Digitax HD M750 Regen</a></td><td>Digitax HD M750 Regen</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M751+Open+Loop">Digitax HD M751 Open Loop</a></td><td>Digitax HD M751 Open Loop</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M751+RFC-A">Digitax HD M751 RFC-A</a></td><td>Digitax HD M751 RFC-A</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M751+RFC-S">Digitax HD M751 RFC-S</a></td><td>Digitax HD M751 RFC-S</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M751+Regen">Digitax HD M751 Regen</a></td><td>Digitax HD M751 Regen</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M753+Mode+Agnostic">Digitax HD M753 Mode Agnostic</a></td><td>Digitax HD M753 Mode Agnostic</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M753+Open+Loop">Digitax HD M753 Open Loop</a></td><td>Digitax HD M753 Open Loop</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M753+RFC-A">Digitax HD M753 RFC-A</a></td><td>Digitax HD M753 RFC-A</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M753+RFC-S">Digitax HD M753 RFC-S</a></td><td>Digitax HD M753 RFC-S</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M753+Regen">Digitax HD M753 Regen</a></td><td>Digitax HD M753 Regen</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M754+Open+Loop">Digitax HD M754 Open Loop</a></td><td>Digitax HD M754 Open Loop</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M754+RFC-A">Digitax HD M754 RFC-A</a></td><td>Digitax HD M754 RFC-A</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M754+RFC-S">Digitax HD M754 RFC-S</a></td><td>Digitax HD M754 RFC-S</td></tr>
+<tr><td width="30%"><a href="Digitax+HD+M754+Regen">Digitax HD M754 Regen</a></td><td>Digitax HD M754 Regen</td></tr>
+<tr><td width="30%"><a href="HVAC+H300+Open+Loop">HVAC H300 Open Loop</a></td><td>HVAC H300 Open Loop</td></tr>
+<tr><td width="30%"><a href="HVAC+H300+RFC-A">HVAC H300 RFC-A</a></td><td>HVAC H300 RFC-A</td></tr>
+<tr><td width="30%"><a href="HVAC+H300+RFC-S">HVAC H300 RFC-S</a></td><td>HVAC H300 RFC-S</td></tr>
+<tr><td width="30%"><a href="Pump+Drive+F600+Open+Loop">Pump Drive F600 Open Loop</a></td><td>Pump Drive F600 Open Loop</td></tr>
+<tr><td width="30%"><a href="Pump+Drive+F600+RFC-A">Pump Drive F600 RFC-A</a></td><td>Pump Drive F600 RFC-A</td></tr>
+<tr><td width="30%"><a href="Pump+Drive+F600+RFC-S">Pump Drive F600 RFC-S</a></td><td>Pump Drive F600 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS30+Open+Loop">Unidrive HS30 Open Loop</a></td><td>Unidrive HS30 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS30+RFC-A">Unidrive HS30 RFC-A</a></td><td>Unidrive HS30 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS70+Open+Loop">Unidrive HS70 Open Loop</a></td><td>Unidrive HS70 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS70+RFC-A">Unidrive HS70 RFC-A</a></td><td>Unidrive HS70 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS70+RFC-S">Unidrive HS70 RFC-S</a></td><td>Unidrive HS70 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS70+Regen">Unidrive HS70 Regen</a></td><td>Unidrive HS70 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS71+Open+Loop">Unidrive HS71 Open Loop</a></td><td>Unidrive HS71 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS71+RFC-A">Unidrive HS71 RFC-A</a></td><td>Unidrive HS71 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS71+RFC-S">Unidrive HS71 RFC-S</a></td><td>Unidrive HS71 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS71+Regen">Unidrive HS71 Regen</a></td><td>Unidrive HS71 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS72+Open+Loop">Unidrive HS72 Open Loop</a></td><td>Unidrive HS72 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS72+RFC-A">Unidrive HS72 RFC-A</a></td><td>Unidrive HS72 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS72+RFC-S">Unidrive HS72 RFC-S</a></td><td>Unidrive HS72 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+HS72+Regen">Unidrive HS72 Regen</a></td><td>Unidrive HS72 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+ID300+Open+Loop">Unidrive ID300 Open Loop</a></td><td>Unidrive ID300 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+ID302+Open+Loop">Unidrive ID302 Open Loop</a></td><td>Unidrive ID302 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M200+Open+Loop">Unidrive M200 Open Loop</a></td><td>Unidrive M200 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M200+RFC-A">Unidrive M200 RFC-A</a></td><td>Unidrive M200 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M201+Open+Loop">Unidrive M201 Open Loop</a></td><td>Unidrive M201 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M201+RFC-A">Unidrive M201 RFC-A</a></td><td>Unidrive M201 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M300+Open+Loop">Unidrive M300 Open Loop</a></td><td>Unidrive M300 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M300+RFC-A">Unidrive M300 RFC-A</a></td><td>Unidrive M300 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M400+Open+Loop">Unidrive M400 Open Loop</a></td><td>Unidrive M400 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M400+RFC-A">Unidrive M400 RFC-A</a></td><td>Unidrive M400 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M600+Open+Loop">Unidrive M600 Open Loop</a></td><td>Unidrive M600 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M600+RFC-A">Unidrive M600 RFC-A</a></td><td>Unidrive M600 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M600+RFC-S">Unidrive M600 RFC-S</a></td><td>Unidrive M600 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M600+Regen">Unidrive M600 Regen</a></td><td>Unidrive M600 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M700+Mode+Agnostic">Unidrive M700 Mode Agnostic</a></td><td>Unidrive M700 Mode Agnostic</td></tr>
+<tr><td width="30%"><a href="Unidrive+M700+Open+Loop">Unidrive M700 Open Loop</a></td><td>Unidrive M700 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M700+RFC-A">Unidrive M700 RFC-A</a></td><td>Unidrive M700 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M700+RFC-S">Unidrive M700 RFC-S</a></td><td>Unidrive M700 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M700+Regen">Unidrive M700 Regen</a></td><td>Unidrive M700 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M701+Open+Loop">Unidrive M701 Open Loop</a></td><td>Unidrive M701 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M701+RFC-A">Unidrive M701 RFC-A</a></td><td>Unidrive M701 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M701+RFC-S">Unidrive M701 RFC-S</a></td><td>Unidrive M701 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M701+Regen">Unidrive M701 Regen</a></td><td>Unidrive M701 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M702+Open+Loop">Unidrive M702 Open Loop</a></td><td>Unidrive M702 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M702+RFC-A">Unidrive M702 RFC-A</a></td><td>Unidrive M702 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M702+RFC-S">Unidrive M702 RFC-S</a></td><td>Unidrive M702 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M702+Regen">Unidrive M702 Regen</a></td><td>Unidrive M702 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M708+Open+Loop">Unidrive M708 Open Loop</a></td><td>Unidrive M708 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M708+RFC-A">Unidrive M708 RFC-A</a></td><td>Unidrive M708 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M708+RFC-S">Unidrive M708 RFC-S</a></td><td>Unidrive M708 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M708+Regen">Unidrive M708 Regen</a></td><td>Unidrive M708 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M709+Open+Loop">Unidrive M709 Open Loop</a></td><td>Unidrive M709 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M709+RFC-A">Unidrive M709 RFC-A</a></td><td>Unidrive M709 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M709+RFC-S">Unidrive M709 RFC-S</a></td><td>Unidrive M709 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M709+Regen">Unidrive M709 Regen</a></td><td>Unidrive M709 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M880+Open+Loop">Unidrive M880 Open Loop</a></td><td>Unidrive M880 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M880+RFC-A">Unidrive M880 RFC-A</a></td><td>Unidrive M880 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M880+RFC-S">Unidrive M880 RFC-S</a></td><td>Unidrive M880 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M880+Regen">Unidrive M880 Regen</a></td><td>Unidrive M880 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M881+Open+Loop">Unidrive M881 Open Loop</a></td><td>Unidrive M881 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M881+RFC-A">Unidrive M881 RFC-A</a></td><td>Unidrive M881 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M881+RFC-S">Unidrive M881 RFC-S</a></td><td>Unidrive M881 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M881+Regen">Unidrive M881 Regen</a></td><td>Unidrive M881 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M882+Open+Loop">Unidrive M882 Open Loop</a></td><td>Unidrive M882 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M882+RFC-A">Unidrive M882 RFC-A</a></td><td>Unidrive M882 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M882+RFC-S">Unidrive M882 RFC-S</a></td><td>Unidrive M882 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M882+Regen">Unidrive M882 Regen</a></td><td>Unidrive M882 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M888+Open+Loop">Unidrive M888 Open Loop</a></td><td>Unidrive M888 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M888+RFC-A">Unidrive M888 RFC-A</a></td><td>Unidrive M888 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M888+RFC-S">Unidrive M888 RFC-S</a></td><td>Unidrive M888 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M888+Regen">Unidrive M888 Regen</a></td><td>Unidrive M888 Regen</td></tr>
+<tr><td width="30%"><a href="Unidrive+M889+Open+Loop">Unidrive M889 Open Loop</a></td><td>Unidrive M889 Open Loop</td></tr>
+<tr><td width="30%"><a href="Unidrive+M889+RFC-A">Unidrive M889 RFC-A</a></td><td>Unidrive M889 RFC-A</td></tr>
+<tr><td width="30%"><a href="Unidrive+M889+RFC-S">Unidrive M889 RFC-S</a></td><td>Unidrive M889 RFC-S</td></tr>
+<tr><td width="30%"><a href="Unidrive+M889+Regen">Unidrive M889 Regen</a></td><td>Unidrive M889 Regen</td></tr>
 </table>
 
 ## Delta
@@ -1292,9 +1393,9 @@
 ## Yaskawa
 <table>
 <tr><td width="30%"><a href="SGD7S-xxxDA0xxxxF64+CoE+Drive">SGD7S-xxxDA0xxxxF64 CoE Drive</a></td><td>SGD7S-xxxDA0xxxxF64 EtherCAT(CoE) SERVOPACK Rev8.19</td></tr>
-<tr><td width="30%"><a href="SGD7S-xxxxA0x+CoE+Drive">SGD7S-xxxxA0x CoE Drive</a></td><td>SGD7S-xxxxA0x EtherCAT(CoE) SERVOPACK Rev8.19</td></tr>
+<tr><td width="30%"><a href="SGD7S-xxxxA0x+CoE+Drive">SGD7S-xxxxA0x CoE Drive</a></td><td>SGD7S-xxxxA0x EtherCAT(CoE) SERVOPACK Rev8.03</td></tr>
 <tr><td width="30%"><a href="SGD7S-xxxxA0xxxxF64+400V+CoE+Drive">SGD7S-xxxxA0xxxxF64 400V CoE Drive</a></td><td>SGD7S-xxxxA0xxxxF64 400V EtherCAT(CoE) SERVOPACK Rev7.11</td></tr>
-<tr><td width="30%"><a href="SGDV-E1+CoE+Drive">SGDV-E1 CoE Drive</a></td><td>SGDV-E1 EtherCAT(CoE) SERVOPACK Rev3</td></tr>
-<tr><td width="30%"><a href="SGDV-E5+CoE+Drive">SGDV-E5 CoE Drive</a></td><td>SGDV-E5 EtherCAT(CoE) SERVOPACK Rev6.03</td></tr>
+<tr><td width="30%"><a href="SGDV-E1+CoE+Drive">SGDV-E1 CoE Drive</a></td><td>SGDV-E1 EtherCAT(CoE) SERVOPACK Rev7.00</td></tr>
+<tr><td width="30%"><a href="SGDV-E5+CoE+Drive">SGDV-E5 CoE Drive</a></td><td>SGDV-E5 EtherCAT(CoE) SERVOPACK Rev3</td></tr>
 <tr><td width="30%"><a href="SI-ES3">SI-ES3</a></td><td>SI-ES3</td></tr>
 </table>
