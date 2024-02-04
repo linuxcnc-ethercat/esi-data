@@ -5,6 +5,7 @@ esidocs/esidocs
 # Temporary files
 tmpesi/
 *.zip
+*.rar
 
 \#*\#
 .\#*
