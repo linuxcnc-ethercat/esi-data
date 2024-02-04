@@ -48,6 +48,7 @@ fetch $dir/hitachi-wj-ect.zip 'https://automation.hitachi-industrial.eu/_Resourc
 fetch $dir/boschrexroth1.zip 'https://www.boschrexroth.com/media/e043994b-0459-420e-9a3e-8a5e6ffb375c'
 fetch $dir/rtelligent.zip 'http://www.rtelligent.net/upload/wenjian/XML.zip'
 fetch $dir/nidec.zip 'https://apps.controltechniques.com/Downloads/SharePoint/Download.aspx?SiteID=4&ProductID=252&DownloadID=6413&VersionID=9291&Email=scott@sigkill.org'
+fetch $dir/leadshine.rar 'https://www.leadshine.com/upfiles/downloads/9a78b3a668615ea838b65743872375da_1693365718447.rar'
 
 # Unzip, but don't overwrite files.
 unzip -nj $dir/beckhoff.zip -d $xmldir
@@ -66,6 +67,7 @@ unzip -nj $dir/hitachi-wj-ect.zip -d $xmldir
 unzip -nj $dir/boschrexroth1.zip -d $xmldir
 unzip -nj $dir/rtelligent.zip -d $xmldir
 unzip -nj $dir/nidec.zip -d $xmldir
+(cd $xmldir ; rar e $dir/leadshine.rar )
 
 cd esidecoder
 go build esidecoder.go
