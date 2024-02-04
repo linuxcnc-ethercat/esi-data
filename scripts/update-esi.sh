@@ -32,7 +32,6 @@ fetch $dir/smc-ex260.zip "https://content2.smcetech.com/files/si/SMC_EX260_Seria
 fetch $dir/delta1.zip "https://downloadcenter.deltaww.com/downloadCenterCounter.aspx?DID=19032&DocPath=1&hl=en-US"
 fetch $dir/delta2.zip "https://downloadcenter.deltaww.com/downloadCenterCounter.aspx?DID=21858&DocPath=1&hl=en-US"
 fetch $dir/delta3.zip "https://downloadcenter.deltaww.com/downloadCenterCounter.aspx?DID=4796&DocPath=1&hl=en-US"
-fetch $dir/leadshine1.zip "https://www.leadshine.com/upfiles/downloads/bc4d3fde51ab7b2d92d478956ca4aa9e_1650879535067.zip"
 fetch $xmldir/EpoCAT_FR.xml "https://www.bausano.net/images/epocat/EpoCAT_FR1000.xml"
 fetch $xmldir/easyio.xml "https://www.bausano.net/images/arduino-easyio/EasyIO_ESI_V1_0.xml"
 fetch $xmldir/epocat-io1616.xml "https://www.bausano.net/images/epocat-io1616/EpoCAT_IO1616_Esi_V1_1.xml"
@@ -48,7 +47,10 @@ fetch $dir/hitachi-wj-ect.zip 'https://automation.hitachi-industrial.eu/_Resourc
 fetch $dir/boschrexroth1.zip 'https://www.boschrexroth.com/media/e043994b-0459-420e-9a3e-8a5e6ffb375c'
 fetch $dir/rtelligent.zip 'http://www.rtelligent.net/upload/wenjian/XML.zip'
 fetch $dir/nidec.zip 'https://apps.controltechniques.com/Downloads/SharePoint/Download.aspx?SiteID=4&ProductID=252&DownloadID=6413&VersionID=9291&Email=scott@sigkill.org'
-fetch $dir/leadshine.rar 'https://www.leadshine.com/upfiles/downloads/9a78b3a668615ea838b65743872375da_1693365718447.rar'
+fetch $dir/leadshine1.zip "https://www.leadshine.com/upfiles/downloads/bc4d3fde51ab7b2d92d478956ca4aa9e_1650879535067.zip"
+fetch $dir/leadshine1.rar 'https://www.leadshine.com/upfiles/downloads/9a78b3a668615ea838b65743872375da_1693365718447.rar'
+fetch $dir/leadshine2.rar 'https://www.leadshine.com/upfiles/downloads/d6a8dc31bd8f30545e85883d8021fd29_1693365739711.rar'
+fetch $dir/leadshine3.rar 'https://www.leadshine.com/upfiles/downloads/9d16f35a5753f4ae074bc91c0f5ad7b5_1676430887473.rar'
 
 # Unzip, but don't overwrite files.
 unzip -nj $dir/beckhoff.zip -d $xmldir
@@ -67,7 +69,9 @@ unzip -nj $dir/hitachi-wj-ect.zip -d $xmldir
 unzip -nj $dir/boschrexroth1.zip -d $xmldir
 unzip -nj $dir/rtelligent.zip -d $xmldir
 unzip -nj $dir/nidec.zip -d $xmldir
-(cd $xmldir ; rar e $dir/leadshine.rar )
+(cd $xmldir ; rar e $dir/leadshine1.rar )
+(cd $xmldir ; rar e $dir/leadshine2.rar )
+(cd $xmldir ; rar e $dir/leadshine3.rar )
 
 cd esidecoder
 go build esidecoder.go
