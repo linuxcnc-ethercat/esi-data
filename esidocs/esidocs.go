@@ -124,8 +124,14 @@ func createIndexPage(f io.Writer, devices map[string]map[string]*esi.ESIDevice) 
 	
 	fmt.Fprintf(f, "# Devices\n")
 
+	fmt.Fprintf(f, "## Table of Contents\n")
 	for _, v := range vendors {
-		fmt.Fprintf(f, "\n## %s\n", v)
+		fmt.Fprintf(f, "- [%s](#%s)\n", v, url.QueryEscape(v))
+	}
+	fmt.Fprintf(f, "\n")
+	
+	for _, v := range vendors {
+		fmt.Fprintf(f, "\n[%s](## %s)\n", url.QueryEscape(v), v)
 
 		fmt.Fprintf(f, "<table>\n")
 
